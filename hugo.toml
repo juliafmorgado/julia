@@ -1,0 +1,118 @@
+baseURL = "https://juliafmorgado.com"
+title = "Julia Furst Morgado"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+
+# theme as hugo module
+#theme = "github.com/lxndrblz/anatole"
+# theme as git submodule
+theme = "anatol"
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Localized dates requires Hugo version 0.87.0
+localizedDates = false
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+[params]
+profilePicture = "img/julia.jpg"
+description = """
+JULIA FURST MORGADO
+"""
+favicon = "favicons/"
+copyright = "Julia F Morgado {{ YEAR }}"
+customCss = ["css/custom.css"]
+
+relatedPosts = true
+numberOfRelatedPosts = 3
+
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/juliafmorgado"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/juliafmorgado"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://github.com/juliafmorgado"
+
+[[params.socialIcons]]
+icon = "fab fa-youtube"
+title = "Youtube"
+url = "https://www.youtube.com/c/JuliaFMorgado"
+
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "Instagram"
+url = "https://www.instagram.com/juliafmorgado/"
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 200
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Talks"
+  weight = 300
+  identifier = "talks"
+  url = "https://github.com/juliafmorgado/talks"
+
+[[menu.main]]
+  name = "Gallery"
+  weight = 400
+  identifier = "gallery"
+  url = "/gallery/"
+
+
+[mermaid]
+enable = true

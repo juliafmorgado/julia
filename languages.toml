@@ -1,0 +1,24 @@
+[en]
+title = "My blog"
+weight = 1
+LanguageName = "EN"
+contentDir = "content/english"
+
+[fr]
+title = "Mon blog"
+weight = 2
+LanguageName = "FR"
+contentDir = "content/french"
+
+[pt]
+title = "Meu blog"
+weight = 3
+LanguageName = "PT"
+contentDir = "content/portuguese"
+
+[es]
+title = "Mi blog"
+weight = 4
+LanguageName = "ES"
+contentDir = "content/spanish"
+
