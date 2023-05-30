@@ -13,3 +13,7 @@
     width: 50%;
     margin-right: 100%;
 }
+
+.post__content img {
+    max-width: 50%;
+}
