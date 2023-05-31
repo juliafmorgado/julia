@@ -49,7 +49,7 @@ localizedDates = false
   weight = 80
 
 [params]
-profilePicture = "img/julia.jpg"
+profilePicture = "https://blog-imgs-23.s3.amazonaws.com/julia.jpg"
 description = """
 JULIA FURST MORGADO
 """
