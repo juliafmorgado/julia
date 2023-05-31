@@ -4,7 +4,7 @@ author: Julia Furst Morgado
 date: 2022-11-21T17:01:00.516Z
 lastmod: 2023-01-08T10:34:26-05:00
 cover:
-    image: img/2022-11-21_i-am-remarkable-and-so-are-you_0.jpeg
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-11-21_i-am-remarkable-and-so-are-you_0.jpeg
 tags: 
     - Google
     - Empowerment
@@ -16,11 +16,11 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-11-21_i-am-remarkable-and-so-are-you_0.jpeg" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-11-21_i-am-remarkable-and-so-are-you_0.jpeg" 
 images:
- - "/img/2022-11-21_i-am-remarkable-and-so-are-you_0.jpeg"
- - "/img/2022-11-21_i-am-remarkable-and-so-are-you_1.jpeg"
- - "/img/2022-11-21_i-am-remarkable-and-so-are-you_2.jpeg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-11-21_i-am-remarkable-and-so-are-you_0.jpeg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-11-21_i-am-remarkable-and-so-are-you_1.jpeg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-11-21_i-am-remarkable-and-so-are-you_2.jpeg"
 
 
 aliases:
@@ -30,7 +30,7 @@ aliases:
 
 On November 9th, I went to a workshop at Google called [#IamRemarkable](https://iamremarkable.withgoogle.com/) for “Women in Cloud”, facilitated by [Gautami Nadkarni](https://www.linkedin.com/in/gautaminadkarni?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAP_YyIBupfmmD7F8SSdxlNo_SqCGKaALQQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BwF62nNHITkSdZfr%2Ff76x7Q%3D%3D) and [Naomi Klamen](https://www.linkedin.com/in/ACoAAABHubgB84jcbZthqJj2IV4o7OqUdUd3Z3o?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BwF62nNHITkSdZfr%2Ff76x7Q%3D%3D). The workshop is an initiative that strives to empower everyone, particularly women and underrepresented groups, to celebrate their achievements in the workplace and beyond.
 
-![](/img/2022-11-21_i-am-remarkable-and-so-are-you_0.jpeg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-11-21_i-am-remarkable-and-so-are-you_0.jpeg#layoutTextWidth)
 
 Although I typically feel a bit uneasy discussing my own accomplishments, hearing other women’s stories made me feel confident enough to share my own in a safe space.
 
@@ -38,7 +38,7 @@ The core of the workshop is about **raising awareness** and encouraging one anot
 
 I am the first to admit I tend to strive towards perfectionism, perceiving my own accomplishments as trivial. Sometimes I go so far as to not even give myself credit, and other times I tend to give others the credit I may deserve.
 
-![](/img/2022-11-21_i-am-remarkable-and-so-are-you_1.jpeg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-11-21_i-am-remarkable-and-so-are-you_1.jpeg#layoutTextWidth)
 
 > Accomplishments do not speak for themselves
 
@@ -80,7 +80,7 @@ I also invite you to share (with me, with friends/family, or on social media) �
 
 ### What you can do
 
-![](/img/2022-11-21_i-am-remarkable-and-so-are-you_2.jpeg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-11-21_i-am-remarkable-and-so-are-you_2.jpeg#layoutTextWidth)
 
 A new study called [The Self-Promotion Gap](https://www.selfpromotiongap.com/) of more than 1,000 men and women shows that 69 percent of women would rather downplay their accomplishments than talk about them.
 

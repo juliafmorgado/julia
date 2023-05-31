@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-09-14T17:46:35.758Z
 lastmod: 2023-01-08T10:34:18-05:00
 cover:
-    image: img/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_0.png
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_0.png
 tags: ["Tutorial", "Netlify"]
 categories: ["Tech", "Tutorial"]
 
@@ -12,11 +12,11 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_0.png" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_0.png" 
 images:
- - "/img/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_0.png"
- - "/img/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_1.jpg"
- - "/img/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_2.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_1.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_2.jpg"
 
 
 aliases:
@@ -32,11 +32,11 @@ If you don’t know what I’m talking about here, it’s when you visit a websi
 
 Go to Site settings, click Build & deploy and then Post processing.
 
-![](/img/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_1.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_1.jpg#layoutTextWidth)
 
 Under Asset optimization, click edit settings and enable asset optimization.
 
-![](/img/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_2.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify_2.jpg#layoutTextWidth)
 
 That’s it!
 

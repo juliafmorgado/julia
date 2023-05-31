@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-09-08T13:03:57.387Z
 lastmod: 2023-01-08T10:34:06-05:00
 cover:
-    image: img/2022-09-08_get-paid-to-write-technical-articles_0.jpg
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-09-08_get-paid-to-write-technical-articles_0.jpg
 tags: ["Writing", "Technical articles", "Freelancing", "List"]
 categories: ["Tech"]
 
@@ -12,9 +12,9 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-09-08_get-paid-to-write-technical-articles_0.jpg" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-09-08_get-paid-to-write-technical-articles_0.jpg" 
 images:
- - "/img/2022-09-08_get-paid-to-write-technical-articles_0.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-08_get-paid-to-write-technical-articles_0.jpg"
 
 
 aliases:

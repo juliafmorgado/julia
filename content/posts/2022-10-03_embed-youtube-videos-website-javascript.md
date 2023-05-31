@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-10-03T17:46:05.964Z
 lastmod: 2023-01-08T10:34:02-05:00
 cover:
-    image: /img/youtube-embed.png
+    image: https://blog-imgs-23.s3.amazonaws.com/youtube-embed.png
 description: ""
 tags: 
     - YouTube
@@ -28,7 +28,7 @@ In this tutorial, you’ll learn how to make an HTTP request to Youtube with the
 
 Here is a simple example of fetching data which makes it easier to understand the concept.
 
-![fetching-data](/img/fetching-data.jpeg)
+![fetching-data](https://blog-imgs-23.s3.amazonaws.com/fetching-data.jpeg)
 
 
 ## HTML Code

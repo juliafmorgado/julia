@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-09-09T15:17:02.040Z
 lastmod: 2023-01-08T10:34:07-05:00
 cover:
-    image: img/2022-09-09_see-whats-new-with-mongodb-6.0_0.png
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-09-09_see-whats-new-with-mongodb-6.0_0.png
 tags: ["MongoDB", "News"]
 categories: ["Tech"]
 
@@ -12,10 +12,10 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-09-09_see-whats-new-with-mongodb-6.0_0.png" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-09-09_see-whats-new-with-mongodb-6.0_0.png" 
 images:
- - "/img/2022-09-09_see-whats-new-with-mongodb-6.0_0.png"
- - "/img/2022-09-09_see-whats-new-with-mongodb-6.0_1.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-09_see-whats-new-with-mongodb-6.0_0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-09_see-whats-new-with-mongodb-6.0_1.jpg"
 
 
 aliases:
@@ -117,7 +117,7 @@ Queryable Encryption removes operational heavy lifting, resulting in faster app 
 
 Below is a sample flow of operations in which an authenticated user wants to query the data, but now the user can query on entirely randomly encrypted data.
 
-![](/img/2022-09-09_see-whats-new-with-mongodb-6.0_1.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-09_see-whats-new-with-mongodb-6.0_1.jpg#layoutTextWidth)
 
 In this example, let’s assume we are retrieving the SSN of a user. When the applicant submits the query, MongoDB drivers first analyze the query.
 

@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-09-19T21:41:34.560Z
 lastmod: 2023-01-08T10:34:19-05:00
 cover:
-    image: img/2022-09-19_17-mistakes-selftaught-programmers-and-developers-make-when-learning-to-code_0.png
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-09-19_17-mistakes-selftaught-programmers-and-developers-make-when-learning-to-code_0.png
 tags: ["Mistakes", "Learning to code"]
 categories: ["Tech"]
 
@@ -12,9 +12,9 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-09-19_17-mistakes-selftaught-programmers-and-developers-make-when-learning-to-code_0.png" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-09-19_17-mistakes-selftaught-programmers-and-developers-make-when-learning-to-code_0.png" 
 images:
- - "/img/2022-09-19_17-mistakes-selftaught-programmers-and-developers-make-when-learning-to-code_0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-19_17-mistakes-selftaught-programmers-and-developers-make-when-learning-to-code_0.png"
 
 
 aliases:

@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-07-02T00:20:56.762Z
 lastmod: 2023-01-08T10:33:58-05:00
 cover:
-    image: img/2022-07-02_complete-guide-to-ace-your-next-networking-coffee-chat_0.png
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-07-02_complete-guide-to-ace-your-next-networking-coffee-chat_0.png
 tags: ["Networking", "Tips", "Motivation"]
 categories: ["Tech"]
 
@@ -12,9 +12,9 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-07-02_complete-guide-to-ace-your-next-networking-coffee-chat_0.png" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-07-02_complete-guide-to-ace-your-next-networking-coffee-chat_0.png" 
 images:
- - "/img/2022-07-02_complete-guide-to-ace-your-next-networking-coffee-chat_0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-02_complete-guide-to-ace-your-next-networking-coffee-chat_0.png"
 
 
 aliases:

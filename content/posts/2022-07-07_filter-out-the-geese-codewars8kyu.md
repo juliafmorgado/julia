@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-07-07T17:47:55.192Z
 lastmod: 2023-01-08T10:34:03-05:00
 cover:
-    image: img/2023-01-01_why-i-failed-the-microsoft-exam-az204-developing-solutions-for-microsoft-azure_0.png
+    image: https://blog-imgs-23.s3.amazonaws.com/2023-01-01_why-i-failed-the-microsoft-exam-az204-developing-solutions-for-microsoft-azure_0.png
 tags: ["Tutorial", "Tips", "Codewars"]
 categories: ["Tech"]
 
@@ -12,9 +12,9 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-07-07_filter-out-the-geese-codewars8kyu_0.png" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-07-07_filter-out-the-geese-codewars8kyu_0.png" 
 images:
- - "/img/2022-07-07_filter-out-the-geese-codewars8kyu_0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-07_filter-out-the-geese-codewars8kyu_0.png"
 
 
 aliases:

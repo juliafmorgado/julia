@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-09-29T12:25:54.843Z
 lastmod: 2023-01-08T10:34:21-05:00
 cover:
-    image: img/2022-09-29_tech-communities-you-should-join-online-and-in-person_0.jpeg
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-09-29_tech-communities-you-should-join-online-and-in-person_0.jpeg
 tags: ["Community", "Networking"]
 categories: ["Tech"]
 
@@ -13,9 +13,9 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-09-29_tech-communities-you-should-join-online-and-in-person_0.jpeg" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-09-29_tech-communities-you-should-join-online-and-in-person_0.jpeg" 
 images:
- - "/img/2022-09-29_tech-communities-you-should-join-online-and-in-person_0.jpeg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-29_tech-communities-you-should-join-online-and-in-person_0.jpeg"
 
 
 aliases:

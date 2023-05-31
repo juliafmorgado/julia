@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-09-13T17:42:27.402Z
 lastmod: 2023-01-08T10:34:17-05:00
 cover:
-    image: img/2022-09-13_how-to-craft-your-career-change-story_0.png
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-09-13_how-to-craft-your-career-change-story_0.png
 tags: ["Career", "Remote jobs", "Tips"]
 categories: ["Job search"]
 
@@ -12,9 +12,9 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-09-13_how-to-craft-your-career-change-story_0.png" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-09-13_how-to-craft-your-career-change-story_0.png" 
 images:
- - "/img/2022-09-13_how-to-craft-your-career-change-story_0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-13_how-to-craft-your-career-change-story_0.png"
 
 
 aliases:

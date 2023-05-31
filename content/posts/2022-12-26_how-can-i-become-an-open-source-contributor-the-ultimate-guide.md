@@ -4,7 +4,7 @@ author: Julia Furst Morgado
 date: 2022-12-26T11:36:55.320Z
 lastmod: 2023-01-08T10:34:28-05:00
 cover:
-    image: img/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_0.jpeg
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_0.jpeg
 tags: 
     - Open Source
     - Tips
@@ -19,11 +19,11 @@ description: ""
 
 subtitle: ""
 
-image: "img/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_0.jpeg" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_0.jpeg" 
 images:
- - "img/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_0.jpeg"
- - "img/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_1.png"
- - "img/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_2.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_0.jpeg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_1.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_2.png"
 
 
 aliases:
@@ -232,7 +232,7 @@ Go to [the official](https://glossary.cncf.io/contribute/) "how to contribute" p
 
 In this [link](https://github.com/cncf/glossary/issues?q=is%3Aissue+is%3Aopen+label%3Alang%2Fpt+no%3Aassignee+) you can view all terms pending translation (change the label to your language. For example Hindi would be label:lang/hi, French would be label:lang/fr)
 
-![](/img/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_1.png#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_1.png#layoutTextWidth)
 
 I recommend that you familiarize yourself first with the dynamics of the project by contributing to the translation of terms before proposing a new term.
 
@@ -250,7 +250,7 @@ On this [page](https://kubernetes.io/docs/contribute/), you will find guidance o
 
 Thanks to our outstanding contributors, you can view the page in another language (change it on the top right corner).
 
-![](/img/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_2.png#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-12-26_how-can-i-become-an-open-source-contributor-the-ultimate-guide_2.png#layoutTextWidth)
 
 The project’s official Github repository can be found [here](https://github.com/kubernetes/website/)
 

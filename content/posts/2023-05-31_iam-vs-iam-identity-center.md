@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2023-03-31T17:46:05.964Z
 draft: true
 cover:
-    image: img/100devs.png
+    image: https://blog-imgs-23.s3.amazonaws.com/100devs.png
 tags: 
     - AWS
     - Access Management
@@ -14,7 +14,7 @@ slug: /iam-vs-iam-identity-center
 
 
 image: 
-# images: img/profile.jpg (twitter card)
+# images: https://blog-imgs-23.s3.amazonaws.com/profile.jpg (twitter card)
 
 # toc : true (table of content)
 # series: - series-name (enable series)
@@ -24,7 +24,9 @@ aliases:
 
 ---
 
-Managing access to AWS resources can be a daunting task, especially when dealing with multiple accounts and applications. Fortunately, AWS offers two services, IAM (Identity and Access Management) and IAM Identity Center (formerly AWS Single Sign-On), to simplify access management. Let's dive deeper into the differences between these services, empowering you to make an informed decision for your organization.
+Managing access to AWS resources can be a daunting task, especially when dealing with multiple accounts and applications. Fortunately, AWS offers [two services](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html#getting-started-prereqs-iam), IAM (Identity and Access Management) and IAM Identity Center (formerly AWS Single Sign-On), to simplify access management. Let's dive deeper into the differences between these services, empowering you to make an informed decision for your organization.
+
+![](https://blog-imgs-23.s3.amazonaws.com/iam-iamic.png)
 
 IAM, the stalwart of AWS access management, serves as the gatekeeper for your AWS resources. It provides a comprehensive suite of features to control and manage user access. With IAM, you can create and manage users, groups, and roles. You have the power to grant precise permissions, defining who can access specific resources and what actions they can perform. For instance, you can grant developers the ability to provision EC2 instances while limiting HR personnel to view-only access for employee data. IAM gives you fine-grained control and flexibility over your access policies.
 

@@ -4,18 +4,18 @@ author: "Julia Furst Morgado"
 date: 2022-07-06T17:46:05.964Z
 lastmod: 2023-01-08T10:34:02-05:00
 cover:
-    image: img/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._1.jpg
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._1.jpg
 tags: ["Learning to code", "Motivation"]
 categories: ["Tech"]
 description: ""
 
 subtitle: ""
 
-image: "/img/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._1.jpg" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._1.jpg" 
 images:
- - "/img/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._0.png"
- - "/img/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._1.jpg"
- - "/img/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._2.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._1.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._2.jpg"
 
 
 aliases:
@@ -27,7 +27,7 @@ aliases:
 
 Learning to code can be very overwhelming, especially in the first months. There is simply so much to learn and some concepts are incredibly difficult for a novice to understand. For some, this inevitably leads to imposter syndrome; that voice telling us that we’ll never make it, we don’t have what it takes, and we’ll never measure up to others.
 
-![](/img/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._1.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._1.jpg#layoutTextWidth)
 
 Feeling overwhelmed is a completely natural response given the vast amount of information to be learned in the field of Computer Science(programming languages, web frameworks…), but there are ways to alleviate those sentiments. The only way to conquer a mountain is by viewing it as a series of manageable steps. The phrase — “It’s a marathon, not a sprint” may be overused but it rings especially true here.
 
@@ -38,7 +38,7 @@ But how exactly do you go about that?
 - Firstly, you don’t need to know everything in order to get a job. Programming is one of the easiest ways to start a profession, the skills you already have can be readily applied (compare it with Medicine or Law).
 - Secondly, the learning curve isn’t linear; it’s like a logit function (where x is time and y is knowledge acquired). It is hard to start, feeling the utmost confidence and motivation when you know there will inevitably be bumps in the road. The process takes time, there will be plenty of “stop” and “go” but the road will clear and you will reach your destination. Keep striving and keep growing!
 
-![](/img/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._2.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-07-06_want-to-be-a-programmer-stop-overthinking-it._2.jpg#layoutTextWidth)
 
 - Finally, to overcome this fear, ask yourself what the most immediate thing you need to work on is? What problem are you trying to solve? Next, write down all the steps you need to take to accomplish that task, then determine the connections between them: what topics are the hardest?… Prioritize them based on your interest, time required to learn the step, and their usefulness for getting the job you want. Follow this list and you’ll discern where you need to start and where you need to go.
 

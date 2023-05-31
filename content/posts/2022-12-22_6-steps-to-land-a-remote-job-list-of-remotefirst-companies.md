@@ -4,7 +4,7 @@ author: Julia Furst Morgado
 date: 2022-12-22T13:18:55.415Z
 lastmod: 2023-01-08T10:34:27-05:00
 cover:
-    image: img/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_0.jpeg
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_0.jpeg
 tags: 
     - Tips
     - Remote jobs
@@ -16,11 +16,11 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_0.jpeg" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_0.jpeg" 
 images:
- - "/img/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_0.jpeg"
- - "/img/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_1.png"
- - "/img/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_2.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_0.jpeg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_1.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_2.png"
 
 
 aliases:
@@ -52,11 +52,11 @@ That’s not how you do it. First, you have to build a relationship with the per
 
 You can message them on Twitter, LinkedIn or by email (I personally prefer Twitter) and say:
 
-![](/img/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_1.png#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_1.png#layoutTextWidth)
 
 OR
 
-![](/img/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_2.png#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-12-22_6-steps-to-land-a-remote-job-list-of-remotefirst-companies_2.png#layoutTextWidth)
 
 From there, we would schedule the chat, and after it, I would follow up or keep in touch with the person.
 

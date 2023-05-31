@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-07-04T17:42:38.291Z
 lastmod: 2023-01-08T10:34:01-05:00
 cover:
-    image: img/2022-07-04_converting-strings-into-camelcased-strings_0.png
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-07-04_converting-strings-into-camelcased-strings_0.png
 tags: ["JavaScript", "Codewars"]
 categories: ["Tech"]
 
@@ -12,9 +12,9 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-07-04_converting-strings-into-camelcased-strings_0.png" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-07-04_converting-strings-into-camelcased-strings_0.png" 
 images:
- - "/img/2022-07-04_converting-strings-into-camelcased-strings_0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-04_converting-strings-into-camelcased-strings_0.png"
 
 
 aliases:

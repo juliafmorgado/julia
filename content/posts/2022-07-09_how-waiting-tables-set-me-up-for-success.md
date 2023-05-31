@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-07-09T17:53:04.128Z
 lastmod: 2023-01-08T10:34:04-05:00
 cover:
-    image: img/2022-07-09_how-waiting-tables-set-me-up-for-success_0.png
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-07-09_how-waiting-tables-set-me-up-for-success_0.png
 tags: ["Motivation"]
 categories: ["Motivation"]
 
@@ -13,10 +13,10 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-07-09_how-waiting-tables-set-me-up-for-success_0.png" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-07-09_how-waiting-tables-set-me-up-for-success_0.png" 
 images:
- - "/img/2022-07-09_how-waiting-tables-set-me-up-for-success_0.png"
- - "/img/2022-07-09_how-waiting-tables-set-me-up-for-success_1.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-09_how-waiting-tables-set-me-up-for-success_0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-09_how-waiting-tables-set-me-up-for-success_1.jpg"
 
 
 aliases:
@@ -30,7 +30,7 @@ I’d like to share some of the lessons I learned while waiting tables that are 
 
 If you’ve ever worked in a restaurant, you’ll know what I am talking about. And if you haven’t, get ready for a radically different perspective on life.
 
-![](/img/2022-07-09_how-waiting-tables-set-me-up-for-success_1.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-07-09_how-waiting-tables-set-me-up-for-success_1.jpg#layoutTextWidth)
 
 ### 1. The way you treat people matters
 

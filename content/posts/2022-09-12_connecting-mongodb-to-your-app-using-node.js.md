@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-09-12T17:42:30.360Z
 lastmod: 2023-01-08T10:34:15-05:00
 cover:
-    image: img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_0.png
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_0.png
 tags: ["Tutorial", "NodeJS", "MongoDB"]
 categories: ["Tutorial"]
 
@@ -12,22 +12,22 @@ description: ""
 
 subtitle: ""
 
-image: "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_0.png" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_0.png" 
 images:
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_0.png"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_1.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_2.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_3.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_4.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_5.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_6.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_7.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_8.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_9.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_10.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_11.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_12.jpg"
- - "/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_13.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_1.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_2.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_3.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_4.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_5.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_6.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_7.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_8.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_9.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_10.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_11.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_12.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_13.jpg"
 
 
 aliases:
@@ -56,7 +56,7 @@ Let’s get started!
 
 Head to MongoDB Atlas’s [website](https://www.mongodb.com/try) and sign up with your email.
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_1.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_1.jpg#layoutTextWidth)
 
 You might have to answer a short questionnaire to create your account.
 
@@ -66,7 +66,7 @@ At a high level, a cluster is a set of nodes where copies of your database will 
 
 Click on build a database, and choose the shared database type (the free one!).
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_2.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_2.jpg#layoutTextWidth)
 
 It will give you options to customize your cluster, but you can go with the default. Just make sure you’re still in the free tier. After that, click on Create Cluster.
 
@@ -76,13 +76,13 @@ While your cluster is being created in the background, you must create a databas
 
 Make sure to store your password safely since we’ll need it to connect to the database.
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_3.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_3.jpg#layoutTextWidth)
 
 ### Step 4. Add your IP Address
 
 You need to whitelist your IP address before connecting to your cluster. This is a security feature built into MongoDB Atlas. Go ahead and click Add your Current IP Address.
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_4.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_4.jpg#layoutTextWidth)
 
 After that, just click on Finish and Close, and when the dialog box opens, click on Go to Databases.
 
@@ -90,19 +90,19 @@ After that, just click on Finish and Close, and when the dialog box opens, click
 
 Welcome to your database’s homepage; you should see your cluster there. Before connecting it to your app, you have to create a collection inside it.
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_5.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_5.jpg#layoutTextWidth)
 
 ### Step 6. Create a collection
 
 Click on Browse Collections, then Add My Own Data
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_6.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_6.jpg#layoutTextWidth)
 
 Type the name of your database and the collection name. In my case, my database name will be ‘to-do-app’, and the collection name ‘tasks’. Click on Create.
 
 Great, you have created a collection where all your objects will be saved.
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_7.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_7.jpg#layoutTextWidth)
 
 ### Step 7. Generate a connection string
 
@@ -110,11 +110,11 @@ Go back to your database homepage (top left, under DEPLOYMENT), and on your clus
 
 Choose the “Connect your application” method.
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_8.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_8.jpg#layoutTextWidth)
 
 The provided connection string will be used on your app (so your app can connect and manipulate the database).
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_9.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_9.jpg#layoutTextWidth)
 
 ### Step 8. Initialize your project
 
@@ -170,7 +170,7 @@ npm install dotenv
 
 You can check that everything was successfully installed on your package-lock.json (under packages).
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_10.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_10.jpg#layoutTextWidth)
 
 ### Step 10. Require dependencies
 
@@ -231,7 +231,7 @@ For safety reasons, I want to show you how to move your MongoDB connection strin
 
 For that, you have to create a .env file inside your project’s folder. In this file, create a variable DB_STRING and paste your connection string (don’t forget to change the placeholder to your actual password).
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_11.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_11.jpg#layoutTextWidth)
 
 Go back to your server.js file, remove the variable that holds the connection string, and add this instead:
 
@@ -239,13 +239,13 @@ Go back to your server.js file, remove the variable that holds the connection st
 require('dotenv').config()const connectionString = process.env.DB_STRING;
 ```
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_12.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_12.jpg#layoutTextWidth)
 
 Finally, create a .gitignore file and add the .env there (you’ll see I’ve added the node_modules because they are so heavy, and there’s no need to push them to Github).
 
 > A .gitignore file specifies intentionally untracked files that Git should ignore.
 
-![](/post/img/2022-09-12_connecting-mongodb-to-your-app-using-node.js_13.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-09-12_connecting-mongodb-to-your-app-using-node.js_13.jpg#layoutTextWidth)
 
 Just remember, if you’re pushing to Heroku, you must remove the .env from the .gitignore file because it needs access to the database. Alternatively, you can add this config var via your app’s “Settings” tab in the Heroku Dashboard.
 

@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-07-08T17:52:23.733Z
 lastmod: 2023-01-08T10:34:04-05:00
 cover:
-    image: img/2022-07-08_balancing-a-fulltime-job-while-learning-to-code_0.png
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-07-08_balancing-a-fulltime-job-while-learning-to-code_0.png
 tags: ["Jobs", "Learning to code"]
 categories: ["Tech"]
 
@@ -12,9 +12,9 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-07-08_balancing-a-fulltime-job-while-learning-to-code_0.png" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-07-08_balancing-a-fulltime-job-while-learning-to-code_0.png" 
 images:
- - "/img/2022-07-08_balancing-a-fulltime-job-while-learning-to-code_0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-08_balancing-a-fulltime-job-while-learning-to-code_0.png"
 
 
 aliases:

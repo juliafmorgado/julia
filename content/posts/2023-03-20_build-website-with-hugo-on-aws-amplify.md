@@ -20,7 +20,7 @@ A while ago I decided to start publishing post on my own blog and move away from
 
 Although Hugo was not the most voted one on Twitter, I chose it because it does exactly what I needed to do, and nothing more. That being said, there is a plethora of other static site generators like Astro, Next.js, Jekyll, Gatsby, Ghost etc.
 
-![Poll twitter](/img/twitter-hugo.png)
+![Poll twitter](https://blog-imgs-23.s3.amazonaws.com/twitter-hugo.png)
 
 > What is a static site generator?
 having a way to store store static content which is just more secure, instead of the web server rendering the web page for every user the static generator renders it once exactly so no need to serve a lot of load on your web server, It allows you to create files in markdown format and using some magic it converts it into HTML. They have an amazing documentation, even a [Quick Start](https://gohugo.io/getting-started/quick-start/) guide.

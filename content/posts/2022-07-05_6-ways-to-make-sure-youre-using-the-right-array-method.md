@@ -4,7 +4,7 @@ author: "Julia Furst Morgado"
 date: 2022-07-05T17:46:02.826Z
 lastmod: 2023-01-08T10:34:02-05:00
 cover:
-    image: img/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_0.png
+    image: https://blog-imgs-23.s3.amazonaws.com/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_0.png
 tags: ["JavaScript", "Tutorial"]
 categories: ["Tech"]
 
@@ -12,11 +12,11 @@ description: ""
 
 subtitle: ""
 
-image: "/img/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_0.png" 
+image: "https://blog-imgs-23.s3.amazonaws.com/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_0.png" 
 images:
- - "/img/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_0.png"
- - "/img/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_1.jpg"
- - "/img/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_2.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_0.png"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_1.jpg"
+ - "https://blog-imgs-23.s3.amazonaws.com/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_2.jpg"
 
 
 aliases:
@@ -30,7 +30,7 @@ Array methods are functions built into JavaScript that we can apply to our array
 
 I’ve created an array method cheatsheet (it doesn’t contain ALL the methods but most of them) and below I’ll explain some of the most important (in my opinion) used array methods in JavaScript.
 
-![](/img/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_1.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_1.jpg#layoutTextWidth)
 
 ### JavaScript Array Methods
 
@@ -145,7 +145,7 @@ arr.reduce((accumulator, currentValue, currentIndex, array) => accumulator + cur
 
 If we go step by step and put in a table all the parameters plus the resulting value of the callback, we would get the following:
 
-![](/img/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_2.jpg#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method_2.jpg#layoutTextWidth)
 
 And the final result would be 10.
 

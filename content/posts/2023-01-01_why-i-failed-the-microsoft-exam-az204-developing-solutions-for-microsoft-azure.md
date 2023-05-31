@@ -37,11 +37,11 @@ In June, I did the Azure Developer Challenge, and upon completion, I received a 
 
 [**Challenge details**](https://www.microsoft.com/en-us/cloudskillschallenge/build/officialrules/2022?wt.mc_id=cloudskillschallenge_build2022eml4_email_cnl)
 
-![](/img/2023-01-01_why-i-failed-the-microsoft-exam-az204-developing-solutions-for-microsoft-azure_1.png#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2023-01-01_why-i-failed-the-microsoft-exam-az204-developing-solutions-for-microsoft-azure_1.png#layoutTextWidth)
 
 For someone just getting started in using and building apps on the cloud, the best route is to do the [AZ-900: Microsoft Azure Fundamentals](https://learn.microsoft.com/en-us/certifications/exams/az-900) first.
 
-![](/img/2023-01-01_why-i-failed-the-microsoft-exam-az204-developing-solutions-for-microsoft-azure_2.png#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2023-01-01_why-i-failed-the-microsoft-exam-az204-developing-solutions-for-microsoft-azure_2.png#layoutTextWidth)
 
 The thing is that upon seeing the [exam rules](https://www.microsoft.com/en-us/cloudskillschallenge/build/officialrules/2022?wt.mc_id=cloudskillschallenge_build2022eml3_email_cnl), I found out that I could only choose among a few exams certifications options. So I chose the most logical and "easy" for me, the AZ-204: Developing Solutions for Microsoft Azure.
 
@@ -65,7 +65,9 @@ Note: I like studying for exams with older exam questions because you see the fo
 
 The exam has a duration of 120 minutes with random 40–60 questions in different types use-case scenarios, programming codes, true/false, and more questions related to development with Azure. See some examples below (extracted from Exam Topics):
 
-![](/img/2023-01-01_why-i-failed-the-microsoft-exam-az204-developing-solutions-for-microsoft-azure_3.png#layoutTextWidth)![](img/2023-01-01_why-i-failed-the-microsoft-exam-az204-developing-solutions-for-microsoft-azure_4.png#layoutTextWidth)
+![](https://blog-imgs-23.s3.amazonaws.com/2023-01-01_why-i-failed-the-microsoft-exam-az204-developing-solutions-for-microsoft-azure_3.png#layoutTextWidth)
+
+![](https://blog-imgs-23.s3.amazonaws.com/2023-01-01_why-i-failed-the-microsoft-exam-az204-developing-solutions-for-microsoft-azure_4.png#layoutTextWidth)
 
 The passing score is 700 out of 1000. Booking the exam costs $165 USD.
 

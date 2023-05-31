@@ -4,7 +4,7 @@ author: Julia Furst Morgado
 date: 2023-xx-xxT17:46:05.964Z
 draft: true
 cover:
-    image: img/100devs.png
+    image: https://blog-imgs-23.s3.amazonaws.com/100devs.png
 tags: 
     - Git
     - GitHub
