@@ -2,7 +2,6 @@
 title: 'Git and GitHub Terms Glossary'
 author: 'Julia Furst Morgado'
 date: 2023-06-29T17:46:05.964Z
-draft: false
 cover:
     image: https://blog-imgs-23.s3.amazonaws.com/x.png
 tags: 
@@ -11,9 +10,7 @@ tags:
 categories: 
     - Tech
 slug: /git-github-terms-glossary
-description: ""
 
-subtitle: ""
 
 
 
