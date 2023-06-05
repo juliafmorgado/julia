@@ -31,6 +31,9 @@ Check out my Youtube videos about 100Devs: [How to join 100Devs](https://www.you
 ![](https://blog-imgs-23.s3.amazonaws.com/iam-iamic.png)
 
 
+
+This is an area not many people know about. Compared to the 200+ applicants on average for Fullstack Software Engineering positions on Linkedin, this is an area with a great amount of demand and not many applicants. People looking to move into tech may find jobs faster in these area and professionals in the field like Fullstack Engineers can further enhance their skills!
+
 Introduction:
 Hey there, tech enthusiasts! So, yesterday I finally made it back to NYC Code & Coffee after a whirlwind two-month hiatus filled with exciting travels. It was great to reunite with everyone and catch up on the latest happenings in the tech community. As I looked around, I couldn't help but be amazed at how much this community is growing and thriving. However, it also made me realize that there's a significant lack of awareness about the vastness of the tech field. Tech is so much more than just software engineering, and it's time we shed some light on the other incredible opportunities available.
 
