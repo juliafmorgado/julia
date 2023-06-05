@@ -1,6 +1,6 @@
 # Hello there! I'm Julia.
 
-![Julia on stage at VeeamOn 2023](/img/veeamon23.jpeg)
+![Julia on stage at VeeamOn 2023](https://blog-imgs-23.s3.amazonaws.com/veeamon23.jpeg)
 
 I'm a globetrotting technologist at [Veeam](https://www.veeam.com/) who's wildly passionate about Cloud Native technologies and DevOps. Hailing from Brazil with a dash of French roots and currently calling NYC home, I've made it my mission to make Cloud and DevOps not just understood, but truly accessible to everyone.
 
