@@ -28,7 +28,11 @@ Managing access to AWS resources can be a daunting task, especially when dealing
 
 ![](https://blog-imgs-23.s3.amazonaws.com/iam-iamic.png)
 
-IAM, the stalwart of AWS access management, serves as the gatekeeper for your AWS resources. It provides a comprehensive suite of features to control and manage user access. With IAM, you can create and manage users, groups, and roles. You have the power to grant precise permissions, defining who can access specific resources and what actions they can perform. For instance, you can grant developers the ability to provision EC2 instances while limiting HR personnel to view-only access for employee data. IAM gives you fine-grained control and flexibility over your access policies.
+## IAM - Identity Access Management
+
+IAM, the stalwart of AWS access management, serves as the gatekeeper for your AWS resources. It provides a comprehensive suite of features to control and manage user access and access to resources and apps within you AWS account. With IAM, you can create and manage users, groups, and roles. You have the power to grant precise permissions, defining who can access specific resources and what actions they can perform. For instance, you can grant developers the ability to provision EC2 instances while limiting HR personnel to view-only access for employee data. IAM gives you fine-grained control and flexibility over your access policies.
+
+## IAM Identity Center
 
 IAM Identity Center, on the other hand, focuses on simplifying access management, especially for organizations juggling multiple AWS accounts and applications. It serves as a centralized hub for managing the sign-in security of your workforce users. Workforce users are individuals within your organization who require access to AWS resources. IAM Identity Center allows you to create and connect these users, streamlining their access across all AWS accounts and applications.
 
