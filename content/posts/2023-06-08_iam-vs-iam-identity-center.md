@@ -1,7 +1,8 @@
 ---
 title: "Simplifying Access Management: IAM vs. IAM Identity Center"
 author: "Julia Furst Morgado"
-date: 2023-06-09T17:46:05.964Z
+date: 2023-06-08T17:46:05.964Z
+draft: false
 cover:
     image: https://blog-imgs-23.s3.amazonaws.com/100devs.png
 tags: 
