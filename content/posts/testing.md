@@ -1,17 +1,12 @@
 ---
-title: "New file again"
+title: "test"
 author: "Julia Furst Morgado"
-date: 2023-06-16T17:46:05.964Z
-draft: true
+date: 2023-xx-xxT17:46:05.964Z
+draft: false
 cover:
     image: img/100devs.png
-tags: 
-    - Microsoft
-    - Certification
-    - Azure
-categories: 
-    - Tech
-slug: /new-file-again
+
+slug: /test
 
 
 image: 
