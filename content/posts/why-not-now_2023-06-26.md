@@ -2,7 +2,6 @@
 title: "Why not now?"
 author: "Julia Furst Morgado"
 date: 2023-06-26T17:46:05.964Z
-draft: true
 cover:
     image: https://blog-imgs-23.s3.amazonaws.com/if-not-now.jpg
 categories: 
