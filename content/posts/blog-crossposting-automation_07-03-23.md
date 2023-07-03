@@ -27,9 +27,9 @@ In essence, [his solution](https://github.com/aws-community-projects/blog-crossp
 
 Since his solution required the blog to be built with Hugo and hosted on AWS Amplify, those were the platforms I use. I wrote a short blog on [How to Build a Website with Hugo on AWS Amplify](https://www.juliafmorgado.com/posts/build-website-hugo-on-aws-amplify/).
 
-[Matt](https://twitter.com/martzcodes) also had the [brilliant idea](https://matt.martz.codes/improving-a-serverless-app-to-cross-post-blogs) to convert Allen's solution to use AWS CDK (check the code [here](https://github.com/martzcodes/blog-crossposting-automation)). I found it genius and tried implementing it but I am still trying to make it work. Everything is a learning experience. Nothing is a wasted time. The good thing is that Matt's solution doesn't require your blog to be built with Hugo or hosted on AWS Amplify.
+[Matt](https://twitter.com/martzcodes) also had the [brilliant idea](https://matt.martz.codes/improving-a-serverless-app-to-cross-post-blogs) to convert Allen's solution to use AWS CDK (check the code [here](https://github.com/martzcodes/blog-crossposting-automation)). I found it genius and tried implementing it but I am still trying to make it work. Everything is a learning experience. Nothing is wasted time. The good thing is that Matt's solution doesn't require your blog to be built with Hugo or hosted on AWS Amplify.
 
-Before I move on, I want to thank them both for their help. Both of them took their time to check my code over and over and explain what was wrong. They are incredible people in the AWS community and I recommend everyone check them out (and give them a follow!).
+Before I move on, I want to thank them both for their help. Both of them took their time to check my code over and over and explain me what was wrong. They are incredible people in the AWS community and I recommend everyone check them out (and give them a follow!).
 
 **Some of the challenges I faced:**
 - Both Allen and Matt's posts/solutions are more high level and assume you already have an understanding of AWS Lambda at least. Since I didn't have it, I broke my head several times but now I am here to give you that part. The basic part that they forgot to add.
