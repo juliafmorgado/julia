@@ -21,15 +21,15 @@ Hurrah!! If you're reading this post on Hashnode or Dev.to it means it worked!
 
 Now let's start from the beginning (if you want, you can jump to the [tutorial](#tutorial)).
 
-I started my tech journey with [100Devs](https://youtu.be/MhUAKpF47GU), where I used to share coding tips and short tutorials on [Hashnode](https://julia.hashnode.dev/) and [Dev.to](https://dev.to/juliafmorgado). As I gained experience I expanded to [Medium](https://medium.com/@juliafmorgado) as well. However, I soon felt the need to have more control over my publications so I decided to also have my own domain self-host a blog. The goal was to post on my blog but also post on those other platforms. I didn't know how I would do it, but I knew I would do it. At first, I did everything manually by copying and pasting, but it was a hassle and took too much time.  That's when I came across [Allen](https://twitter.com/allenheltondev) solution—a [serverless app that automatically cross-posts from your blog to Hashnode, Dev and Medium](https://www.readysetcloud.io/blog/allen.helton/how-i-built-a-serverless-automation-to-cross-post-my-blogs/).
+I started my tech journey with [100Devs](https://youtu.be/MhUAKpF47GU), where I used to share coding tips and short tutorials on [Hashnode](https://julia.hashnode.dev/) and [Dev.to](https://dev.to/juliafmorgado). As I gained experience I expanded to [Medium](https://medium.com/@juliafmorgado) as well. However, I soon felt the need to have more control over my publications so I decided also to have my own domain self-host a blog. The goal was to post on my blog but also post on those other platforms. I didn't know how to do it, but I knew I would. At first, I did everything manually by copying and pasting, but it was a hassle and took too much time.  That's when I came across [Allen](https://twitter.com/allenheltondev) solution—a [serverless app that automatically cross-posts from your blog to Hashnode, Dev and Medium](https://www.readysetcloud.io/blog/allen.helton/how-i-built-a-serverless-automation-to-cross-post-my-blogs/).
 
 In essence, [his solution](https://github.com/aws-community-projects/blog-crossposting-automation) works like an automated assembly line for your blog posts. Once you write a post and commit it to your main branch on GitHub, AWS Amplify verifies the content and if everything checks out, a Lambda function retrieves your post and sets a workflow in motion. This workflow simultaneously transforms and publishes your post across Medium, Hashnode, and Dev.to. 
 
 Since his solution required the blog to be built with Hugo and hosted on AWS Amplify, those were the platforms I use. I wrote a short blog on [How to Build a Website with Hugo on AWS Amplify](https://www.juliafmorgado.com/posts/build-website-hugo-on-aws-amplify/).
 
-[Matt](https://twitter.com/martzcodes) also had the [brilliant idea](https://matt.martz.codes/improving-a-serverless-app-to-cross-post-blogs) to convert Allen's solution to use AWS CDK (check the code [here](https://github.com/martzcodes/blog-crossposting-automation)). I found it genius and tried implementing it but I am still trying to make it work. Everything is a learning experience. Nothing is a wasted time. The good thing is that Matt's solution doesn't require your blog to be built with Hugo or be hosted on AWS Amplify.
+[Matt](https://twitter.com/martzcodes) also had the [brilliant idea](https://matt.martz.codes/improving-a-serverless-app-to-cross-post-blogs) to convert Allen's solution to use AWS CDK (check the code [here](https://github.com/martzcodes/blog-crossposting-automation)). I found it genius and tried implementing it but I am still trying to make it work. Everything is a learning experience. Nothing is a wasted time. The good thing is that Matt's solution doesn't require your blog to be built with Hugo or hosted on AWS Amplify.
 
-Before I move on, I want to thank them both for their help. Both of them took their time to check my code over and over and explain what was wrong. They are incredible people in the AWS community and I recommend everyone checking them out (and giving them a follow!).
+Before I move on, I want to thank them both for their help. Both of them took their time to check my code over and over and explain what was wrong. They are incredible people in the AWS community and I recommend everyone check them out (and give them a follow!).
 
 **Some of the challenges I faced:**
 - Both Allen and Matt posts/solutions are more high level and assume you already have an understanding of AWS Lambda at least. Since I didn't have it, I broke my head several times but now I am here to give you that part. The basic part that they forgot to add.
@@ -37,17 +37,17 @@ Before I move on, I want to thank them both for their help. Both of them took th
 
 **Some things I still need to do:**
 - Figure out why the Medium API is not working!! According to their site their [API has been deprecated](https://github.com/Medium/medium-api-docs) so even after reviewing with Allen the whole code, I keep getting an error that my AuthorId is wrong. We believe it's a problem on their side but I still want it to work.
-- Get Matt's solution to work. I'm almost there, according to the AWS cloudwatch logs, my "identify-new-content" function is working but I keep getting an error with the Hashnode API.
-- Find a way (probably Matt's way) to automate the image hosting. I don't think I want them hosted on Github, just on an S3 bucket. But Matt's solution assumes they are hosted on github.
+- Get Matt's solution to work. I'm almost there, according to the AWS CloudWatch logs, my "identify-new-content" function is working but I keep getting an error with the Hashnode API.
+- Find a way (probably Matt's way) to automate the image hosting. I don't think I want them hosted on GitHub, just on an S3 bucket. But Matt's solution assumes they are hosted on GitHub.
 - Import the banner image to the other platforms, so when they are posted on my blog they should also be posted on Hashnode, Medium and Dev.to.
-- Set up the email notifications for when the crossposting process fails.
+- Set up email notifications for when the crossposting process fails.
 - Set up automatic Tweets once a new post is out.
 
 ## Tutorial
 
-Now, let's move on to the exciting part. In this blog post, I want to share step by step what I did for Allen's solution (once I get Matt's solution to work I'll write another post). If you have a Hugo site I really urge you to try this solution, and if you don't have a Hugo site, try to make it work for your site! The beauty about open source is that everyone is welcome to try it, modify is, make it better and share with the world.
+Now, let's move on to the exciting part. In this blog post, I want to share step by step what I did for Allen's solution (once I get Matt's solution to work I'll write another post). If you have a Hugo site I really urge you to try this solution, and if you don't have a Hugo site, try to make it work for your site! The beauty of open source is that everyone is welcome to try it, modify it, make it better and share it with the world.
 
-And finally if you get it to work, awesome. Share it with us and write a post about it! And if you don't get it to work don't fret, message us and we will try to help. 
+And finally, if you get it to work, awesome. Share it with us and write a post about it! And if you don't get it to work don't fret, message us and we will try to help. 
 
 1. [Create or migrate your blog to Hugo and deploy it on AWS Amplify](https://www.juliafmorgado.com/posts/build-website-hugo-on-aws-amplify/). Make sure you have all [the prerequisites](https://github.com/aws-community-projects/blog-crossposting-automation#prerequisites) mentioned in the documentation.
 
@@ -120,13 +120,13 @@ slug: /my-first-blog
 ````
 
 ## Final notes
-Like I mentioned at the beginning, the email notification on the status of the cross posting didn't work for me nor the crossposting to Medium. Allen and I went through every single line of code, the step functions, CloudWatch logs and I keep getting the same error – that my userId is invalid.
+As I mentioned at the beginning, the email notification on the status of the cross-posting didn't work for me nor did the crossposting to Medium. Allen and I went through every single line of code, the step functions, and CloudWatch logs and I keep getting the same error – that my userId is invalid.
 
 
 I hope this post was helpful! I wish you the best in your blogging journey and would love for you to share your journey of automating the blog crossposting workflow.
 
 
 ***
-If you liked this article, go follow me on [Twitter](https://twitter.com/juliafmorgado) (where I share my tech journey) daily, connect with me on on [LinkedIn](https://www.linkedin.com/in/juliafmorgado/), check out my [IG](https://www.instagram.com/juliafmorgado/), and make sure to subscribe to my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel for more amazing content!!
+If you liked this article, go follow me on [Twitter](https://twitter.com/juliafmorgado) (where I share my tech journey) daily, connect with me on [LinkedIn](https://www.linkedin.com/in/juliafmorgado/), check out my [IG](https://www.instagram.com/juliafmorgado/), and make sure to subscribe to my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel for more amazing content!!
 
 
