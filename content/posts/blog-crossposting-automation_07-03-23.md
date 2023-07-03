@@ -25,7 +25,7 @@ I started my tech journey with [100Devs](https://youtu.be/MhUAKpF47GU), where I 
 
 In essence, [his solution](https://github.com/aws-community-projects/blog-crossposting-automation) works like an automated assembly line for your blog posts. Once you write a post and commit it to your main branch on GitHub, AWS Amplify verifies the content and if everything checks out, a Lambda function retrieves your post and sets a workflow in motion. This workflow simultaneously transforms and publishes your post across Medium, Hashnode, and Dev.to. 
 
-![](https://github.com/aws-community-projects/blog-crossposting-automation/blob/main/docs/workflow.png)
+![](https://blog-imgs-23.s3.amazonaws.com/automation-workflow.png)
 
 Since his solution required the blog to be built with Hugo and hosted on AWS Amplify, those were the platforms I use. I wrote a short blog on [How to Build a Website with Hugo on AWS Amplify](https://www.juliafmorgado.com/posts/build-website-hugo-on-aws-amplify/).
 
