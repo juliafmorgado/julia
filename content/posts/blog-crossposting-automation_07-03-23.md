@@ -100,7 +100,7 @@ isPartOfPublication: {
 
 The publicationId key in the isPartOfPublication field specifies the ID of the publication to which the post belongs. By including this field in the request payload, we are telling the Hashnode API that the post should be added to the specified publication.
 
-![](https://blog-imgs-23.s3.amazonaws.com/crossposting-publication.pngg)
+![](https://blog-imgs-23.s3.amazonaws.com/crossposting-publication.png)
 
 
 13. Run `sam build` and `sam deploy` again. Anytime you make a change you have to run these commands!
