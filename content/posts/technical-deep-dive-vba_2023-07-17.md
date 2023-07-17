@@ -12,6 +12,10 @@ categories:
     - Tech
 slug: /technical-deep-dive-vba
 
+og:
+    image:
+        url: https://blog-imgs-23.s3.amazonaws.com/technical-deep-dive-vba.jpg
+        alt: "Hero image alt text"
 
 
 ---
