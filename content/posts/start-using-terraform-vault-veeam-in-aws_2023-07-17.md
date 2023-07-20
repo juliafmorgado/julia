@@ -1,8 +1,8 @@
 ---
 title: "Secure Your AWS Environments with Terraform, Vault, and Veeam"
 author: 'Julia Furst Morgado'
-date: 2023-07-18T09:06:05.964Z
-image: https://blog-imgs-23.s3.amazonaws.com/blog-crossposting-automation.png
+date: 2023-07-20T09:06:05.964Z
+image: https://blog-imgs-23.s3.amazonaws.com/secure-aws-terraform-vault-veeam.jpg
 tags: 
     - AWS
     - Automation
@@ -14,7 +14,7 @@ slug: /secure-aws-environment-terraform-vault-veeam
 
 og:
     image:
-        url: https://blog-imgs-23.s3.amazonaws.com/technical-deep-dive-vba.jpg
+        url: https://blog-imgs-23.s3.amazonaws.com/secure-aws-terraform-vault-veeam.jpg
         alt: "Hero image alt text"
 
 

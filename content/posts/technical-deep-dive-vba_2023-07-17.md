@@ -48,6 +48,10 @@ Veeam Backup for AWS provides granular cost estimation to help you understand th
 ## Dynamic Worker Nodes
 To optimize data transfer efficiency and reduce costs within AWS, Veeam Backup for AWS leverages dynamically provisioned worker nodes. These nodes perform essential tasks, such as image-based backups and file-level recovery, on EC2 instances. The worker nodes are automatically spun up only when data needs to be transferred and are terminated promptly once the tasks are completed. This approach minimizes unnecessary resource consumption and reduces expenses associated with backup and restore transactions.
 
+![](https://blog-imgs-23.s3.amazonaws.com/veeam-data-mover.png)
+
+Also, to communicate with the backup repository, Veeam Backup for AWS uses the Veeam Data Mover — a service running on a worker instance that is responsible for data processing and transfer. When a backup policy addresses the backup repository, the Veeam Data Mover establishes a connection with the repository enabling data transfer.
+
 ## IAM Roles
 Veeam Backup for AWS integrates seamlessly with AWS Identity and Access Management (IAM) to enforce least-privileged access permissions. By configuring IAM roles, you can ensure that only authorized entities can perform backup and restore operations, enhancing the security of your AWS backup environment.
 
