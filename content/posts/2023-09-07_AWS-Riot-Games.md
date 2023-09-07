@@ -77,7 +77,7 @@ Riot Games has made significant investments in reducing latency for players and 
 
 In response, Riot Games transitioned from AWS Outposts to AWS-managed Local Zones, a move that significantly expanded their server presence. They currently operate in a total of 33 Local Zones globally. This shift allowed Riot to cater to players in regions previously overlooked, ensuring a more equitable experience for all. The identification of players using VPNs in various locations further informed their server placement strategy. This assessment was based on user latency compared to players physically located in specific regions.
 
-2. **Optimizing Game Routing**: Riot established their internet backbone, [Riot Direct](https://technology.riotgames.com/news/leveling-networking-multi-game-future), to ensure efficient routing of game data. By identifying key points of presence and establishing direct fiber connections, they created a high-speed network that prioritizes game traffic. This network enables minimal packet loss and lower latency, enhancing the overall gaming experience.
+2. **Optimizing Game Routing**: Riot established its internet backbone, [Riot Direct](https://technology.riotgames.com/news/leveling-networking-multi-game-future), to ensure efficient routing of game data. By identifying key points of presence and establishing direct fiber connections, they created a high-speed network that prioritizes game traffic. This network enables minimal packet loss and lower latency, enhancing the overall gaming experience.
 
 ### Matchmaking
 
@@ -101,15 +101,15 @@ Yet, don’t think it’s easy to become a famous gamer. It demands an incredibl
 ## VALORANT Champions Tournament and Execution
 
 Now let's delve into the heart-pounding action of the trip. 
-Watch a summary of the first day [here](https://www.instagram.com/p/CwWnVDxrhLK/). The semi-final match between LOUD and Evil Geniuses had us on the edge of our seats. As a [LOUD](https://loud.gg) supporter, I joined the spirited crowd of Brazilians in the stadium. Unfortunately [Evil Geniuses](https://evilgeniuses.gg/) emerged victorious in a nail-biting 3-2 finish.
+Watch a summary of the first day [here](https://www.instagram.com/p/CwWnVDxrhLK/). The semi-final match between LOUD and Evil Geniuses had us on the edge of our seats. As a [LOUD](https://loud.gg) supporter, I joined the spirited crowd of Brazilians in the stadium. Unfortunately, [Evil Geniuses](https://evilgeniuses.gg/) emerged victorious in a nail-biting 3-2 finish.
 
-During an exclusive backstage tour of the Kia Forum, we explored the tournament's inner workings (no pictures were allowed). This included a visit to the server room, guarded around the clock by a guard. Only a few people had access to enter there. The reason for the physical servers is that it offers predictable performance and lower latency crucial for the championship.
+During an exclusive backstage tour of the Kia Forum, we explored the tournament's inner workings (no pictures were allowed). This included a visit to the server room, guarded around the clock by a guard. Only a few people had access to enter there. The reason for the physical servers is that they offer predictable performance and lower latency crucial for the championship.
 
 In the parking lot of the stadium were the broadcasting trucks. These trucks connect to a primary center in Dublin for global coverage, reaching millions of viewers online. Riot's global events team works with 22 broadcast partners in 21 languages.
 
 ![Valorant Statistics](https://blog-imgs-23.s3.amazonaws.com/valorant-stats.png)
 
-The broadcast begins at the arena, and is curated into a world feed via Riot Direct (the same server infrastructure used for games). From there, it's distributed to regional teams worldwide, each featuring native language broadcasts with region-specific narratives.
+The broadcast begins at the arena and is curated into a world feed via Riot Direct (the same server infrastructure used for games). From there, it's distributed to regional teams worldwide, each featuring native language broadcasts with region-specific narratives.
 
 
 The next day was the final championship match between Evil Geniuses and Singapore's [Paper Rex](https://www.pprx.team/). We were all anxious to know Who would win the big gold trophy plus a $1 million prize. We attended the Kia Forum again, where we watched the Valorant Champions opening ceremony, with live performances of singers and dancers, including the official anthem ["Ticking Away" ft. Grabbitz & bbno](https://www.youtube.com/watch?v=CdZN8PI3MqM), an Ignition remix with [@its_emei](https://www.instagram.com/its.emei/?hl=en) and [Jazz Alonso](https://www.instagram.com/jazz_alonso_/?hl=en), and the song [“Greater Than One” by @ericdoa3347](https://www.youtube.com/watch?v=N7dUOC4x55E). The opening ceremony resembled a Super Bowl finale, featuring an extravagant display of fire, smoke, and lights that got the audience suuuper excited!
