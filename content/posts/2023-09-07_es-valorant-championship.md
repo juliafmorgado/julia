@@ -126,6 +126,3 @@ Estoy emocionada por el futuro de los eSports y agradecida a AWS por esta oportu
 
 ¡No puedo esperar para ver qué nos depara el futuro en el mundo de los eSports!
 
-*Nota: Este artículo es una opinión personal basada en mi experiencia en el AWS VALORANT Champions 2023 y no refleja necesariamente la posición de OpenAI o de ninguna de las empresas mencionadas.*
-
----
