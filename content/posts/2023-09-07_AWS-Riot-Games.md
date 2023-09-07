@@ -25,7 +25,7 @@ If you think Los Angeles is only about Hollywood celebrities and palm trees, thi
 
 Before I dive into the schedule and my wholesome experience, I want to clarify something about [eSports](https://www.esports.net/wiki/guides/what-is-esports/). It's not just a bunch of folks (nerds 😝) playing video games; it's a highly organized, competitive environment where elite gamers battle it out for fame (yes, they are celebs) and fortune. Think of it as the Olympics of gaming, where teams compete in various titles, and fans from all over the world tune in to watch.
 
-At the heart of this eSports extravaganza is Riot Games, a game developing company that has taken the gaming world by storm with titles like League of Legends and Valorant. Valorant, a tactical first-person shooter with a massive player base, demands precision, teamwork, strategy, and SUPER low latency. 
+At the heart of this eSports extravaganza is Riot Games, a game-developing company that has taken the gaming world by storm with titles like League of Legends and Valorant. Valorant, a tactical first-person shooter with a massive player base, demands precision, teamwork, strategy, and SUPER low latency. 
 
 ![Picture of the stadium during the Valorant Championship](https://blog-imgs-23.s3.amazonaws.com/game-valorant.jpeg)
 
@@ -45,7 +45,7 @@ One of the highlights of the event was the Technical Panel we had on the first n
 
 ![Golden Boy talk](https://blog-imgs-23.s3.amazonaws.com/golden-boy.png)
 
-Then, there was a panel featureing key technical leaders from AWS ([Jun David](https://www.linkedin.com/in/jundavid/), [Randy James](https://www.linkedin.com/in/randiskull/), and [Shiva Natarajan](https://www.linkedin.com/in/shiva-natarajan-937b6a/)) and Riot Games ([John Knauss](https://www.linkedin.com/in/jrknauss/), [Brian Miller](https://www.linkedin.com/in/brimil01/), and [Gabriel Isenberg](https://www.linkedin.com/in/gabrielisenberg/)). They delved into several technical topics, which I'm going to address next, including the launch of VALORANT and how Riot's player platform evolved to accommodate multiple gamers across the world seamlessly.
+Then, there was a panel featuring key technical leaders from AWS ([Jun David](https://www.linkedin.com/in/jundavid/), [Randy James](https://www.linkedin.com/in/randiskull/), and [Shiva Natarajan](https://www.linkedin.com/in/shiva-natarajan-937b6a/)) and Riot Games ([John Knauss](https://www.linkedin.com/in/jrknauss/), [Brian Miller](https://www.linkedin.com/in/brimil01/), and [Gabriel Isenberg](https://www.linkedin.com/in/gabrielisenberg/)). They delved into several technical topics, which I'm going to address next, including the launch of VALORANT and how Riot's player platform evolved to accommodate multiple gamers across the world seamlessly.
 
 ![Tech panel of AWS and Riot Games Engineers](https://blog-imgs-23.s3.amazonaws.com/panel-valorant.jpeg)
 
@@ -75,7 +75,7 @@ Riot Games has made significant investments in reducing latency for players and 
 
 1. **Strategic Server Placement**: When Riot Games initially partnered with AWS, their server placement strategy was based on the utilization of AWS regions. However, through a data-driven approach that involved analyzing their existing League of Legends player base, they gained valuable insights into player demographics and geographic distribution. By conducting thorough assessments of key factors like ping, packet loss, and latency, it became clear that players situated beyond the boundaries of these AWS regions were not experiencing an optimal gaming experience.
 
-In response, Riot Games transitioned from AWS Outposts to AWS managed Local Zones, a move that significantly expanded their server presence. They currently operate in a total of 33 Local Zones globally. This shift allowed Riot to cater to players in regions previously overlooked, ensuring a more equitable experience for all. The identification of players using VPNs in various locations further informed their server placement strategy. This assessment was based on user latency compared to players physically located in specific regions.
+In response, Riot Games transitioned from AWS Outposts to AWS-managed Local Zones, a move that significantly expanded their server presence. They currently operate in a total of 33 Local Zones globally. This shift allowed Riot to cater to players in regions previously overlooked, ensuring a more equitable experience for all. The identification of players using VPNs in various locations further informed their server placement strategy. This assessment was based on user latency compared to players physically located in specific regions.
 
 2. **Optimizing Game Routing**: Riot established their internet backbone, [Riot Direct](https://technology.riotgames.com/news/leveling-networking-multi-game-future), to ensure efficient routing of game data. By identifying key points of presence and establishing direct fiber connections, they created a high-speed network that prioritizes game traffic. This network enables minimal packet loss and lower latency, enhancing the overall gaming experience.
 
@@ -92,7 +92,7 @@ The smurf detection system works in such a way that it'll detect the skill level
 
 ## Gaming As A Career
 
-Now, let me dispel a common misconception that I always had, and probably a lot of you also do: the idea that gaming is merely a hobby. From what I learned at the event, gaming can be a legitimage career.
+Now, let me dispel a common misconception that I always had, and probably a lot of you also do: the idea that gaming is merely a hobby. From what I learned at the event, gaming can be a legitimate career.
 
 Gamers today can secure contracts with professional teams, benefit from the guidance of coaches, nutritionists, personal trainers and physiotherapists and enjoy the potential to earn millions through partnerships, streaming, and competitive championships. I had the privilege of conversing with partners of the [Loud team](https://liquipedia.net/valorant/LOUD), the Brazilian squad that claimed third place in the championship, and they enlightened me about the intense dedication involved, where players immerse themselves in gaming day in and day out, receive expert coaching, and much more.
 
@@ -112,7 +112,7 @@ In the parking lot of the stadium were the broadcasting trucks. These trucks con
 The broadcast begins at the arena, and is curated into a world feed via Riot Direct (the same server infrastructure used for games). From there, it's distributed to regional teams worldwide, each featuring native language broadcasts with region-specific narratives.
 
 
-The next day was the final championship match between Evil Geniuses and Singapore's [Paper Rex](https://www.pprx.team/). We were all anxious to know Who would win the big gold trophy plus a $1 million prize. We attended the Kia Forum again, where we watched the Valorant Champions opening ceremony, with live performance of singers and dancers, including the official anthem ["Ticking Away" ft. Grabbitz & bbno](https://www.youtube.com/watch?v=CdZN8PI3MqM), an Ignition remix with [@its_emei](https://www.instagram.com/its.emei/?hl=en) and [Jazz Alonso](https://www.instagram.com/jazz_alonso_/?hl=en), and the song [“Greater Than One” by @ericdoa3347](https://www.youtube.com/watch?v=N7dUOC4x55E). The opening ceremony resembled a Super Bowl finale, featuring an extravagant display of fire, smoke, and lights that got the audience suuuper excited!
+The next day was the final championship match between Evil Geniuses and Singapore's [Paper Rex](https://www.pprx.team/). We were all anxious to know Who would win the big gold trophy plus a $1 million prize. We attended the Kia Forum again, where we watched the Valorant Champions opening ceremony, with live performances of singers and dancers, including the official anthem ["Ticking Away" ft. Grabbitz & bbno](https://www.youtube.com/watch?v=CdZN8PI3MqM), an Ignition remix with [@its_emei](https://www.instagram.com/its.emei/?hl=en) and [Jazz Alonso](https://www.instagram.com/jazz_alonso_/?hl=en), and the song [“Greater Than One” by @ericdoa3347](https://www.youtube.com/watch?v=N7dUOC4x55E). The opening ceremony resembled a Super Bowl finale, featuring an extravagant display of fire, smoke, and lights that got the audience suuuper excited!
 You can watch it here: ![Valorant Champions Opening Ceremony](https://www.youtube.com/watch?app=desktop&v=dWXDui9Cjmg)
 It was a battle of wits and skills, and Evil Geniuses won the title with a 3-1 victory. It was a historical moment for the gaming industry because the team's coach, [Christine Chi](https://www.instagram.com/omgitspotter/?hl=en), aka Potter, became the first female coach to win a major eSports championship.
 
