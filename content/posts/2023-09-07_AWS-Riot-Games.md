@@ -131,11 +131,11 @@ Sharing this incredible journey with fellow AWS community builders and heroes wa
 
 I extend my heartfelt gratitude to the entire AWS team for their invitation and impeccable organization of this extraordinary experience, leaving no detail unattended. I eagerly look forward to the opportunity to participate in another Riot Games event in the future.
 
-My vlog is coming out soon, so stay tuned on my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel or my social media where I’ll share it when its live!
+My vlog is coming out soon, so stay tuned on my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel or my social media where I’ll share it when it's live!
 
 What questions do you have about eSports, cloud-based gaming, and the tech that powers all of this? 🤔💭
 
 ![Julia in the Valorant Stadium](https://blog-imgs-23.s3.amazonaws.com/kia-valorant-j.jpeg)
 
 ***
-If you liked this article, go follow me on [Twitter](https://twitter.com/juliafmorgado) (where I share my tech journey) daily, connect with me on on [LinkedIn](https://www.linkedin.com/in/juliafmorgado/), check out my [IG](https://www.instagram.com/juliafmorgado/), and make sure to subscribe to my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel for more amazing content!!
+If you liked this article, go follow me on [Twitter](https://twitter.com/juliafmorgado) (where I share my tech journey) daily, connect with me on [LinkedIn](https://www.linkedin.com/in/juliafmorgado/), check out my [IG](https://www.instagram.com/juliafmorgado/), and make sure to subscribe to my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel for more amazing content!!
