@@ -17,8 +17,6 @@ slug: /how-to-contribute-cncf-glossary-localization-no-code
 
 ---
 
-# **How to Contribute to the Cloud Native Glossary Localization**
-
 ## Introduction
 
 The [Cloud Native Computing Foundation (CNCF) Glossary](https://glossary.cncf.io/) is a valuable resource that helps clarify the terminology and jargon used in the world of cloud-native computing. It provides concise and precise definitions of essential terms, making it an indispensable tool for both newcomers and seasoned professionals in the field.
