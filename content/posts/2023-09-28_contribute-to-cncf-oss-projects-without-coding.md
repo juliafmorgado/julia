@@ -1,5 +1,5 @@
 ---
-title: "How to Contribute to CNCF Glossary Localization - No Coding Required!"
+title: "How to Contribute to CNCF Glossary Localization - No Code!"
 author: "Julia Furst Morgado"
 date: 2023-09-26T11:46:05.964Z
 cover:
@@ -62,7 +62,7 @@ You can find open issues by searching the Cloud Native Glossary GitHub [reposito
 In case there are no open issues, check the Slack channel dedicated to your language for pinned documents that show the terms/pages that still need to be translated. Also consider sending a friendly and polite message in the Slack channel to introduce yourself, express your interest in contributing to the project, and inquire if there is an available list or tracking system for translation tasks.
 
 5. **Once you have found an issue, drop a comment saying you would like to take that issue/work on that.** 
-A member of the Cloud Native Glossary localization team will review your request and approve it. Wait to be accepted because sometimes there is already someone working on it and you'll have done work for nothing.
+A member of the Cloud Native Glossary localization team will review your request and approve it. Wait to be accepted because sometimes there is already someone working on that and you'll have done work for nothing.
 
 ![](https://blog-imgs-23.s3.amazonaws.com/cncf-issue-1209.png)
 
@@ -72,20 +72,20 @@ This will create a copy of the repository on your own GitHub account.
 ![](https://blog-imgs-23.s3.amazonaws.com/cncf-glossary-fork-repo.png)
 
 7. **Clone the forked repository.** 
-Use the `git clone` command to clone the forked repository to the IDE in your local machine or any IDE that you are using. I've been using [AWS Cloud9](https://aws.amazon.com/cloud9/) lately and really liking it.
+Use the `git clone` command to clone the forked repository to the IDE in your local machine or any IDE that you are using. I've been using [AWS Cloud9](https://aws.amazon.com/cloud9/) lately and really like it.
 
 ![](https://blog-imgs-23.s3.amazonaws.com/cncf-glossary-git-clone.png)
 
 8. **Create a working branch from the development branch of your language.** 
 For example, if you are translating to Portuguese, you would create a branch from the `dev-pt` branch. If you're not familiar with the Git and GitHub workflow you can skip this step.
 
-9. **Create a new md file.** 
-Inside the folder of your language, create a new file for the term and name it with the name in English (don't forget the .md in the end).
+9. **Create a new .md file.** 
+Inside the folder of your language, create a new file for the term and name it with the name in English (don't forget the .md at the end).
 
 ![](https://blog-imgs-23.s3.amazonaws.com/cncf-glossary-new-term.png)
 
 10. **Translate the term.** 
-Be sure to follow the localization guide and style guide when translating the terms. Check the terms that have already been translated to use the same words. Don't forget to translate the title, category and tags. Once you make sure to review it carefully. Project reviewers and maintainers have a busy schedule, and it can be burdensome for them to request minor corrections like a missing comma or an accent mark.
+Be sure to follow the localization guide and style guide when translating the terms. Check the terms that have already been translated to use the same words. Don't forget to translate the title, category and tags. Once you make sure to review it carefully. Project reviewers and maintainers have busy schedules, and it can be burdensome for them to request minor corrections like a missing comma or an accent mark.
 
 > **Important:** 
 If your term includes hyperlinks to other terms and those terms have already been translated, ensure you modify the hyperlink to direct to the translated term. For instance, if you're translating a term into Portuguese, update the hyperlink from https://glossary.cncf.io/abstraction/ to https://glossary.cncf.io/pt-br/abstraction/. This helps maintain a seamless experience for users accessing the glossary in their preferred language.
@@ -93,11 +93,11 @@ If your term includes hyperlinks to other terms and those terms have already bee
 ![](https://blog-imgs-23.s3.amazonaws.com/cncf-glossary-translated.png)
 
 11. **Commit your changes and push them to your forked repository.**
-First write on your terminal: `git add [path_to_your_file]` or if you just changed that file you can do `git add .`
+First, write on your terminal: `git add [path_to_your_file]` or if you just changed that file you can do `git add .`
 Then write: `git commit -m 'new translation for [term]'`
 And finally: `git push`
 
-Once you have pushed your changes to your forked repository, you will see that your branch is ahead of the cncf:main branch and that you can contribute to it by opening a pull request (also know as PR).
+Once you have pushed your changes to your forked repository, you will see that your branch is ahead of the cncf:main branch and that you can contribute to it by opening a pull request (also known as PR).
 
 ![](https://blog-imgs-23.s3.amazonaws.com/cncf-glossary-newcommit.png)
 
