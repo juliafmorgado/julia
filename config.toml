@@ -175,15 +175,15 @@ enable = true
   [languages.en]
   languageName = "English"
   weight = 1
-  contentDir = "content/english"  # Path to the English content directory
+  contentDir = "content/english" 
 
   [languages.fr]
-  languageName = "French"
+  languageName = "Français"
   weight = 2
   contentDir = "content/french" 
 
   [languages.pt]
-  languageName = "Portuguese"
+  languageName = "Português"
   weight = 3
   contentDir = "content/portuguese" 
 
