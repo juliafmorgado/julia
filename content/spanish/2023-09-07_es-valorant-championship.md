@@ -11,6 +11,7 @@ tags:
 categories:
   - Tecnología
 slug: /dentro-del-campeonato-valorant-con-aws-2023
+contentDir: "content/spanish"
 ---
 
 Si crees que Los Ángeles se reduce solo a celebridades de Hollywood y palmeras, estás equivocado. Recientemente, tuve el privilegio de ser invitada por AWS - Amazon Web Services a la final del Campeonato VALORANT. Fueron dos días llenos de adrenalina en el mundo de los eSports, que me brindaron una perspectiva completamente nueva sobre los videojuegos.

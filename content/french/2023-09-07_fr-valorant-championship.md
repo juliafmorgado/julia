@@ -11,6 +11,7 @@ tags:
 categories: 
     - Tech
 slug: /championnat-valorant-avec-aws-2023
+contentDir: "content/french"
 
 
 

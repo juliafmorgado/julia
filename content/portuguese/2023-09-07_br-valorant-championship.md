@@ -11,6 +11,7 @@ tags:
 categories: 
     - Tecnologia
 slug: /dentro-do-aws-valorant-champions-vip-hospitality-2023
+contentDir: "content/portuguese"
 ---
 
 Se você acha que Los Angeles se resume apenas a celebridades de Hollywood e palmeiras, você está enganado. Recentemente, tive o privilégio de ser convidada pela AWS - Amazon Web Services para participar da final do VALORANT Championship. Foram dois dias repletos de adrenalina no mundo dos eSports, que me proporcionaram uma perspectiva totalmente nova sobre videogames.
