@@ -22,12 +22,12 @@ slug: /how-to-contribute-cncf-glossary-localization-no-code
 The [Cloud Native Computing Foundation (CNCF) Glossary](https://glossary.cncf.io/) is a valuable resource that helps clarify the terminology and jargon used in the world of cloud-native computing. It provides concise and precise definitions of essential terms, making it an indispensable tool for both newcomers and seasoned professionals in the field.
 
 I always encourage everyone to start contributing to Open Source early on in their career because you will:
-- learn and gain experience
-- meet people who are interested in similar things as you
-- find mentors
-- grow a reputation and leverage your career
-- get those green squares on GitHub
-- benefit a lot more!
+- Learn and gain experience
+- Meet people who are interested in similar things as you
+- Find mentors
+- Grow a reputation and leverage your career
+- Get those green squares on GitHub
+- Benefit a lot more!
 
 ## Localization?
 
