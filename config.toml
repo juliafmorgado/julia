@@ -1,7 +1,5 @@
 baseURL = "https://juliafmorgado.com"
 title = "Julia Furst Morgado"
-languageCode = "en"
-defaultContentLanguage = "en"
 
 
 # theme as hugo module
