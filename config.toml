@@ -188,6 +188,6 @@ enable = true
   contentDir = "content/portuguese" 
 
     [languages.es]
-  languageName = "Spanish"
+  languageName = "Español"
   weight = 4
   contentDir = "content/spanish" 
