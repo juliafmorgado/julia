@@ -1,4 +1,4 @@
-# Salut ! Je m'appelle Julia.
+# Salut ! Je m'appelle Julia :)
 
 ![Julia sur scène à VeeamOn 2023](https://blog-imgs-23.s3.amazonaws.com/veeamon23.jpeg)
 

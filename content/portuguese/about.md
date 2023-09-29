@@ -1,4 +1,4 @@
-# Olá! Eu sou a Julia.
+# Olá! Eu sou a Julia :)
 
 ![Julia no palco no VeeamOn 2023](https://blog-imgs-23.s3.amazonaws.com/veeamon23.jpeg)
 
