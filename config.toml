@@ -88,31 +88,106 @@ url = "https://www.instagram.com/juliafmorgado/"
 
 
 [menu]
-
-  [[menu.main]]
+  # English Menu
+  [[menu.en]]
   name = "Home"
   identifier = "home"
   weight = 100
   url = "/"
 
-  [[menu.main]]
+  [[menu.en]]
   name = "About"
   weight = 200
   identifier = "about"
   url = "/about/"
 
-  [[menu.main]]
+  [[menu.en]]
   name = "Talks"
   weight = 300
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
 
-[[menu.main]]
-  name = "Gallery"
-  weight = 400
-  identifier = "gallery"
-  url = "/gallery/"
+ # French Menu
+  [[menu.fr]]
+  name = "Accueil"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.fr]]
+  name = "À propos de moi"
+  weight = 200
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.fr]]
+  name = "Conférences"
+  weight = 300
+  identifier = "talks"
+  url = "https://github.com/juliafmorgado/talks"
+
+
+  # Portuguese Menu
+  [[menu.pt]]
+  name = "Início"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.pt]]
+  name = "Sobre mim"
+  weight = 200
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.pt]]
+  name = "Palestras"
+  weight = 300
+  identifier = "talks"
+  url = "https://github.com/juliafmorgado/talks"
+
+
+# Spanish Menu
+  [[menu.es]]
+  name = "Inicio"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.es]]
+  name = "Acerca de mí"
+  weight = 200
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.es]]
+  name = "Charlas"
+  weight = 300
+  identifier = "talks"
+  url = "https://github.com/juliafmorgado/talks"
+
 
 
 [mermaid]
 enable = true
+
+[languages]
+  [languages.en]
+  languageName = "English"
+  weight = 1
+  contentDir = "content/english"  # Path to the English content directory
+
+  [languages.fr]
+  languageName = "French"
+  weight = 2
+  contentDir = "content/french" 
+
+  [languages.pt]
+  languageName = "Portuguese"
+  weight = 3
+  contentDir = "content/portuguese" 
+
+    [languages.es]
+  languageName = "Spanish"
+  weight = 4
+  contentDir = "content/spanish" 

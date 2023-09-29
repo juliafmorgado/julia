@@ -13,12 +13,3 @@ I've been lucky to travel the world and learn from a rich tapestry of cultures. 
 ## Pivot and Adapt
 My professional journey has been an adventure in itself - from law to marketing, and now, technology. I'm a self-made software engineer, bringing together my resilience, adaptability, and a knack for self-learning to make my mark in the tech world.
 
-## Fun in Learning
-I’m an avid learner by heart. Just like exploring new places, I love diving into new technologies, uncovering fascinating connections, and occasionally laughing at my own mistakes.
-
-
-
-### Articles written about me:
-
-- [ITForum](https://itforum.com.br/noticias/veeam-julia-morgado-mulheres-carreira/)
-
