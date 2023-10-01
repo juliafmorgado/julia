@@ -10,7 +10,7 @@ tags:
     - Containers
 categories: 
     - Tech
-slug: /kubernetes-knowledge-hub
+slug: /easy-way-to-understand-docker
 
 aliases:
 
@@ -78,3 +78,6 @@ Finally, Docker activates the container, and your new product is up and running 
 ## Conclusion
 
 In summary, Docker simplifies software application management by creating isolated containers. These containers can run on various hosts, regardless of the underlying operating system. This flexibility, along with Docker's efficiency, makes it a game-changer in the world of technology. 
+
+***
+If you liked this article, go follow me on [Twitter](https://twitter.com/juliafmorgado) (where I share my tech journey) daily, connect with me on [LinkedIn](https://www.linkedin.com/in/juliafmorgado/), check out my [IG](https://www.instagram.com/juliafmorgado/), and make sure to subscribe to my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel for more amazing content!!
