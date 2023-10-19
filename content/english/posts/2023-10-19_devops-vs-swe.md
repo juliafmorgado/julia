@@ -61,3 +61,6 @@ When choosing between these two jobs, think about what you like to do. If you en
 It's worth noting that in today's tech landscape, the lines between software and DevOps engineering can blur. Companies often expect professionals to have expertise in both areas. So, if you're just starting your career, be prepared for extensive learning and adaptation.
 
 In the end, both careers offer exciting opportunities. Your choice should fit what you love doing and what you're good at. Understanding the distinctions and aligning them with your interests is crucial. Ultimately, it's your passion and dedication that will propel you towards a fulfilling and successful career. Remember, you can always try the other one if you change your mind later on. So, go ahead, pick your tech journey, and enjoy the adventure in the ever-changing tech field!
+
+***
+If you liked this article, go follow me on [Twitter](https://twitter.com/juliafmorgado) (where I share my tech journey) daily, connect with me on [LinkedIn](https://www.linkedin.com/in/juliafmorgado/), check out my [IG](https://www.instagram.com/juliafmorgado/), and make sure to subscribe to my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel for more amazing content!!
