@@ -17,7 +17,7 @@ aliases:
 
 ---
 
-Docker is renowned worldwide as an open-source container service provider, that excels in packaging applications and their components, along with dependencies, simplifying the deployment process. It is a powerful and versatile tool, sthat streamlines the creation, running, and management of software applications. However, before we delve into Docker's inner workings, let's start by grasping the fundamental concept of containers.
+Docker is renowned worldwide as an open-source container service provider, that excels in packaging applications and their components, along with dependencies, simplifying the deployment process. It is a powerful and versatile tool, that streamlines the creation, running, and management of software applications. However, before we delve into Docker's inner workings, let's start by grasping the fundamental concept of containers.
 
 ## Understanding Containers:
 
@@ -42,7 +42,7 @@ Docker is the tool that facilitates the creation and execution of these containe
 
 ## How Containers Work in Practice:
 
-Imagine you have two containers running – one hosting a Redis server and the other an ArangoDB instance. Each container is based on pre-built templates, and you can start them with minimal configuration. Importantly, these containers only expose the necessary ports to perform their tasks, making it challenging for a hacker to access them like a regular computer.
+Imagine you have two containers running – one hosting a Redis server and the other an ArangoDB instance. Each container is based on pre-built templates, and you can start them with minimal configuration. Importantly, these containers only expose the necessary ports to perform their tasks, making it challenging for hackers to access them like a regular computer.
 
 ## Docker's Versatility:
 
@@ -68,7 +68,7 @@ In the context of `docker pull` you venture to the warehouse (Docker Registry) t
 
 ### Running a Container ("🏃‍♂️ docker run"):
 
-You, the manager, initiate a `docker run` command, much like issuing an order for a new product within the factory. Docker, acting as the factory, procures the required blueprint (🖼️ image) from the warehouse (Docker Registry), like to retrieving a design for the product you wish to create. Docker proceeds to fabricate a brand-new product (📦 container) based on that blueprint.
+You, the manager, initiate a `docker run` command, much like issuing an order for a new product within the factory. Docker, acting as the factory, procures the required blueprint (🖼️ image) from the warehouse (Docker Registry), like retrieving a design for the product you wish to create. Docker proceeds to fabricate a brand-new product (📦 container) based on that blueprint.
 
 Subsequently, Docker allocates a designated workspace for the container, similar to setting up a workstation (🧰 filesystem) for product assembly or customization.
 Docker connects the container to the factory's internal systems (🔌 network interface), enabling it to interact seamlessly within the factory.
@@ -77,7 +77,7 @@ Finally, Docker activates the container, and your new product is up and running 
 
 ## Conclusion
 
-In summary, Docker simplifies software application management by creating isolated containers. These containers can run on various hosts, regardless of the underlying operating system. This flexibility, along with Docker's efficiency, makes it a game-changer in the world of technology. 
+In summary, Docker simplifies software application management by creating isolated containers. These containers can run on various hosts, regardless of the underlying operating system. This flexibility, along with Docker's efficiency, makes it a game-changer in technology. 
 
 ***
 If you liked this article, go follow me on [Twitter](https://twitter.com/juliafmorgado) (where I share my tech journey) daily, connect with me on [LinkedIn](https://www.linkedin.com/in/juliafmorgado/), check out my [IG](https://www.instagram.com/juliafmorgado/), and make sure to subscribe to my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel for more amazing content!!
