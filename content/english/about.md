@@ -2,14 +2,16 @@
 
 ![Julia on stage at VeeamOn 2023](https://blog-imgs-23.s3.amazonaws.com/veeamon23.jpeg)
 
-I'm a globetrotting technologist at [Veeam](https://www.veeam.com/) who's wildly passionate about Cloud Native technologies and DevOps. Hailing from Brazil with a dash of French roots and currently calling NYC home, I've made it my mission to make Cloud and DevOps not just understood, but truly accessible to everyone.
+I'm a globetrotting technologist at [Veeam](https://www.veeam.com/) who loves diving into Cloud tech and DevOps, making it easy for everyone to join in! Originating from Brazil with a touch of French heritage I currently call NYC home but you'll find me on the plane most of the time.
 
-## Community Champion
-Beyond code, I believe in the power of community. Serving as an AWS Community Builder, [CNCF Ambassador](https://www.cncf.io/people/ambassadors/?_sft_lf-country=us&_sft_lf-expertise=non-technical&p=julia-furst-morgado), Women Techmakers Ambassador, and a Girl Code Ambassador, I aim to build bridges, not walls, in the tech world. You'll also find me orchestrating the [NY Code & Coffee Meetup](https://www.newyorkcodeandcoffee.com/), where we make space for open dialogues and fun learning experiences. For me, it's all about harnessing tech to foster collaboration, inclusivity, and growth in our communities.
+## Bridging Through Community
+More than just tech, I believe in the magic of community. I'm proudly an [AWS Community Builder](https://aws.amazon.com/developer/community/community-builders/community-builders-directory/), [CNCF Ambassador](https://www.cncf.io/people/ambassadors/?_sft_lf-country=us&_sft_lf-expertise=non-technical&p=julia-furst-morgado), [Google Women Techmakers Ambassador](https://developers.google.com/womentechmakers), [Civo Ambassador](https://www.civo.com/ambassadors) and a [Girl Code Ambassador](https://www.girl-code.co.uk/). I aim to build bridges, not walls, in the tech world and making it an inclusive space for everyone to thrive in. You'll also find me orchestrating the [NY Code & Coffee Meetup](https://www.newyorkcodeandcoffee.com/), where we make space for open dialogues and fun learning experiences. For me, it's all about harnessing tech to foster collaboration, inclusivity, and growth in our communities.
 
-## Tech & Culture Intersection
+## Intersection of Tech & Culture
 I've been lucky to travel the world and learn from a rich tapestry of cultures. I carry these experiences into my work, understanding how technology can weave together cultures and build bridges of understanding.
 
-## Pivot and Adapt
-My professional journey has been an adventure in itself - from law to marketing, and now, technology. I'm a self-made software engineer, bringing together my resilience, adaptability, and a knack for self-learning to make my mark in the tech world.
+## My Journey
+My professional path has been an adventure, spanning law, marketing, and now technology. As a self-made engineer, I blend resilience, adaptability, and a penchant for self-learning to make an impact in the tech world.
 
+## Welcome to My World
+Curious about tech, culture, or just want to chat? Feel free to drop me a [question](/ama/) or reach out to me. Let's connect and explore this amazing tech world together!

@@ -1,18 +1,20 @@
-# Olá! Eu sou a Julia :)
+# Olá! Sou a Julia :)
 
 ![Julia no palco no VeeamOn 2023](https://blog-imgs-23.s3.amazonaws.com/veeamon23.jpeg)
 
-Sou uma tecnóloga trotamundos na [Veeam](https://www.veeam.com/), apaixonada por tecnologias nativas de nuvem e DevOps. Nascida no Brasil com um toque de raízes francesas e atualmente morando em Nova York, minha missão é tornar a computação em nuvem e o DevOps não apenas compreensíveis, mas verdadeiramente acessíveis a todos.
+Sou uma tecnóloga global na [Veeam](https://www.veeam.com/), apaixonada por tecnologias nativas de nuvem e DevOps. Nascida no Brasil com um toque de raízes francesas e atualmente morando em Nova York, minha missão é tornar a computação em nuvem e o DevOps não apenas compreensíveis, mas verdadeiramente acessíveis a todos.
 
 ## Campeã da Comunidade
-Além do código, acredito no poder da comunidade. Como Construtora de Comunidade da AWS, [CNCF Ambassador](https://www.cncf.io/people/ambassadors/?_sft_lf-country=us&_sft_lf-expertise=non-technical&p=julia-furst-morgado), Google Women Techmakers Ambassador e Girl Code Ambassador, meu objetivo é construir pontes, não muros, no mundo da tecnologia. Você também me encontrará coordenando o [NY Code & Coffee Meetup](https://www.newyorkcodeandcoffee.com/), onde criamos espaço para diálogos abertos e experiências de aprendizado divertidas. Para mim, trata-se de usar a tecnologia para fomentar a colaboração, inclusão e crescimento em nossas comunidades.
+Além da tecnologia, acredito no poder da comunidade. Sou orgulhosamente uma [AWS Community Builder](https://aws.amazon.com/developer/community/community-builders/community-builders-directory/), [CNCF Ambassador](https://www.cncf.io/people/ambassadors/?_sft_lf-country=us&_sft_lf-expertise=non-technical&p=julia-furst-morgado), [Google Women Techmakers Ambassador](https://developers.google.com/womentechmakers), [Civo Ambassador](https://www.civo.com/ambassadors) e [Girl Code Ambassador](https://www.girl-code.co.uk/). Meu objetivo é construir pontes, não muros, no mundo da tecnologia e torná-lo um espaço inclusivo para todos prosperarem. Você também me encontrará organizando o [NY Code & Coffee Meetup](https://www.newyorkcodeandcoffee.com/), onde criamos espaço para diálogos abertos e experiências de aprendizado divertidas. Para mim, trata-se de utilizar a tecnologia para promover colaboração, inclusão e crescimento em nossas comunidades.
 
 ## Interação entre Tecnologia e Cultura
 Tive a sorte de viajar pelo mundo e aprender com uma rica tapeçaria de culturas. Levo essas experiências para o meu trabalho, entendendo como a tecnologia pode unir culturas e construir pontes de compreensão.
 
-## Mudança e Adaptação
-Minha jornada profissional foi uma aventura por si só - do direito ao marketing e, agora, à tecnologia. Sou uma engenheira de software autodidata, reunindo minha resiliência, adaptabilidade e habilidade para aprender por conta própria para deixar minha marca no mundo da tecnologia.
+## Minha Jornada
+Meu caminho profissional tem sido uma aventura, abrangendo direito, marketing e agora tecnologia. Como uma engenheira autodidata, combino resiliência, adaptabilidade e gosto pelo aprendizado pessoal para ter impacto no mundo da tecnologia.
 
+## Bem-Vindo/a ao Meu Mundo
+Curioso/a sobre tecnologia, cultura ou apenas quer bater um papo? Sinta-se à vontade para me fazer uma [pergunta](/pt/ama) ou entrar em contato. Vamos nos conectar e explorar juntos esse incrível mundo da tecnologia!
 
 ### Artigos escritos sobre mim:
 - [ITForum](https://itforum.com.br/noticias/veeam-julia-morgado-mulheres-carreira/)

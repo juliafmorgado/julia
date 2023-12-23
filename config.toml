@@ -84,85 +84,113 @@ icon = "fab fa-instagram"
 title = "Instagram"
 url = "https://www.instagram.com/juliafmorgado/"
 
+[[params.socialIcons]]
+icon = "fab fa-tiktok"
+title = "Tik Tok"
+url = "https://www.tiktok.com/@juliafmorgado"
+
 
 [menu]
   # English Menu
-  [[menu.en]]
-  name = "Home"
+  [[languages.en.menu.main]]
+  name = "Blog"
   identifier = "home"
   weight = 100
   url = "/"
 
-  [[menu.en]]
+  [[languages.en.menu.main]]
   name = "About"
   weight = 200
   identifier = "about"
   url = "/about/"
 
-  [[menu.en]]
+  [[languages.en.menu.main]]
   name = "Talks"
   weight = 300
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
 
+  [[languages.en.menu.main]]
+  name = "AMA"
+  weight = 400
+  identifier = "ama"
+  url = "/ama/"
+
  # French Menu
-  [[menu.fr]]
-  name = "Accueil"
+  [[languages.fr.menu.main]]
+  name = "Blog"
   identifier = "home"
   weight = 100
-  url = "/"
+  url = "/fr/"
 
-  [[menu.fr]]
+  [[languages.fr.menu.main]]
   name = "À propos de moi"
   weight = 200
   identifier = "about"
-  url = "/about/"
+  url = "/fr/about/"
 
-  [[menu.fr]]
+  [[languages.fr.menu.main]]
   name = "Conférences"
   weight = 300
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
-
+  
+  [[languages.fr.menu.main]]
+  name = "Questions"
+  weight = 400
+  identifier = "ama"
+  url = "/fr/ama/"
 
   # Portuguese Menu
-  [[menu.pt]]
-  name = "Início"
+  [[languages.pt.menu.main]]
+  name = "Blog"
   identifier = "home"
   weight = 100
-  url = "/"
+  url = "/pt/"
 
-  [[menu.pt]]
+  [[languages.pt.menu.main]]
   name = "Sobre mim"
   weight = 200
   identifier = "about"
-  url = "/about/"
+  url = "/pt/about/"
 
-  [[menu.pt]]
+  [[languages.pt.menu.main]]
   name = "Palestras"
   weight = 300
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
 
+  [[languages.pt.menu.main]]
+  name = "Perguntas"
+  weight = 400
+  identifier = "ama"
+  url = "/pt/ama/"
+
 
 # Spanish Menu
-  [[menu.es]]
-  name = "Inicio"
+  [[languages.es.menu.main]]
+  name = "Blog"
   identifier = "home"
   weight = 100
-  url = "/"
+  url = "/es/"
 
-  [[menu.es]]
+  [[languages.es.menu.main]]
   name = "Acerca de mí"
   weight = 200
   identifier = "about"
-  url = "/about/"
+  url = "/es/about/"
 
-  [[menu.es]]
+  [[languages.es.menu.main]]
   name = "Charlas"
   weight = 300
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
+
+  [[languages.es.menu.main]]
+  name = "Preguntas"
+  weight = 400
+  identifier = "ama"
+  url = "/es/ama/"
 
 
 
@@ -185,7 +213,7 @@ enable = true
   weight = 3
   contentDir = "content/portuguese" 
 
-    [languages.es]
+  [languages.es]
   languageName = "Español"
   weight = 4
   contentDir = "content/spanish" 
