@@ -50,9 +50,6 @@ localizedDates = false
   twitter = "juliafmorgado"
 
 [params]
-  images = ["https://blog-imgs-23.s3.amazonaws.com/julia.jpg"]
-
-[params]
 profilePicture = "https://blog-imgs-23.s3.amazonaws.com/julia.jpg"
 description = """
 JULIA FURST MORGADO
