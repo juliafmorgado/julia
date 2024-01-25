@@ -1,15 +1,18 @@
+
 ---
 title: "15 Options To Build A Kubernetes Playground"
 author: "Julia Furst Morgado"
-date: 2023-11-22T17:46:05.964Z
+date: 2024-01-25T10:46:05.964Z
+draft: false
 cover:
-    image: img/test
+    image: https://blog-imgs-23.s3.amazonaws.com/
 tags: 
     - Kubernetes
 categories: 
     - Tech
-description: If you want to build a little testing/dev/learning cluster for yourself, this article is for you. 
 slug: /15-options-to-build-kubernetes-playground
+
+aliases:
 
 
 ---
