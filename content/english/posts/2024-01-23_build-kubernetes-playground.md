@@ -1,4 +1,3 @@
-
 ---
 title: "15 Options To Build A Kubernetes Playground"
 author: "Julia Furst Morgado"
@@ -11,10 +10,6 @@ tags:
 categories: 
     - Tech
 slug: /15-options-to-build-kubernetes-playground
-
-aliases:
-
-
 ---
 
 ## Why a Kubernetes Playground
