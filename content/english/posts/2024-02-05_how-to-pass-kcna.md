@@ -1,7 +1,7 @@
 ---
 title: "How to Pass the KCNA - Kubernetes And Cloud Native Associate"
 author: "Julia Furst Morgado"
-date: 2024-05-29T10:46:05.964Z
+date: 2024-02-05T10:46:05.964Z
 draft: false
 cover:
     image: https://blog-imgs-23.s3.amazonaws.com/how-to-pass-kcna.png
