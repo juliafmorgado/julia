@@ -75,8 +75,8 @@ To further enhance your understanding and preparation for the KCNA certification
 
 - The official [Kubernetes documentation](https://kubernetes.io/docs/home/), although dense, is a valuable resource to study
 - The [Cloud Native Computing Foundation Landscape](https://landscape.cncf.io/) provides an overview of all CNCF projects and technologies
-- James Spurin's course, [Dive Into Cloud Native, Containers, Kubernetes and the KCNA Exam](https://diveinto.com/p/dive-into-cloud-native-containers-kubernetes-and-the-kcna) is highly recommended. The course offers a 90% discount if you purchase it now!
-- The book [Becoming KCNA Certified](https://www.amazon.com/Becoming-KCNA-Certified-foundation-Kubernetes/dp/1804613398) by Dmitry Galkin
+- I highly recommend James Spurin's course, [Dive Into Cloud Native, Containers, Kubernetes and the KCNA Exam](https://diveinto.com/p/dive-into-cloud-native-containers-kubernetes-and-the-kcna). It is very detailed, with study tips, quizzes and labs, and the course offers a 90% discount if you purchase it now!
+- If you don't have too much time to study, I recommend the book [Becoming KCNA Certified](https://www.amazon.com/Becoming-KCNA-Certified-foundation-Kubernetes/dp/1804613398) by Dmitry Galkin
 
 
 ## Tips for taking the KCNA certification exam
@@ -86,4 +86,4 @@ To further enhance your understanding and preparation for the KCNA certification
 - Keep in mind that you need to have your webcam and audio on throughout the exam. As this can drain your battery, remember to have your laptop charger handy.
 
 ---
-Follow me on Twitter (where I share my tech journey) daily, connect with me on LinkedIn, check out my IG, and make sure to subscribe to my Youtube channel for more amazing content!!
+Follow me on [Twitter](https://twitter.com/juliafmorgado) (where I share my tech journey) daily, connect with me on [LinkedIn](https://www.linkedin.com/in/juliafmorgado/), check out my [IG](https://www.instagram.com/juliafmorgado/), and make sure to subscribe to my [YouTube](https://www.youtube.com/c/JuliaFMorgado) channel for more amazing content!!
