@@ -113,12 +113,6 @@ url = "https://www.tiktok.com/@juliafmorgado"
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
 
-  [[languages.en.menu.main]]
-  name = "AMA"
-  weight = 400
-  identifier = "ama"
-  url = "/ama/"
-
  # French Menu
   [[languages.fr.menu.main]]
   name = "Blog"
@@ -138,11 +132,6 @@ url = "https://www.tiktok.com/@juliafmorgado"
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
   
-  [[languages.fr.menu.main]]
-  name = "Questions"
-  weight = 400
-  identifier = "ama"
-  url = "/fr/ama/"
 
   # Portuguese Menu
   [[languages.pt.menu.main]]
@@ -163,12 +152,6 @@ url = "https://www.tiktok.com/@juliafmorgado"
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
 
-  [[languages.pt.menu.main]]
-  name = "Perguntas"
-  weight = 400
-  identifier = "ama"
-  url = "/pt/ama/"
-
 
 # Spanish Menu
   [[languages.es.menu.main]]
@@ -188,13 +171,6 @@ url = "https://www.tiktok.com/@juliafmorgado"
   weight = 300
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
-
-  [[languages.es.menu.main]]
-  name = "Preguntas"
-  weight = 400
-  identifier = "ama"
-  url = "/es/ama/"
-
 
 
 [mermaid]
