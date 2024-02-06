@@ -14,7 +14,7 @@ slug: /how-to-pass-kcna-kubernetes-cloud-native-associate
 ---
 
 Yesterday I took the [Kubernetes and Cloud Native Associate Exam (KCNA)](https://www.cncf.io/training/certification/kcna/) certification exam, and this morning I got the results that I passed, yey!
-While some may consider it a beginner-level exam, it does require a solid foundation and practical experience with Kubernetes and related projects to successfully pass. 
+While some may consider it a beginner-level exam, it does require a solid foundation and practical experience with Kubernetes and related Open Source projects to successfully pass. 
 
 The KCNA certification exam is conducted online and costs $250, which includes one free retake. If you do not pass on your first attempt, you have the opportunity to take the exam again within one year of your initial purchase.
 
