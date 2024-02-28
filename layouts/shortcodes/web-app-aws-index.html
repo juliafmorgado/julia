@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="UTF-8">
+      <title>Contact Management System</title>
+      <style>
+         body {
+            background-color: #364b67;
+            display: flex; /* Centering the form */
+            justify-content: center; /* Centering the form */
+            align-items: center; /* Centering the form */
+            height: 100vh; /* Centering the form */
+            margin: 0; /* Removing default margin */
+         }
+         form {
+            display: flex;
+            flex-direction: column; /* Aligning form elements vertically */
+            align-items: center; /* Centering form elements horizontally */
+            background-color: #fff; /* Adding a white background to the form */
+            padding: 20px; /* Adding padding to the form */
+            border-radius: 8px; /* Adding border radius to the form */
+         }
+         label, button {
+            color: #FF9900;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin: 10px 0; /* Adding margin between elements */
+         }
+         input {
+            color: #232F3E;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin: 10px 0; /* Adding margin between elements */
+            width: 250px; /* Setting input width */
+            padding: 5px; /* Adding padding to input */
+         }
+         button {
+            background-color: #FF9900; /* Adding background color to button */
+            color: #fff; /* Changing button text color */
+            border: none; /* Removing button border */
+            padding: 10px 20px; /* Adding padding to button */
+            cursor: pointer; /* Changing cursor to pointer on hover */
+         }
+         h1{
+            color: #364b67;
+            font-family: Arial, Helvetica, sans-serif;
+         }
+      </style>
+      <script>
+         let callAPI = (fName, lName, pNumber)=>{
+             let myHeaders = new Headers();
+             myHeaders.append("Content-Type", "application/json");
+             let raw = JSON.stringify({"firstname":fName,"lastname":lName,"phone_number":pNumber});
+             let requestOptions = {
+                 method: 'POST',
+                 headers: myHeaders,
+                 body: raw,
+                 redirect: 'follow'
+             };
+             fetch("API_KEY", requestOptions)
+             .then(response => response.text())
+             .then(result => alert(JSON.parse(result).message))
+             .catch(error => console.log('error', error));
+         }
+      </script>
+   </head>
+   <body>
+      <form>
+         <h1>Contact Management System</h1>
+         <label>First Name :</label>
+         <input type="text" id="fName">
+         <label>Last Name :</label>
+         <input type="text" id="lName">
+         <label>Phone Number :</label>
+         <input type="text" id="pNumber">
+         <button type="button" onclick="callAPI(document.getElementById('fName').value, document.getElementById('lName').value, document.getElementById('pNumber').value)">Submit</button>
+      </form>
+   </body>
+</html>
