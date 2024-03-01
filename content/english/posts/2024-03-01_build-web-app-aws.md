@@ -1,15 +1,15 @@
 ---
-title: "How to Build a Web App on AWS with AWS Amplify, Lambda, DynamoDB and API Gateway"
+title: "Deploy Your First Web App on AWS with AWS Amplify, Lambda, DynamoDB and API Gateway"
 author: "Julia Furst Morgado"
-date: 2024-02-27T10:46:05.964Z
+date: 2024-03-01T06:46:05.964Z
 draft: false
 cover:
-    image: https://blog-imgs-23.s3.amazonaws.com/how-to-pass-kcna.png
+    image: https://blog-imgs-23.s3.amazonaws.com/deploy-web-app-aws.png
 tags: 
     - AWS
 categories: 
     - Tech
-slug: /how-to-build-web-app-aws
+slug: /deploy-your-first-web-app-on-aws-amplify-lambda-dynamodb-api-gateway
 ---
 
 Hey there!
