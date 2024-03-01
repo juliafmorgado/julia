@@ -188,6 +188,7 @@ Clique no link, que nos levará às configurações de permissão desta role do 
 
 Então clique em JSON, apague o que está no editor de Política e cole o seguinte.
 
+
 Certifique-se de substituir o "YOUR-DB-TABLE-ARN" pelo seu real ARN da tabela DynamoDB. Clique em Próximo, dê um nome à política, como "lambda-dynamodb", e então clique em Criar política. Esta política permitirá que nossa função Lambda leia, edite, delete e atualize itens da tabela de dados DynamoDB.
 
 ![](https://blog-imgs-23.s3.amazonaws.com/iam-role-json-permissions.png)
