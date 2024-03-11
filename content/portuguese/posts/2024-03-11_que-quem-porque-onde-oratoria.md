@@ -6,7 +6,7 @@ draft: false
 cover:
     image: https://blog-imgs-23.s3.amazonaws.com/public-speaking-blog.png
 tags: 
-slug: /o-que-quem-porquê-onde-como-oratoria
+slug: /o-que-quem-porque-onde-como-oratoria
 ---
 
 Ok, ok, você está pensando em entrar no mundo da oratória? Você veio ao lugar certo. Deixe-me te contar um pouco sobre o que envolve a oratória e sobre o que falar, para quem é, por que você deveria começar imediatamente, onde fazer sua primeira apresentação e como você pode começar. Enquanto isso, vou te mostrar um incrível aplicativo de IA criado na PartyRock, uma Plataforma Playground da Amazon Bedrock que pode ajudá-lo a simplificar todo esse processo - [Talk Maker](https://partyrock.aws/u/juliafmorgado1/oGddt5yV8/Talk-Maker)!
