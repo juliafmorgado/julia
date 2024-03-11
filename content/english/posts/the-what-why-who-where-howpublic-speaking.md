@@ -10,7 +10,7 @@ tags:
 slug: /the-what-who-why-where-how-public-speaking
 ---
 
-Alright alright, are you thinking about stepping into the world of public speaking? You've come to the right place. Let me tell you a little bit about what public speaking entails and what to talk about, who it's for, why you should start it right away, where to give your first talk, and how you can get started. Meanwhile, I'll show you an awesome AI app created on PartyRock, an Amazon Bedrock Playground that can help you streamline this whole process - Talk Maker!
+Alright alright, are you thinking about stepping into the world of public speaking? You've come to the right place. Let me tell you a little bit about what public speaking entails and what to talk about, who it's for, why you should start it right away, where to give your first talk, and how you can get started. Meanwhile, I'll show you an awesome AI app created on PartyRock, an Amazon Bedrock Playground that can help you streamline this whole process - [Talk Maker](https://partyrock.aws/u/juliafmorgado1/oGddt5yV8/Talk-Maker)!
 
 ## WHAT
 So what is public speaking exactly? At its core, it's communicating a message or sharing knowledge verbally to an audience. This can cover a wide range of topics from discussions about your personal experiences to teaching others about a complex subject area. The possibilities are endless!
