@@ -66,3 +66,6 @@ Finally and most importantly, have fun with the whole process! Public speaking g
 If you want to try the PartyRock app, you can do so here: https://partyrock.aws/u/juliafmorgado1/oGddt5yV8/Talk-Maker
 Or watch a short demo on how to use it here: https://www.youtube.com/watch?v=APjp8gs8Ag8
  
+***
+
+If you liked this article, follow me on [Twitter](https://twitter.com/juliafmorgado) (where I share my tech journey daily), connect with me on [LinkedIn](https://www.linkedin.com/in/juliafmorgado/), check out my [IG](https://www.instagram.com/juliafmorgado/), and make sure to subscribe to my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel for more amazing content!!
