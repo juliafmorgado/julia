@@ -3,7 +3,7 @@ title: "Setting up a Kubernetes cluster on AWS EKS with eksctl"
 author: 'Julia Furst Morgado'
 date: 2024-03-29T06:46:05.964Z
 draft: true
-image: https://blog-imgs-23.s3.amazonaws.com/kubeconeu2024.jpeg
+image: https://blog-imgs-23.s3.amazonaws.com/k8s-cluster-eks.png
 tags: 
     - AWS
     - EKS
@@ -15,7 +15,7 @@ slug: /setting-up-kubernetes-cluster-aws-eks-with-eksctl
 
 Setting up a Kubernetes cluster on AWS EKS with eksctl
 
-As surprising as it may seem, setting up a Kubernetes cluster on AWS EKS wasn't a very easy task some time ago, especially compared to other cloud providers like GCP. That's when eksctl came into play, a tool developed in Go by the community and now sponsored by Weave, serving as the official AWS CLI for managing EKS. With it, we can create and manage clusters using YAML files, and behind the scenes, CloudFormation stacks are used to manage the necessary resources.
+It might come as a surprise, but not too long ago, configuring a Kubernetes cluster on AWS EKS was quite challenging. This changed with the introduction of eksctl, a tool written in Go that acts as the official AWS CLI for EKS management. eksctl allows for the creation and administration of clusters through YAML files, while leveraging CloudFormation stacks behind the scenes to handle the required resources.
 
 
 ## Installation
@@ -28,18 +28,18 @@ eksctl version
 ```
 
 Here's a breakdown of what the code snippet does:
-1. Download and extract the `eksctl binary`:
+1. Downloads and extracts the `eksctl binary`:
   - The `curl` command fetches the latest `eksctl` binary from its GitHub releases page. This binary is compressed in a .tar.gz file for efficient transfer.
   - `--silent --location`: These options ensure that the download process is not only quiet (no progress output) but also follows any redirects, which is crucial for reaching the final download link.
   - The URL contains a dynamic part, `$(uname -s)_amd64`, which automatically adjusts the download link based on your operating system (uname -s outputs your OS name, such as Linux or Darwin) and assumes an amd64 architecture.
   - The downloaded file is piped (`|`) into the `tar` command, which extracts the binary into the `/tmp` directory. This is a temporary location, safe for staging files before moving them to a more permanent location.
 
 
-2. Move the binary to `/usr/local/bin`:
+2. Moves the binary to `/usr/local/bin`:
   - The `sudo mv /tmp/eksctl /usr/local/bin` command moves the extracted `eksctl` binary from `/tmp` to `/usr/local/bin`. This directory is commonly used for manually installed binaries and is typically included in the system's PATH. Placing `eksctl` here allows you to run it from any terminal without specifying its full path.
   - Using `sudo` is necessary because `/usr/local/bin` is a system directory, and modifying its contents requires administrative privileges.
     
-3. Verify the installation
+3. Verifies the installation
    - Finally, running `eksctl version` checks the installed version of `eksctl`. This not only confirms that `eksctl` is correctly installed and accessible but also lets you know the exact version you have. It's a good practice to verify installations to ensure everything is set up as expected.
 
 ## Configuring an AWS account
@@ -453,7 +453,6 @@ Kubernetes is an extremely extensive and complex subject with a myriad of possib
 References
 - [eksctl](https://eksctl.io/)
 - [Getting started with Amazon EKS – eksctl](Getting started with Amazon EKS – eksctl)
-- [Subindo um cluster Kubernetes no AWS EKS com eksctl](https://dev.to/stefanomartins/subindo-um-cluster-kubernetes-no-aws-eks-com-eksctl-5bd)
 
 ***
 
