@@ -447,6 +447,12 @@ If everything goes well, here's what should happen:
 - A certificate will be automatically generated for your application. This can take some time for new applications;
 - We allocate two replicas for the application, and here's a very important caveat: Kubernetes will by default perform round-robin load balancing between the pods. In most of today's web applications, we work with sessions and, as a result, there may be scenarios where a user authenticates on one pod, and on the next request, is redirected to another where the session does not exist. As a consequence, strange behaviors are presented to the user, such as redirection to the login screen, "Unauthorized" messages, intermittent access, etc. To prevent this, we usually use some service like **Redis, memcached** (which may or may not be on AWS ElastiCache), or the sticky-sessions feature, where a user is consistently sent to the same pod.
 
+## Deleting Cluster
+If you want to delete the cluster you've just created, run the following command:
+```
+eskctl delete cluster --name demo-eks --region us-east-1
+```
+
 ## Conclusion
 Kubernetes is an extremely extensive and complex subject with a myriad of possibilities. I presented some of them here that can be used not only in AWS EKS but also in on-premises installations (except for the **cluster-autoscaler**, unless you are using **OpenStack** in your company). There is also a series of security improvements that can be made to the cluster set up in this article. I hope you enjoyed it!
 
