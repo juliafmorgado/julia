@@ -301,7 +301,7 @@ helm install --create-namespace -n cert-manager cert-manager bitnami/cert-manage
   --set installCRDs=true
 ```
 
-With the chart installed, it's necessary to create two CRDs, each representing a different issuer from Let's Encrypt, one for production and one for staging. The difference between them is basically the request limit we can make. In a test environment, prefer to use the staging environment.
+With the chart installed, it's necessary to create two CRDs, each representing a different issuer from Let's Encrypt, one for production and one for staging. The difference between them is the request limit we can make. In a test environment, prefer to use the staging environment.
 ```
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
@@ -341,7 +341,7 @@ spec:
 Run the command `kubectl apply -f cert-manager-staging.yaml -f cert-manager-prod.yaml` to create them in the cluster.
 
 ## NGINX Ingress Controller
-It's through the **NGINX Ingress Controller** that we allow access to our applications. You can think of an Ingress as a reverse proxy.
+We allow access to our applications through the **NGINX Ingress Controller**. You can think of an Ingress as a reverse proxy.
 
 ```
 helm upgrade --install ingress-nginx ingress-nginx \
@@ -443,9 +443,9 @@ spec:
 
 If everything goes well, here's what should happen:
 
-- Entries will be created in your DNS zone inside AWS Route 53 according to what was configured in your ingress and in the settings of your ExternalDNS, and within a few minutes, you will be able to access your application by that name. You can monitor the propagation using the dig tool;
+- Entries will be created in your DNS zone inside AWS Route 53 according to what was configured in your ingress and the settings of your ExternalDNS, and within a few minutes, you will be able to access your application by that name. You can monitor the propagation using the dig tool;
 - A certificate will be automatically generated for your application. This can take some time for new applications;
-- We allocate two replicas for the application, and here's a very important caveat: Kubernetes will by default perform round-robin load balancing between the pods. In most of today's web applications, we work with sessions and, as a result, there may be scenarios where a user authenticates on one pod, and on the next request, is redirected to another where the session does not exist. As a consequence, strange behaviors are presented to the user, such as redirection to the login screen, "Unauthorized" messages, intermittent access, etc. To prevent this, we usually use some service like **Redis, memcached** (which may or may not be on AWS ElastiCache), or the sticky-sessions feature, where a user is consistently sent to the same pod.
+- We allocate two replicas for the application, and here's a very important caveat: Kubernetes will by default perform round-robin load balancing between the pods. In most of today's web applications, we work with sessions and, as a result, there may be scenarios where a user authenticates on one pod, and the next request, is redirected to another where the session does not exist. As a consequence, strange behaviors are presented to the user, such as redirection to the login screen, "Unauthorized" messages, intermittent access, etc. To prevent this, we usually use some service like **Redis, memcached** (which may or may not be on AWS ElastiCache), or the sticky-sessions feature, where a user is consistently sent to the same pod.
 
 ## Deleting Cluster
 If you want to delete the cluster you've just created, run the following command:
