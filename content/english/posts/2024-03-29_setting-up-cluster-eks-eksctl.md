@@ -15,7 +15,7 @@ slug: /setting-up-kubernetes-cluster-aws-eks-with-eksctl
 
 Setting up a Kubernetes cluster on AWS EKS with eksctl
 
-It might come as a surprise, but not too long ago, configuring a Kubernetes cluster on AWS EKS was quite challenging. This changed with the introduction of eksctl, a tool written in Go that acts as the official AWS CLI for EKS management. eksctl allows for the creation and administration of clusters through YAML files, while leveraging CloudFormation stacks behind the scenes to handle the required resources.
+It might come as a surprise, but not too long ago, configuring a Kubernetes cluster on Amazon EKS was quite challenging since you had to create all the components manually by yourself. This changed with the introduction of `eksctl`, a tool written in Go by the community and sponsored by weaveworks that acts as the official AWS CLI for EKS management. `eksctl` allows for the creation and administration of clusters through YAML files, while leveraging CloudFormation stacks behind the scenes to handle the required resources. In this blog post you'll see that using `eksctl` simplifies the creation and deployment of Kubernetes clusters on Amazon EKS.
 
 
 ## Installation
@@ -448,7 +448,7 @@ If everything goes well, here's what should happen:
 - We allocate two replicas for the application, and here's a very important caveat: Kubernetes will by default perform round-robin load balancing between the pods. In most of today's web applications, we work with sessions and, as a result, there may be scenarios where a user authenticates on one pod, and the next request, is redirected to another where the session does not exist. As a consequence, strange behaviors are presented to the user, such as redirection to the login screen, "Unauthorized" messages, intermittent access, etc. To prevent this, we usually use some service like **Redis, memcached** (which may or may not be on AWS ElastiCache), or the sticky-sessions feature, where a user is consistently sent to the same pod.
 
 ## Deleting Cluster
-If you want to delete the cluster you've just created, run the following command:
+If you want to delete the cluster and resources you've just created, run the following command:
 ```
 eskctl delete cluster --name demo-eks --region us-east-1
 ```
