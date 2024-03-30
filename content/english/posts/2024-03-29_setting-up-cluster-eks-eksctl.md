@@ -179,9 +179,9 @@ sudo ./aws/install
 aws configure
 ```
 
-You'll be prompted for details like the default AWS region (e.g., us-east-1), access key ID, and secret key to create the default profile. Now, if you already have the AWS CLI installed and configured, you can manually create the new profile by editing the ~/.aws/credentials file.
+You'll be prompted for details like the default AWS region (e.g., us-east-1), access key ID, and secret key to create the default profile. Now, if you already have the AWS CLI installed and configured, you can manually create the new profile by editing the `~/.aws/credentials` file.
 
-Attention: when you have multiple profiles within your ~/.aws/credentials file, specify which one you want to use by setting the value of the AWS_PROFILE variable with the command export AWS_PROFILE=my_profile.
+Attention: when you have multiple profiles within your `~/.aws/credentials` file, specify which one you want to use by setting the value of the `AWS_PROFILE` variable with the command `export AWS_PROFILE=my_profile` and replacing `my_profile` with the name of the AWS profile you want to use. This ensures that any subsequent AWS CLI commands will use the credentials and configuration associated with the specified profile.
 
 ## Creating the cluster
 By default, **eksctl** will create the cluster in a separate VPC using **m5.large** instances. This has some implications:
