@@ -113,6 +113,12 @@ url = "https://www.tiktok.com/@juliafmorgado"
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
 
+  [[languages.en.menu.main]]
+  name = "Collab"
+  weight = 400
+  identifier = "collab"
+  url = "/collab/"
+
  # French Menu
   [[languages.fr.menu.main]]
   name = "Blog"
