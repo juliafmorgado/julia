@@ -170,7 +170,7 @@ The first two are AWS-managed policies, so you don't need to create them. The la
 ```
 Replace <account_id> with your AWS account ID.
 
-Now generate credentials for the user and keep the access key ID and secret key. eksctl requires the AWS CLI to be installed. If you don't have it, run:
+Now generate credentials for the user and keep the access key ID and secret key. `eksctl` requires the AWS CLI to be installed. If you don't have it installed, run:
 
 ```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
