@@ -13,8 +13,6 @@ categories:
 slug: /setting-up-kubernetes-cluster-aws-eks-with-eksctl-and-deploying-app
 ---
 
-Setting up a Kubernetes cluster on AWS EKS with eksctl
-
 It might come as a surprise, but not too long ago, configuring a Kubernetes cluster on Amazon EKS was quite challenging since you had to create all the components manually by yourself. This changed with the introduction of `eksctl`, a tool written in Go by the community and sponsored by weaveworks that acts as the official AWS CLI for EKS management. `eksctl` allows for the creation and administration of clusters through YAML files, while leveraging CloudFormation stacks behind the scenes to handle the required resources. In this blog post you'll see that using `eksctl` simplifies the creation and deployment of Kubernetes clusters on Amazon EKS.
 
 
@@ -441,7 +439,7 @@ spec:
               port: 
                 number: 80
 ```
-> Note: Replace DOMAIN with the domain you want to use for your application, something like app.juliaK8s.net.
+> Note: Replace <app.DOMAIN> with the domain you want to use for your application, something like app.juliaK8s.net.
 
 Once you've created the manifest and saved it, deploy the YAML file using `kubectl apply`:
 ```
