@@ -469,7 +469,7 @@ Kubernetes is an extremely extensive and complex subject with a myriad of possib
 
 References
 - [eksctl](https://eksctl.io/)
-- [Getting started with Amazon EKS – eksctl](Getting started with Amazon EKS – eksctl)
+- [Getting started with Amazon EKS – eksctl](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)
 
 ***
 
