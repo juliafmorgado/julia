@@ -222,6 +222,7 @@ managedNodeGroups:
 ```
 
 >Important: If the `--kubeconfig` option is omitted, eksctl will generate the access file in `~/.kube/config`, which can be a problem if you already have other clusters configured. If that's the case, you can create a directory called `~/.kube/configs` to store the files and switch between them by setting the `KUBECONFIG` variable pointing to the desired file path (e.g., `export KUBECONFIG=${HOME}/.kube/configs/demo-eks-kubeconfig`). This step is essential for `kubectl` to be able to connect to the cluster.
+>
 >If you're still getting an error suggesting that `kubectl` is trying to connect to a Kubernetes cluster on your local machine (localhost, IP address 127.0.0.1) instead of connecting to your Amazon EKS cluster, run the command `export KUBECONFIG=demo-eks-kubeconfig`.
 
 
