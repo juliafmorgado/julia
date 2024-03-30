@@ -1,8 +1,8 @@
 ---
-title: "Setting up a Kubernetes cluster on AWS EKS with eksctl"
+title: "Setting up a Kubernetes cluster on AWS EKS with eksctl and Deploying an App"
 author: 'Julia Furst Morgado'
-date: 2024-03-29T06:46:05.964Z
-draft: true
+date: 2024-03-30T06:46:05.964Z
+draft: false
 image: https://blog-imgs-23.s3.amazonaws.com/k8s-cluster-eks.png
 tags: 
     - AWS
@@ -10,7 +10,7 @@ tags:
     - Kubernetes
 categories: 
     - Tech
-slug: /setting-up-kubernetes-cluster-aws-eks-with-eksctl
+slug: /setting-up-kubernetes-cluster-aws-eks-with-eksctl-and-deploying-app
 ---
 
 Setting up a Kubernetes cluster on AWS EKS with eksctl
@@ -421,16 +421,16 @@ metadata:
   namespace: hello-kubernetes
   name: hello-kubernetes-ingress
   annotations:
-    kubernetes.io/ingress.class: nginx
-    external-dns.alpha.kubernetes.io/hostname: <app.DOMINIO>
+    nginx.ingress.kubernetes.io/ingress-class: nginx
     cert-manager.io/cluster-issuer: letsencrypt-prod
+    external-dns.alpha.kubernetes.io/hostname: <app.DOMAIN>
 spec:
   tls:
     - hosts:
-        - <app.DOMINIO>
-      secretName: <app.DOMINIO>
+        - <app.DOMAIN>
+      secretName: <app.DOMAIN>
   rules:
-    - host: <app.DOMINIO>
+    - host: <app.DOMAIN>
       http:
         paths:
         - path: /
@@ -441,8 +441,16 @@ spec:
               port: 
                 number: 80
 ```
+> Note: Replace DOMAIN with the domain you want to use for your application, something like app.juliaK8s.net.
 
-> Note: Replace ` with the domain you want to use for your application, something like app-01.juquinha.net.
+Once you've created the manifest and saved it, deploy the YAML file using `kubectl apply`:
+```
+kubectl apply -f hello-kubernetes.yaml
+```
+This command will create the resources defined in the YAML file (Namespace, Deployment, Service, Ingress) in your Kubernetes cluster.
+
+After applying the YAML file, you can verify that the resources have been created successfully by running the command `kubectl get all -n hello-kubernetes
+`.
 
 If everything goes well, here's what should happen:
 
@@ -453,11 +461,11 @@ If everything goes well, here's what should happen:
 ## Deleting Cluster
 If you want to delete the cluster and resources you've just created, run the following command:
 ```
-eskctl delete cluster --name demo-eks --region us-east-1
+eksctl delete cluster --name demo-eks --region us-east-1
 ```
 
 ## Conclusion
-Kubernetes is an extremely extensive and complex subject with a myriad of possibilities. I presented some of them here that can be used not only in AWS EKS but also in on-premises installations (except for the **cluster-autoscaler**, unless you are using **OpenStack** in your company). There is also a series of security improvements that can be made to the cluster set up in this article. I hope you enjoyed it!
+Kubernetes is an extremely extensive and complex subject with a myriad of possibilities. I presented some of them here that can be used not only in AWS EKS but also in on-premises installations (except for the **cluster-autoscaler**, unless you are using **OpenStack** in your company). There is also a series of security improvements that can be made to the cluster setup in this article. I hope you enjoyed it!
 
 References
 - [eksctl](https://eksctl.io/)
