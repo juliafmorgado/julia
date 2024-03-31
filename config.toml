@@ -138,6 +138,11 @@ url = "https://www.tiktok.com/@juliafmorgado"
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
   
+  [[languages.fr.menu.main]]
+  name = "Collab"
+  weight = 400
+  identifier = "collab"
+  url = "/fr/collab/"
 
   # Portuguese Menu
   [[languages.pt.menu.main]]
@@ -158,6 +163,11 @@ url = "https://www.tiktok.com/@juliafmorgado"
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
 
+  [[languages.pt.menu.main]]
+  name = "Collab"
+  weight = 400
+  identifier = "collab"
+  url = "/pt/collab/"
 
 # Spanish Menu
   [[languages.es.menu.main]]
@@ -178,6 +188,11 @@ url = "https://www.tiktok.com/@juliafmorgado"
   identifier = "talks"
   url = "https://github.com/juliafmorgado/talks"
 
+  [[languages.es.menu.main]]
+  name = "Collab"
+  weight = 400
+  identifier = "collab"
+  url = "/es/collab/"
 
 [mermaid]
 enable = true
