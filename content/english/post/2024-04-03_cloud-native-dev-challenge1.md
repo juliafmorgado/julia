@@ -15,7 +15,7 @@ It's been some time since I engaged in a conversation with [Mauricio Salatino](h
 Excitingly, it's structured into challenges, and I invite you to join me on this learning journey!
 
 ## Challenge 1
-The first challenge can be found [here](https://github.com/salaboy/cloud-native-dev/tree/main/1) and is about building a simple web application. Of course, I used chatGPT to help me, Salaboy said it was allowed! But the end goal is to understand what I'm building. So here I'm going to explain what does what.
+The first challenge can be found [here](https://github.com/salaboy/cloud-native-dev/tree/main/1) and is about building a simple web application. My repo can be found [here](https://github.com/juliafmorgado/cloud-native-dev). Of course, I used chatGPT to help me, and Salaboy said it was allowed! The end goal is to understand what I'm building. So here I'm going to explain what does what.
 
 ## Step 1: Setting up the Backend
 1. Since we decided to build the web app with Node.js we need to install it on our machine. I had homebrew installed so I just ran the command `brew install node` and voilà.
