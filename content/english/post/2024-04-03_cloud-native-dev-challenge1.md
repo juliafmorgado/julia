@@ -25,6 +25,7 @@ The first challenge can be found [here](https://github.com/salaboy/cloud-native-
 
 At this point, we're all set to start writing our code. You can start by creating the directories and files that you're going to need or create them as you go but basically, my directory structure will be as follows (notice I'm following best practices for separating concerns by keeping static files in a `public` directory):
 
+```
 cloud-native-dev/
 └── 1-challenge/
     ├── README.md
@@ -33,6 +34,7 @@ cloud-native-dev/
         │   ├── index.html
         │   └── app.js
         └── server.js
+```
 
 ## Step 2: Writing the Backend Code
 Create a file named `server.js` in your project directory and add the following code:
