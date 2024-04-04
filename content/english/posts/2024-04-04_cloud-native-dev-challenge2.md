@@ -2,7 +2,7 @@
 title: "Cloud Native Dev - Challenge 2"
 author: 'Julia Furst Morgado'
 date: 2024-04-04T06:46:05.964Z
-draft: true
+draft: false
 image: https://blog-imgs-23.s3.amazonaws.com/cloud-native-dev-2challenge.png
 tags:
 categories: 
