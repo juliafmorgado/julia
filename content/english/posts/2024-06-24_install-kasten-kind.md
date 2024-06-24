@@ -1,10 +1,10 @@
 ---
 title: "Install Veeam Kasten on a Kubernetes cluster running on kind"
 author: "Julia Furst Morgado"
-date: 2024-06-24T06:46:05.964Z
+date: 2024-06-24T07:46:05.964Z
 draft: false
 cover:
-    image: https://blog-imgs-23.s3.amazonaws.com/wp-mysql-kind-banner.png
+    image: https://blog-imgs-23.s3.amazonaws.com/x
 tags: 
     - Kubernetes
 slug: /install-veeam-kasten-on-kubernetes-cluster-running-on-kind
