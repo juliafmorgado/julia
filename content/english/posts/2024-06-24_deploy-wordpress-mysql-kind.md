@@ -9,7 +9,7 @@ tags:
     - Kubernetes
 slug: /deploying-wordpress-mysql-on-kubernetes-with-kind
 ---
-This blog is inspired by an [article](https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/) from the Kubernetes website teaching how to deploy WordPress and MySQL on Miniube, but since I found it very confusing and wanted to use Kind, I'm writing this step-by-step guide.
+This blog is inspired by an [article](https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/) from the Kubernetes website teaching how to deploy WordPress and MySQL on Minikube, but since I found it very confusing and wanted to use Kind, I'm writing this step-by-step guide.
 
 Deploying WordPress and MySQL on Kubernetes using [Kind (Kubernetes IN Docker)](https://kind.sigs.k8s.io/) is an excellent way to create a robust local development environment. This guide walks you through the entire process, from installing the necessary tools to cleaning up your deployment.
 
