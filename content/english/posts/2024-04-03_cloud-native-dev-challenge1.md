@@ -169,7 +169,13 @@ Here's what you should do next to test the full functionality:
 
 To stop running the server just press `ctl+C`
 
-## Step 5: Push the Code to GitHub
+## Step 5: Add .gitignore
+Before pushing our code to a GitHub repository, we want to add the `node_modules` in a `.gitignore` file. This prevents unnecessary and bulky dependencies from being included in version control, keeping the repository clean and reducing its size.
+
+In the root directory of our project (cloud-native-dev) create a `.gitignore` file and add `node_modules/` by running the command: `echo "node_modules/" >> .gitignore`.
+
+
+## Step 6: Push the Code to GitHub
 **1. Install and Initialize Git**
 If you're using a Mac you can install Git via Homebrew with the command `brew install git`, and then navigate to the project directory (cloud-native-dev/1-challenge/) in your terminal and initialize Git: `git init`.
 
