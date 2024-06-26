@@ -1,5 +1,5 @@
 ---
-title: "Cloud Native Dev - Create a simple app with HTTP endpoints and host in GitHub"
+title: "Challenge 1 - Create a simple app with HTTP endpoints and host in GitHub"
 author: 'Julia Furst Morgado'
 date: 2024-04-03T06:46:05.964Z
 draft: false
@@ -7,12 +7,12 @@ image: https://blog-imgs-23.s3.amazonaws.com/cloud-native-dev-1challenge.png
 tags:
 categories: 
     - Tech
-slug: /cloud-native-dev-create-simple-web-app-http-endpoints-host-github
+slug: /challenge-1-create-simple-web-app-http-endpoints-host-github
 ---
 
 It's been a while since I last caught up with [Mauricio Salatino](https://www.salaboy.com/about/), known as Salaboy, to delve deeper into enhancing my Cloud Native skills. Recently, he proposed a series of challenges designed to provide hands-on learning experiences.
 
-# Challenge 1
+# Cloud Native Developer - Challenge 1
 The first challenge detailed [here](https://github.com/salaboy/cloud-native-dev/tree/main/1) focuses on building a straightforward web application with HTTP endpoints and hosting it in a GitHub repository. You can find my repository [here](https://github.com/juliafmorgado/cloudnative-dev). 
 
 Disclaimer: I utilized ChatGPT for assistance, with Salaboy's permission, to deepen my understanding of the project as I progressed.
