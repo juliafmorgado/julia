@@ -1,5 +1,5 @@
 ---
-title: "Cloud Native Dev - Challenge 1"
+title: "Cloud Native Dev - Challenge 1 Building a Web App"
 author: 'Julia Furst Morgado'
 date: 2024-04-03T06:46:05.964Z
 draft: false
@@ -7,7 +7,7 @@ image: https://blog-imgs-23.s3.amazonaws.com/cloud-native-dev-1challenge.png
 tags:
 categories: 
     - Tech
-slug: /cloud-native-dev-challenge-1
+slug: /cloud-native-dev-challenge-1-building-web-app
 ---
 
 It's been some time since I engaged in a conversation with [Mauricio Salatino](https://www.salaboy.com/about/), widely known as Salaboy, about embarking on a mentor-mentee journey to enhance my Cloud Native skills. After much anticipation, we've finally launched the "program" (if I can call it a program)!
@@ -164,6 +164,8 @@ Here's what you should do next to test the full functionality:
 3. The page should automatically update to list your saved text below the text area.
 
 ![](https://blog-imgs-23.s3.amazonaws.com/web-server-1challenge.png)
+
+To stop running the server just press `ctl+C`
 
 ## Understanding What We Built
 - **Backend (Node.js + Express):** Our server handles HTTP requests, serves static files, and provides two API endpoints. One endpoint saves text sent in a POST request; the other returns all saved texts in a GET request.
