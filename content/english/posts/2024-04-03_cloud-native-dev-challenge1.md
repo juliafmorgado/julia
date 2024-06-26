@@ -15,31 +15,47 @@ It's been some time since I engaged in a conversation with [Mauricio Salatino](h
 Excitingly, it's structured into challenges, and I invite you to join me on this learning journey!
 
 ## Challenge 1
-The first challenge can be found [here](https://github.com/salaboy/cloud-native-dev/tree/main/1) and is about building a simple web application. My repo can be found [here](https://github.com/juliafmorgado/cloud-native-dev). Of course, I used chatGPT to help me, and Salaboy said it was allowed! The end goal is to understand what I'm building. So here I'm going to explain what does what.
+The first challenge can be found [here](https://github.com/salaboy/cloud-native-dev/tree/main/1) and is about building a simple web application. My repo can be found [here](https://github.com/juliafmorgado/cloudnative-dev). Of course, I used chatGPT to help me, and Salaboy said it was allowed! The end goal is to understand what I'm building. So here I'm going to explain what does what.
 
-## Step 1: Setting up the Backend
-1. Since we decided to build the web app with Node.js we need to install it on our machine. I had homebrew installed so I just ran the command `brew install node` and voilà.
-2. Next we need to create a directory for our project (in my case `cloud-native-dev) and navigate to it.
-3. Initialize a Node.js project with the command `npm init -y`
-4. Install Express with the command `npm install Express`.
+## Step 1: Setting up the Environment
+**1. Install Node.js**
+Since we are going to build the web app with Node.js we need to install it on our machine. You can install it using [Homebrew](https://formulae.brew.sh/formula/node) with the command `brew install node`.
 
-At this point, we're all set to start writing our code. You can start by creating the directories and files that you're going to need or create them as you go but basically, my directory structure will be as follows (notice I'm following best practices for separating concerns by keeping static files in a `public` directory):
+**2. Create and Navigate to Project Directory**
+After installing Node.js, create a directory for your project (in your case, cloud-native-dev) and navigate into it.
+```
+mkdir cloud-native-dev
+cd cloud-native-dev
+```
+**3. Initialize Node.js Project**
+Once inside your project directory (cloud-native-dev), initialize a Node.js project using `npm init -y`. The `-y` flag automatically generates a `package.json` file with default values.
+
+**4. Install Express**
+After initializing the Node.js project, install Express using npm: `npm install express`.
+
+This command installs Express locally in the cloud-native-dev directory and updates your `package.json` file with the dependency.
+
+At this point, we're all set to start writing our code. You can start by creating the directories and files that you're going to need or create them as you go, but basically, our directory structure will be as follows (notice I'm following best practices for separating concerns by keeping static files in a `public` directory):
 
 ```
 cloud-native-dev/
-└── 1-challenge/
+└── challenge-1/
     ├── README.md
     └── app/
         ├── public/
         │   ├── index.html
         │   └── app.js
         └── server.js
+    ├── node_modules/  (created after npm install express)
+    ├── package.json   (created after npm init -y)
+    └── package-lock.json  (created after npm install express)
 ```
 
 ## Step 2: Writing the Backend Code
-Create a file named `server.js` in your project directory and add the following code:
+Inside the `app` directory, run the following command on your terminal:
 
 ```
+cat <<EOF >server.js
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -69,12 +85,17 @@ app.get('/all', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+EOF
 ```
-This script sets up a basic Express server with two endpoints: one to save text `/save` and another to retrieve all saved texts `/all`. They will handle storing texts in memory and retrieving them.
+This command creates a file named server.js and writes the provided JavaScript code into it.
+
+> This script essentially sets up a basic Express.js server with two endpoints (/save for saving text and /all for retrieving all saved texts) and serves static files from a public directory.
 
 
 ## Step 3: Setting Up The Frontend
-Create a new file named index.html in your project directory. As a static file, it will be under a public folder. Paste the following code:
+Create a new file named index.html inside a public folder by running the command `mkdir -p public && touch public/index.html`. 
+
+Paste the following code:
 
 ```
 <!DOCTYPE html>
@@ -82,10 +103,10 @@ Create a new file named index.html in your project directory. As a static file, 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Text Saver App</title>
+<title>To-Do App</title>
 </head>
 <body>
-<h2>Text Saver</h2>
+<h2>My To-Do List</h2>
 <textarea id="textArea"></textarea><br>
 <button onclick="saveText()">Save Text</button>
 <ul id="textsList"></ul>
@@ -94,9 +115,11 @@ Create a new file named index.html in your project directory. As a static file, 
 </body>
 </html>
 ```
-This HTML structure provides a user interface for inputting and displaying text.
+> This HTML file sets up a simple user interface for a To-Do List application that allows inputting, saving and displaying text.
 
-Now create a new file named app.js in your project directory (again, I'm keeping my static file under a public folder), and paste the following code:
+Now create a new file named app.js in the project directory (again, I'm keeping my static files under a public folder) by running the command `touch public/app.js`.
+
+Paste the following code:
 
 ```
 // Function to save text
@@ -128,10 +151,11 @@ async function saveText() {
   // Load all texts on initial load
   document.addEventListener('DOMContentLoaded', fetchAllTexts);
 ```
-This `app.js` script implements the functionality to save texts via the `/save` endpoint and fetch all texts from the `/all` endpoint. It facilitates the interaction between our frontend and backend.
 
-## Step 4: Running Your Application
-Let's start our Node.js server by running `node server.js` and then navigating to http://localhost:3000 in your web browser. You should see your Text Saver application's user interface, ready to accept input. 
+> These JavaScript functions complement the HTML code provided above. They implement the functionality to save texts via the `/save` endpoint and fetch them from the `/all` endpoint. This facilitates the interaction between our frontend and backend.
+
+## Step 4: Running the Application
+Let's start our Node.js server by running `node server.js` and then navigating to http://localhost:3000 in our web browser. You should see your To-Do application user interface, ready to accept input. 
 
 Here's what you should do next to test the full functionality:
 
@@ -139,7 +163,7 @@ Here's what you should do next to test the full functionality:
 2. Click the "Save Text" button. This sends your text to the server, saving it in memory.
 3. The page should automatically update to list your saved text below the text area.
 
-![](https://blog-imgs-23.s3.amazonaws.com/web-server-challenge1.png)
+![](https://blog-imgs-23.s3.amazonaws.com/web-server-1challenge.png)
 
 ## Understanding What We Built
 - **Backend (Node.js + Express):** Our server handles HTTP requests, serves static files, and provides two API endpoints. One endpoint saves text sent in a POST request; the other returns all saved texts in a GET request.
@@ -148,11 +172,15 @@ Here's what you should do next to test the full functionality:
 ## Why This Matters
 Building this simple application demonstrates several foundational concepts in web development and cloud-native applications, including:
 
-Client-server architecture: Understanding how the frontend (client) interacts with the backend (server) is crucial for web development.
-RESTful API design: Our endpoints follow REST principles, making them predictable and easy to use.
-State management: We manage application state (saved texts) in memory, which while not persistent across server restarts, teaches the basics of data handling.
+- Client-server architecture: Understanding how the frontend (client) interacts with the backend (server) is crucial for web development.
+- RESTful API design: Our endpoints follow REST principles, making them predictable and easy to use.
+- State management: We manage application state (saved texts) in memory, which while not persistent across server restarts, teaches the basics of data handling.
 
 ## Conclusion
-I'm excited to have started this journey with Salaboy as my mentor. Through challenges like these, I'm not only learning about technology but also about structuring projects and thinking critically about design and architecture. Stay tuned for more updates as I progress through this mentorship program. Feel free to clone the repository, try out the challenge yourself, and share your thoughts and suggestions!
+Through challenges like these, we're not only learning about technology but also about structuring projects and thinking critically about design and architecture. Feel free to clone the repository, try out the challenge yourself, and share your thoughts and suggestions!
 
 Happy coding, and see you in the next challenge!
+
+***
+
+If you liked this article, follow me on [Twitter](https://twitter.com/juliafmorgado) (where I share my tech journey daily), connect with me on [LinkedIn](https://www.linkedin.com/in/juliafmorgado/), check out my [IG](https://www.instagram.com/juliafmorgado/), and make sure to subscribe to my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel for more amazing content!!
