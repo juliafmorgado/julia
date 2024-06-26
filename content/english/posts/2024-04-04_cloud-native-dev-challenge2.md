@@ -1,5 +1,5 @@
 ---
-title: "Cloud Native Dev - Challenge 2"
+title: "Challenge 2 - Application Persistence with FS and SQL DB"
 author: 'Julia Furst Morgado'
 date: 2024-04-04T06:46:05.964Z
 draft: false
@@ -7,23 +7,32 @@ image: https://blog-imgs-23.s3.amazonaws.com/cloud-native-dev-2challenge.png
 tags:
 categories: 
     - Tech
-slug: /cloud-native-dev-challenge-2
+slug: /challenge-2-application-persistence-with-fs-sql-db
 ---
 
-Ok, so challenge 2 was given to me one day after I submitted challenge 1. We're not beating around the bush here!
+Ok let's continue with our Cloud Native Dev challenges. We're not beating around the bush here!
 
-## Challenge 2
-The second challenge can be found [here](https://github.com/salaboy/cloud-native-dev/tree/main/2) and is about adding persistency into my simple web application. My repo can be found [here](https://github.com/juliafmorgado/cloud-native-dev/tree/main/2-challenge).
+## # Cloud Native Developer - Challenge 2
+The second challenge can be found [here](https://github.com/salaboy/cloud-native-dev/tree/main/2) and is about adding persistence to my simple web application. My repo can be found [here](https://github.com/juliafmorgado/cloud-native-dev/tree/main/2-challenge).
 
-## Step 1: Create 2-challenge directory and copy code
-1. Create a new directory named 2-challenge
-2. Copy all the files from your challenge-1 directory (server.js, index.html, app.js) into this new directory by running the command `cp -R 1-challenge/ 2-challenge/` (on MacOS).
+## Step 1: Create new directory and copy code
+1. From the root directory of our project, create a new directory named challenge-2: `mkdir challenge-2`
+2. Copy all the files from the challenge-1 directory (server.js, index.html, app.js) into this new directory by running the command: `cp -R challenge-1/ challenge-2/` (on MacOS).
+3. Push that to git
+
+```
+git add challenge-2
+git commit -m "Add challenge-2 directory with copied code from challenge-1"
+git push
+```
 
 ## Step 2: Branching and Implementing Filesystem Persistence
-1. Switch to a new branch named fs from the main branch by running the command `git checkout -b fs`
-2. Modify the backend (server.js) to implement filesystem persistence so it saves texts into a file using filesystem APIs and reads from it, instead of using an in-memory store. This will involve changes primarily to our `/save` and `/all` endpoints.
+1. Navigate to the new challenge-2 directory: `cd challenge-2`
+2. Create a new branch named `fs` from the main branch by running the command `git checkout -b fs`
+3. Modify the backend (server.js) to implement filesystem persistence so it saves texts into a file using filesystem APIs and reads from it, instead of using an in-memory store. This will involve changes primarily to our `/save` and `/all` endpoints.
 
 The new `server.js` file should look like this:
+
 ```
 const express = require('express');
 const fs = require('fs');
@@ -76,7 +85,14 @@ app.listen(PORT, () => {
 });
 ```
 
-3. Save and push the changes to your GitHub
+4. Save and push the changes to GitHub
+After implementing the filesystem approach, let's add, commit and push our changes:
+```
+git add .
+git commit -m "Implement storing texts in a file for filesystem approach"
+git push origin fs
+```
+
 
 ### Changes Made
 - **File Path Definition:** Specified `FILE_PATH` using `path.join` for compatibility across different operating systems.
@@ -88,32 +104,38 @@ app.listen(PORT, () => {
 1. Start the server with `node server.js`.
 2. Open your web browser to view your front-end application or use tools like Postman to make requests to your server.
 3. Use the `/save` endpoint to save texts and `/all` to retrieve them. You should see that texts persist across server restarts, as they're now stored in a file.
+4. To stop the server just press `ctl+C`
 
 ## Step 3: Branching and Implementing Database Persistence
-Switch to a new branch named sql from the main branch by running the command `git checkout -b sql`
+Create a new branch named `sql` by running the command `git checkout -b sql`
 
 ### Set up PostgreSQL
-1. Install PostgreSQL with Homebrew by running `brew install postgresql@15` or through [this documentation](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql-macos/)
-2. Start PostgreSQL with the brew command `brew services start postgresql@15`
-3. Add PostgreSQL client tools (binaries) to your system's PATH so you can use the `psql` command, otherwise the command is not recognized.
+**1. Install PostgreSQL**
+Install it with Homebrew by running `brew install postgresql@15` or follow the installation instructions provided in the [official documentation](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql-macos/).
+**2. Start PostgreSQL** 
+Start the PostgreSQL service using Homebrew: `brew services start postgresql@15`
+**3. Add PostgreSQL client tools (binaries) to PATH**
 
-You can add them to your PATH by adding the following line to your shell profile file `echo 'export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"' >> ~/.zshrc`. 
+To use the psql command, ensure PostgreSQL client tools are in your system's PATH. Add the following line to your shell profile file (~/.zshrc for Z shell):
+
+`echo 'export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"' >> ~/.zshrc`. 
 
 This command appends the specified directory to your ~/.zshrc file, which is the configuration file for the Z shell (assuming you are using the Z shell). It ensures that every time you open a new terminal session, the PostgreSQL binaries will be included in your PATH, allowing you to use commands like `psql`.
 
 After running this command, remember to restart your terminal or source the `~/.zshrc` file to apply the changes by running `source ~/.zshrc`.
 
-4. Access the PostgreSQL
+**4. Access the PostgreSQL CLI**
 Access the command line interface by running `psql postgres`. This command connects you to the PostgreSQL database server, and you'll be logged into the `postgres` database by default as the `postgres` user. The `postgres` database is a default database meant for administrative purposes.
 
-5. Create a New PostgreSQL Database
+**5. Create a New PostgreSQL Database**
 From the PostgreSQL CLI, create a new database for your application by running the command `CREATE DATABASE your_database_name;`. Replace `your_database_name` with your preferred database name, I've named it challenge2.
 
-6. Connect to Your New Database
-To connect to the database you just created, use the following command `psql challenge2`.
+**6. Connect to Your New Database**
+To connect to the database you just created, use the following command `\c challenge2`.
 
-7. Create a Table
-Now that you're connected to your new database, you can create a table to store texts. Here’s an example command to create a simple table:
+**7. Create a Table**
+Once connected to challenge2, create a table named texts to store text content. Here’s an example command to create a simple table:
+
 ```
 CREATE TABLE texts (
     id SERIAL PRIMARY KEY,
@@ -127,20 +149,20 @@ This table has three columns:
 - content: A text column to store the text content.
 - created_at: A timestamp column that records when each text was saved.
 
-8. Verify the Table Creation
+**8. Verify the Table Creation**
 To ensure your table was created successfully, use the `\d` command to list all tables in your current database. You should see the `texts` table listed.
 
 ### Connect to PostgreSQL from Node.js
 1. In our project directory we have to install the `pg` package by running `npm install pg`.
 2. At this point I should have created a username and password to connect to it, but I'm afraid of getting confused in the process creation and after will have to create a `.env` file to save them so I'll try to skip it and use my operating system's current username, and no password for local connections.
 3. Then we can set up the database connection in our `server.js`.
+
 Here's the adjusted server.js:
 
 ```
 const express = require('express');
 const path = require('path');
 const { Pool } = require('pg');
-
 const app = express();
 const PORT = 3000;
 
@@ -183,11 +205,12 @@ app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
 ```
+Also modify line 22 in the `app.js` file to this: `item.textContent = `${text.content}`; // Display specific properties`
 
 ### Run the Node.js Application
 Now that our PostgreSQL server is up and running and we've modified our Node.js app we can run the command `node server.js`. You should see the message "Server running on http://localhost:3000" logged into the console.
 Open the browser and interact with the application.
-![](https://blog-imgs-23.s3.amazonaws.com/web-server-challenge2.png)
+![](https://blog-imgs-23.s3.amazonaws.com/web-server-challenge22.png)
 
 ### Verify Data has been Saved
 To verify that your data has been saved in the PostgreSQL database, you can use the `psql` command-line interface to query the database directly.
