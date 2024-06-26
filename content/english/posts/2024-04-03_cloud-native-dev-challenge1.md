@@ -1,5 +1,5 @@
 ---
-title: "Cloud Native Dev - Challenge 1 Building a Web App"
+title: "Cloud Native Dev - Create a simple app with HTTP endpoints and host in GitHub"
 author: 'Julia Furst Morgado'
 date: 2024-04-03T06:46:05.964Z
 draft: false
@@ -7,15 +7,17 @@ image: https://blog-imgs-23.s3.amazonaws.com/cloud-native-dev-1challenge.png
 tags:
 categories: 
     - Tech
-slug: /cloud-native-dev-challenge-1-building-web-app
+slug: /cloud-native-dev-create-simple-web-app-http-endpoints-host-github
 ---
 
-It's been some time since I engaged in a conversation with [Mauricio Salatino](https://www.salaboy.com/about/), widely known as Salaboy, about embarking on a mentor-mentee journey to enhance my Cloud Native skills. After much anticipation, we've finally launched the "program" (if I can call it a program)!
+It's been a while since I last caught up with [Mauricio Salatino](https://www.salaboy.com/about/), known as Salaboy, to delve deeper into enhancing my Cloud Native skills. Recently, he proposed a series of challenges designed to provide hands-on learning experiences.
 
-Excitingly, it's structured into challenges, and I invite you to join me on this learning journey!
+# Challenge 1
+The first challenge detailed [here](https://github.com/salaboy/cloud-native-dev/tree/main/1) focuses on building a straightforward web application with HTTP endpoints and hosting it in a GitHub repository. You can find my repository [here](https://github.com/juliafmorgado/cloudnative-dev). 
 
-## Challenge 1
-The first challenge can be found [here](https://github.com/salaboy/cloud-native-dev/tree/main/1) and is about building a simple web application. My repo can be found [here](https://github.com/juliafmorgado/cloudnative-dev). Of course, I used chatGPT to help me, and Salaboy said it was allowed! The end goal is to understand what I'm building. So here I'm going to explain what does what.
+Disclaimer: I utilized ChatGPT for assistance, with Salaboy's permission, to deepen my understanding of the project as I progressed.
+
+In this blog, I'll guide you through the step-by-step process I undertook to successfully complete the challenge-1.
 
 ## Step 1: Setting up the Environment
 **1. Install Node.js**
@@ -166,6 +168,31 @@ Here's what you should do next to test the full functionality:
 ![](https://blog-imgs-23.s3.amazonaws.com/web-server-1challenge.png)
 
 To stop running the server just press `ctl+C`
+
+## Step 5: Push the Code to GitHub
+**1. Install and Initialize Git**
+If you're using a Mac you can install Git via Homebrew with the command `brew install git`, and then navigate to the project directory (cloud-native-dev/1-challenge/) in your terminal and initialize Git: `git init`.
+
+**2. Create a Repository on GitHub**
+Go to [GitHub](https://github.com/) and log in. Click on the "+" sign in the upper right corner and select "New repository". Give your repository a name (e.g., cloud-native-dev). Optionally, add a description, choose public or private, and initialize with a README if needed.
+
+**3. Clone the Repository**
+Once you have created the repository on GitHub, clone it to your local machine. So type in your terminal: `git clone https://github.com/yourusername/cloud-native-dev.git`. Replace `yourusername` with your GitHub username.
+
+**4. Commit Changes**
+Ensure all your project files are saved in the cloud-native-dev/1-challenge/ directory. Add all files to Git, commit your changes, and provide a commit message:
+
+```
+git add .
+git commit -m "Initial commit: Added project files"
+```
+
+**5. Set Up Remote Repository and push to GitHub**
+Link your local repository to the GitHub repository you created: `git remote add origin https://github.com/yourusername/cloud-native-dev.git`
+
+Push your committed changes to GitHub: `git push -u origin main`. This command pushes your changes to the main branch of your GitHub repository.
+
+Once all done, go to your GitHub repository page and verify that your files have been successfully pushed. Now, your code including the `server.js`, `index.html`, `app.js`, and other necessary files should be available on your GitHub repository under cloud-native-dev.
 
 ## Understanding What We Built
 - **Backend (Node.js + Express):** Our server handles HTTP requests, serves static files, and provides two API endpoints. One endpoint saves text sent in a POST request; the other returns all saved texts in a GET request.
