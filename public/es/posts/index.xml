@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Julia Furst Morgado</title>
+    <link>http://localhost:1313/es/posts/</link>
+    <description>Recent content in Posts on Julia Furst Morgado</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 24 Jun 2024 06:46:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Desplegando WordPress y MySQL en Kubernetes con Kind: Una Guía Paso a Paso</title>
+      <link>http://localhost:1313/es/posts/desplegando-wordpress-mysql-en-kubernetes-con-kind/</link>
+      <pubDate>Mon, 24 Jun 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/desplegando-wordpress-mysql-en-kubernetes-con-kind/</guid>
+      <description>Este blog está inspirado en un artículo del sitio web de Kubernetes que enseña cómo desplegar WordPress y MySQL en Minikube, pero como lo encontré muy confuso y quería usar Kind, estoy escribiendo esta guía paso a paso.</description>
+    </item>
+    <item>
+      <title>El Qué, Quién, Por Qué, Dónde y Cómo de la Oratoria</title>
+      <link>http://localhost:1313/es/posts/el-que-quien-por-que-donde-como-oratoria/</link>
+      <pubDate>Mon, 11 Mar 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/el-que-quien-por-que-donde-como-oratoria/</guid>
+      <description>Bien bien, ¿estás pensando en adentrarte en el mundo de la oratoria?</description>
+    </item>
+    <item>
+      <title>Despliega tu primera aplicación web en AWS con AWS Amplify, Lambda, DynamoDB y API Gateway</title>
+      <link>http://localhost:1313/es/posts/despliega-aplicacion-web-en-aws-amplify-lambda-dynamodb-api-gateway/</link>
+      <pubDate>Fri, 01 Mar 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/despliega-aplicacion-web-en-aws-amplify-lambda-dynamodb-api-gateway/</guid>
+      <description>¡Hola!&#xA;Si has decidido aprender más sobre AWS, ¡entonces has llegado al artículo correcto!</description>
+    </item>
+    <item>
+      <title>Como Actualizar Rapidamente Veeam Backup and Replication 12.0 a 12.1</title>
+      <link>http://localhost:1313/es/posts/como-actualizar-veeam-backup-replication-12-0-to-12-1/</link>
+      <pubDate>Thu, 08 Feb 2024 10:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/como-actualizar-veeam-backup-replication-12-0-to-12-1/</guid>
+      <description>Veeam Backup and Replication ha lanzado la versión 12.1 con emocionantes nuevas características y mejoras, especialmente en el ámbito de la ciberseguridad.</description>
+    </item>
+    <item>
+      <title>Como Pasar la KCNA - Kubernetes And Cloud Native Associate</title>
+      <link>http://localhost:1313/es/posts/como-pasar-la-kcna-kubernetes-cloud-native-associate/</link>
+      <pubDate>Mon, 05 Feb 2024 10:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/como-pasar-la-kcna-kubernetes-cloud-native-associate/</guid>
+      <description>Ayer realicé el examen de certificación Kubernetes and Cloud Native Associate Exam (KCNA), y esta mañana recibí los resultados de que aprobé, ¡yey!</description>
+    </item>
+    <item>
+      <title>Como contribuir a la localización del glosario de la CNCF - sin código!</title>
+      <link>http://localhost:1313/es/posts/como-contribuir-localizacion-glosario-cncf-sin-codigo/</link>
+      <pubDate>Tue, 26 Sep 2023 11:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/como-contribuir-localizacion-glosario-cncf-sin-codigo/</guid>
+      <description>Introducción El Glosario de la Fundación de Computación Nativa en la Nube (CNCF) es un recurso valioso que ayuda a aclarar la terminología y el argot utilizados en el mundo de la informática nativa en la nube.</description>
+    </item>
+    <item>
+      <title>El mundo de los eSports: Mi experiencia en el campeonato de VALORANT con AWS 2023</title>
+      <link>http://localhost:1313/es/posts/dentro-del-campeonato-valorant-con-aws-2023/</link>
+      <pubDate>Thu, 07 Sep 2023 07:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/dentro-del-campeonato-valorant-con-aws-2023/</guid>
+      <description>Si crees que Los Ángeles se reduce solo a celebridades de Hollywood y palmeras, estás equivocado.</description>
+    </item>
+    <item>
+      <title>Veeam Backup para AWS: Protege tus datos en la nube de manera sencilla</title>
+      <link>http://localhost:1313/es/posts/veeam-backup-aws-protege-tus-datos-en-la-nube-de-manera-sencilla/</link>
+      <pubDate>Tue, 11 Jul 2023 17:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/veeam-backup-aws-protege-tus-datos-en-la-nube-de-manera-sencilla/</guid>
+      <description>Introducción En el mundo actual, donde la computación en la nube desempeña un papel fundamental en la infraestructura de muchas empresas, la protección de datos se vuelve cada vez más crítica.</description>
+    </item>
+  </channel>
+</rss>

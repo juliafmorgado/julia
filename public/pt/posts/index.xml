@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Julia Furst Morgado</title>
+    <link>http://localhost:1313/pt/posts/</link>
+    <description>Recent content in Posts on Julia Furst Morgado</description>
+    <generator>Hugo</generator>
+    <language>pt</language>
+    <lastBuildDate>Mon, 24 Jun 2024 06:46:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/pt/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implantando WordPress e MySQL no Kubernetes com Kind: Um Guia Passo a Passo</title>
+      <link>http://localhost:1313/pt/posts/implantando-wordpress-mysql-no-kubernetes-com-kind/</link>
+      <pubDate>Mon, 24 Jun 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/pt/posts/implantando-wordpress-mysql-no-kubernetes-com-kind/</guid>
+      <description>Este blog é inspirado por um artigo do site do Kubernetes que ensina como implantar WordPress e MySQL no Minikube, mas como achei muito confuso e queria usar Kind, estou escrevendo este guia passo a passo.</description>
+    </item>
+    <item>
+      <title>O Que, Quem, Porquê, Onde e Como da Oratória</title>
+      <link>http://localhost:1313/pt/posts/o-que-quem-porque-onde-como-oratoria/</link>
+      <pubDate>Mon, 11 Mar 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/pt/posts/o-que-quem-porque-onde-como-oratoria/</guid>
+      <description>Ok, ok, você está pensando em entrar no mundo da oratória?</description>
+    </item>
+    <item>
+      <title>Crie Seu Primeiro Aplicativo Web na AWS com AWS Amplify, Lambda, DynamoDB e API Gateway</title>
+      <link>http://localhost:1313/pt/posts/crie-seu-primeiro-aplicativo-web-na-aws-amplify-lambda-dynamodb-api-gateway/</link>
+      <pubDate>Fri, 01 Mar 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/pt/posts/crie-seu-primeiro-aplicativo-web-na-aws-amplify-lambda-dynamodb-api-gateway/</guid>
+      <description>Olá!&#xA;Se você decidiu aprender mais sobre a AWS, então chegou ao post certo!</description>
+    </item>
+    <item>
+      <title>Como Atualizar Veeam Backup and Replication 12.0 ao 12.1</title>
+      <link>http://localhost:1313/pt/posts/como-atualizar-veeam-backup-replication-12-0-ao-12-1/</link>
+      <pubDate>Thu, 08 Feb 2024 10:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/pt/posts/como-atualizar-veeam-backup-replication-12-0-ao-12-1/</guid>
+      <description>Veeam Backup and Replication lançou a versão 12.1 com novos recursos e melhorias emocionantes, especialmente no campo da cibersegurança.</description>
+    </item>
+    <item>
+      <title>Como passar o exame KCNA - Kubernetes And Cloud Native Associate</title>
+      <link>http://localhost:1313/pt/posts/como-passar-o-exame-kcna-kubernetes-cloud-native-associate/</link>
+      <pubDate>Mon, 05 Feb 2024 10:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/pt/posts/como-passar-o-exame-kcna-kubernetes-cloud-native-associate/</guid>
+      <description>Ontem fiz o exame de certificação Kubernetes and Cloud Native Associate Exam (KCNA), e esta manhã recebi os resultados de que passei, yay!</description>
+    </item>
+    <item>
+      <title>Como Contribuir à Localização do Glossário da CNCF - Sem Ter Que Codar!</title>
+      <link>http://localhost:1313/pt/posts/como-contribuir-a-localizacao-glossario-cncf/</link>
+      <pubDate>Tue, 26 Sep 2023 11:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/pt/posts/como-contribuir-a-localizacao-glossario-cncf/</guid>
+      <description>Introdução O Glossário da Cloud Native Computing Foundation (CNCF) é um recurso valioso que ajuda a esclarecer a terminologia e a gíria usada no mundo da computação nativa da nuvem.</description>
+    </item>
+    <item>
+      <title>O mundo de eSports: Minha experiência no AWS VALORANT Champions VIP Hospitality 2023</title>
+      <link>http://localhost:1313/pt/posts/dentro-do-aws-valorant-champions-vip-hospitality-2023/</link>
+      <pubDate>Thu, 07 Sep 2023 07:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/pt/posts/dentro-do-aws-valorant-champions-vip-hospitality-2023/</guid>
+      <description>Se você acha que Los Angeles se resume apenas a celebridades de Hollywood e palmeiras, você está enganado.</description>
+    </item>
+  </channel>
+</rss>
