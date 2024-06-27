@@ -104,7 +104,7 @@
     <lastmod>2024-06-20T06:46:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-04-04T06:46:05+00:00</lastmod>
+    <lastmod>2024-04-21T06:46:05+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -126,11 +126,8 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/challenge-2-application-persistence-with-fs-sql-db/</loc>
-    <lastmod>2024-04-04T06:46:05+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/tech/</loc>
-    <lastmod>2024-04-04T06:46:05+00:00</lastmod>
+    <lastmod>2024-04-21T06:46:05+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -151,6 +148,12 @@
                 hreflang="en"
                 href="http://localhost:1313/categories/tech/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/posts/real-job-security-knowing-you-can-get-another-job/</loc>
+    <lastmod>2024-04-21T06:46:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/challenge-2-application-persistence-with-fs-sql-db/</loc>
+    <lastmod>2024-04-04T06:46:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/challenge-1-create-simple-web-app-http-endpoints-host-github/</loc>
     <lastmod>2024-04-03T06:46:05+00:00</lastmod>

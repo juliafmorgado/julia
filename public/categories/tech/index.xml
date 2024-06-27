@@ -6,8 +6,15 @@
     <description>Recent content in Tech on Julia Furst Morgado</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Apr 2024 06:46:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Apr 2024 06:46:05 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The real job security these days is knowing you can get another job</title>
+      <link>http://localhost:1313/posts/real-job-security-knowing-you-can-get-another-job/</link>
+      <pubDate>Sun, 21 Apr 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/real-job-security-knowing-you-can-get-another-job/</guid>
+      <description>Have you ever felt the ground of job security shift beneath your feet?</description>
+    </item>
     <item>
       <title>Challenge 2 - Application Persistence with FS and SQL DB</title>
       <link>http://localhost:1313/posts/challenge-2-application-persistence-with-fs-sql-db/</link>

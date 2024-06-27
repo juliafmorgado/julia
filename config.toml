@@ -61,6 +61,7 @@ readMore = false
 relatedPosts = true
 numberOfRelatedPosts = 3
 gtagId = "G-H2FSKPLDX2"
+hidesidebar = true
 
 [[params.socialIcons]]
 icon = "fab fa-twitter"
