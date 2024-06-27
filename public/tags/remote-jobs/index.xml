@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Remote Jobs on Julia Furst Morgado</title><link>https://juliafmorgado.com/tags/remote-jobs/</link><description>Recent content in Remote Jobs on Julia Furst Morgado</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 22 Dec 2022 13:18:55 +0000</lastBuildDate><atom:link href="https://juliafmorgado.com/tags/remote-jobs/index.xml" rel="self" type="application/rss+xml"/><item><title>6 Steps to Land a Remote Job &amp; List of Remote-First Companies</title><link>https://juliafmorgado.com/posts/steps-to-land-remote-job/</link><pubDate>Thu, 22 Dec 2022 13:18:55 +0000</pubDate><guid>https://juliafmorgado.com/posts/steps-to-land-remote-job/</guid><description>So, you’re on the hunt for a remote job? You should already have an updated resume, professional LinkedIn profile and polished portfolio (should I make a post/video about these 3?</description></item><item><title>How To Craft Your Career Change Story</title><link>https://juliafmorgado.com/posts/2022-09-13_how-to-craft-your-career-change-story/</link><pubDate>Tue, 13 Sep 2022 17:42:27 +0000</pubDate><guid>https://juliafmorgado.com/posts/2022-09-13_how-to-craft-your-career-change-story/</guid><description>There’s no sugarcoating the fact that changing careers is challenging. It’s much easier to move from one job to another within the same industry or field than to change careers altogether.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remote Jobs on Julia Furst Morgado</title>
+    <link>http://localhost:1313/tags/remote-jobs/</link>
+    <description>Recent content in Remote Jobs on Julia Furst Morgado</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Jan 2023 10:34:27 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/remote-jobs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6 Steps to Land a Remote Job &amp; List of Remote-First Companies</title>
+      <link>http://localhost:1313/posts/steps-to-land-remote-job/</link>
+      <pubDate>Thu, 22 Dec 2022 13:18:55 +0000</pubDate>
+      <guid>http://localhost:1313/posts/steps-to-land-remote-job/</guid>
+      <description>So, you’re on the hunt for a remote job? You should already have an updated resume, professional LinkedIn profile and polished portfolio (should I make a post/video about these 3?</description>
+    </item>
+    <item>
+      <title>How To Craft Your Career Change Story</title>
+      <link>http://localhost:1313/posts/2022-09-13_how-to-craft-your-career-change-story/</link>
+      <pubDate>Tue, 13 Sep 2022 17:42:27 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-09-13_how-to-craft-your-career-change-story/</guid>
+      <description>There’s no sugarcoating the fact that changing careers is challenging. It’s much easier to move from one job to another within the same industry or field than to change careers altogether.</description>
+    </item>
+  </channel>
+</rss>

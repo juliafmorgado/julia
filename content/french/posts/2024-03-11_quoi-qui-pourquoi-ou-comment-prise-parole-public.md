@@ -10,12 +10,12 @@ tags:
 slug: /les-quoi-qui-pourquoi-ou-comment-prise-de-parole-public
 ---
 
-Bien bien bien, envisagez-vous de vous lancer dans le monde de la prise de parole en public ? Vous êtes au bon endroit. Permettez-moi de vous parler un peu de ce que cela implique et de ce dont il faut parler, de qui cela concerne, de pourquoi vous devriez commencer dès maintenant, de où donner votre première intervention, et de comment vous pouvez démarrer. Pendant ce temps, je vais vous montrer une super application IA créée sur PartyRock, un terrain de jeu Amazon Bedrock qui peut vous aider à rationaliser tout ce processus - [Talk Maker](https://partyrock.aws/u/juliafmorgado1/oGddt5yV8/Talk-Maker) !
+Bien bien bien, envisagez-vous de vous lancer dans le monde de la prise de parole en public ? Vous êtes au bon endroit. Permettez-moi de vous parler un peu de ce que cela implique et de ce dont il faut parler, de qui cela concerne, de pourquoi vous devriez commencer dès maintenant, de où donner votre première intervention, et de comment vous pouvez démarrer. Pendant ce temps, je vais vous montrer une super application IA créée sur PartyRock, un terrain de jeu Amazon Bedrock qui peut vous aider à rationaliser tout ce processus - [Talk Maker](https://partyrock.aws/u/juliafmorgado1/oGddt5yV8/Talk-Maker)!
 
 ## QUOI
 Alors, qu'est-ce que la prise de parole en public exactement ? Fondamentalement, c'est communiquer un message ou partager des connaissances verbalement à un public. Cela peut couvrir un large éventail de sujets, des discussions sur vos expériences personnelles à l'enseignement aux autres sur un domaine complexe. Les possibilités sont infinies !
 
-Voici quelques exemples de ce dont vous pouvez parler :
+Voici quelques exemples de ce dont vous pouvez parler:
 - Ce que vous savez déjà
 - Ce que vous avez appris d'autres sources (blogs, interviews, etc.)
 - Un projet sur lequel vous avez travaillé
@@ -24,16 +24,16 @@ Voici quelques exemples de ce dont vous pouvez parler :
 - Les défis auxquels vous avez été confrontés
 
 ## QUI
-En ce qui concerne ceux pour qui la prise de parole en public est destinée - à tout le monde ! Sérieusement, vous n'avez pas besoin d'avoir un certain emploi, diplôme ou expérience pour essayer. La prise de parole en public est une compétence qui s'acquiert par la pratique mais qui peut être apprise par quiconque est prêt à se mettre un peu en dehors de sa zone de confort. Partager ses idées et ses perspectives est à la portée de tous. Et je le recommande à tout le monde, les avantages sont nombreux !
+En ce qui concerne ceux pour qui la prise de parole en public est destinée - à tout le monde! Sérieusement, vous n'avez pas besoin d'avoir un certain emploi, diplôme ou expérience pour essayer. La prise de parole en public est une compétence qui s'acquiert par la pratique mais qui peut être apprise par quiconque est prêt à se mettre un peu en dehors de sa zone de confort. Partager ses idées et ses perspectives est à la portée de tous. Et je le recommande à tout le monde, les avantages sont nombreux!
 
 ## POURQUOI
 Maintenant, pour le grand pourquoi - pourquoi se lancer dans la prise de parole en public ? Quelques bonnes raisons d'y penser. Pour commencer, cela vous donne de la visibilité et de la crédibilité en tant qu'expert dans votre domaine. Chaque fois que vous prenez la parole devant un public, vous vous affirmez en tant que leader. C'est également un moyen fantastique de réseauter et de rencontrer d'autres personnes. De plus, la prise de parole en public aide à votre apprentissage et à votre croissance parce que, en enseignant aux autres, nous nous enseignons. Préparer des discours vous force à organiser vos connaissances, et l'expérience pratique de la prise de parole ne fait qu'affiner vos compétences en communication. C'est un défi personnel qui vaut la peine d'être relevé.
 
 ## OÙ
-D'accord, où pouvez-vous prendre la parole ? Beaucoup d'options - en ligne et hors ligne. Envisagez de faire une intervention lors des réunions internes de votre entreprise, lors de rencontres locales comme les [Groupes d'Utilisateurs AWS](https://aws.amazon.com/developer/community/usergroups/), les [Groupes Communautaires Cloud Native](https://community.cncf.io/chapters/) ou soumettez une proposition à une conférence. Il y a tellement de conférences là-bas. Je vous recommande de jeter un œil à la Journée Communautaire AWS ou à la KCD près de chez vous et de proposer une intervention. Sinon, vous pouvez consulter ce dépôt [d'agenda de conférences]((https://github.com/scraly/developers-conferences-agenda)) avec des tonnes d'autres conférences auxquelles vous pouvez postuler. Et à l'ère numérique, il y a des options comme créer des vidéos pour YouTube ou des podcasts où vous pouvez également pratiquer vos compétences en prise de parole en public. Les lieux sont infinis.
+D'accord, où pouvez-vous prendre la parole? Beaucoup d'options - en ligne et hors ligne. Envisagez de faire une intervention lors des réunions internes de votre entreprise, lors de rencontres locales comme les [Groupes d'Utilisateurs AWS](https://aws.amazon.com/developer/community/usergroups/), les [Groupes Communautaires Cloud Native](https://community.cncf.io/chapters/) ou soumettez une proposition à une conférence. Il y a tellement de conférences là-bas. Je vous recommande de jeter un œil à la Journée Communautaire AWS ou à la KCD près de chez vous et de proposer une intervention. Sinon, vous pouvez consulter ce dépôt [d'agenda de conférences](https://github.com/scraly/developers-conferences-agenda) avec des tonnes d'autres conférences auxquelles vous pouvez postuler. Et à l'ère numérique, il y a des options comme créer des vidéos pour YouTube ou des podcasts où vous pouvez également pratiquer vos compétences en prise de parole en public. Les lieux sont infinis.
 
 ## COMMENT
-Vous avez ici deux avenues pour commencer :
+Vous avez ici deux avenues pour commencer:
 - Avenue #1 : Commencez avec le quoi en tête. Tout d'abord, décidez de ce que vous voulez discuter (peut être un sujet de haut niveau) - que ce soit basé sur vos expériences personnelles, votre travail, les tendances dans votre domaine, etc. Assurez-vous que c'est un sujet qui vous passionne et sur lequel vous êtes compétent.
 - Avenue #2 : Commencez avec le où en tête. Selon l'événement, par exemple, un événement sur la sécurité, vous devrez donner une intervention liée à la sécurité. Si l'événement n'a pas de sujet spécifique ou s'il propose plusieurs pistes de conférences, vous pouvez choisir la première avenue.
 

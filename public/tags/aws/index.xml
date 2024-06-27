@@ -1,2 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AWS on Julia Furst Morgado</title><link>https://juliafmorgado.com/tags/aws/</link><description>Recent content in AWS on Julia Furst Morgado</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 30 Mar 2024 06:46:05 +0000</lastBuildDate><atom:link href="https://juliafmorgado.com/tags/aws/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up a Kubernetes cluster on AWS EKS with eksctl and Deploying an App</title><link>https://juliafmorgado.com/posts/setting-up-kubernetes-cluster-aws-eks-with-eksctl-and-deploying-app/</link><pubDate>Sat, 30 Mar 2024 06:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/setting-up-kubernetes-cluster-aws-eks-with-eksctl-and-deploying-app/</guid><description>It might come as a surprise, but not too long ago, configuring a Kubernetes cluster on Amazon EKS was quite challenging since you had to create all the components manually by yourself.</description></item><item><title>Deploy Your First Web App on AWS with AWS Amplify, Lambda, DynamoDB and API Gateway</title><link>https://juliafmorgado.com/posts/deploy-your-first-web-app-on-aws-amplify-lambda-dynamodb-api-gateway/</link><pubDate>Fri, 01 Mar 2024 06:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/deploy-your-first-web-app-on-aws-amplify-lambda-dynamodb-api-gateway/</guid><description>Hey there!
-If you&amp;rsquo;ve decided to learn more about AWS, then you&amp;rsquo;ve landed on the right blog post!</description></item><item><title>The Ultimate eSports Experience: Inside the AWS VALORANT Champions VIP Hospitality 2023</title><link>https://juliafmorgado.com/posts/inside-aws-valorant-champions-vip-hospitality-2023/</link><pubDate>Thu, 07 Sep 2023 11:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/inside-aws-valorant-champions-vip-hospitality-2023/</guid><description>If you think Los Angeles is only about Hollywood celebrities and palm trees, think again.</description></item><item><title>Secure Your AWS Environments with Terraform, Vault, and Veeam</title><link>https://juliafmorgado.com/posts/secure-aws-environment-terraform-vault-veeam/</link><pubDate>Thu, 20 Jul 2023 09:06:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/secure-aws-environment-terraform-vault-veeam/</guid><description>I&amp;rsquo;m thrilled to present the first post in my blog series focused on optimizing cloud infrastructure management, data security, and backup automation in your AWS environment.</description></item><item><title>A Technical Deep Dive into Veeam Backup for AWS</title><link>https://juliafmorgado.com/posts/technical-deep-dive-vba/</link><pubDate>Mon, 17 Jul 2023 10:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/technical-deep-dive-vba/</guid><description>Introduction Veeam Backup for AWS introduces advanced backup protection for Amazon Web Services (AWS) environments.</description></item><item><title>Expand Your Blog's Reach with this AWS Automation Tool</title><link>https://juliafmorgado.com/posts/expand-blog-reach-with-aws-automation-tool/</link><pubDate>Mon, 03 Jul 2023 17:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/expand-blog-reach-with-aws-automation-tool/</guid><description>Hurrah!! If you&amp;rsquo;re reading this post on Hashnode or Dev.to it means it worked!</description></item><item><title>Build a Website with HUGO on AWS Amplify</title><link>https://juliafmorgado.com/posts/build-website-hugo-on-aws-amplify/</link><pubDate>Wed, 15 Mar 2023 17:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/build-website-hugo-on-aws-amplify/</guid><description>Learn how to build a static site with Hugo and deploy it on AWS Amplify. This is a detailed tutorial to help you start from scratch!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS on Julia Furst Morgado</title>
+    <link>http://localhost:1313/tags/aws/</link>
+    <description>Recent content in AWS on Julia Furst Morgado</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Mar 2024 06:46:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up a Kubernetes cluster on AWS EKS with eksctl and Deploying an App</title>
+      <link>http://localhost:1313/posts/setting-up-kubernetes-cluster-aws-eks-with-eksctl-and-deploying-app/</link>
+      <pubDate>Sat, 30 Mar 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/setting-up-kubernetes-cluster-aws-eks-with-eksctl-and-deploying-app/</guid>
+      <description>It might come as a surprise, but not too long ago, configuring a Kubernetes cluster on Amazon EKS was quite challenging since you had to create all the components manually by yourself.</description>
+    </item>
+    <item>
+      <title>Deploy Your First Web App on AWS with AWS Amplify, Lambda, DynamoDB and API Gateway</title>
+      <link>http://localhost:1313/posts/deploy-your-first-web-app-on-aws-amplify-lambda-dynamodb-api-gateway/</link>
+      <pubDate>Fri, 01 Mar 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/deploy-your-first-web-app-on-aws-amplify-lambda-dynamodb-api-gateway/</guid>
+      <description>Hey there!&#xA;If you&amp;rsquo;ve decided to learn more about AWS, then you&amp;rsquo;ve landed on the right blog post!</description>
+    </item>
+    <item>
+      <title>The Ultimate eSports Experience: Inside the AWS VALORANT Champions VIP Hospitality 2023</title>
+      <link>http://localhost:1313/posts/inside-aws-valorant-champions-vip-hospitality-2023/</link>
+      <pubDate>Thu, 07 Sep 2023 11:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/inside-aws-valorant-champions-vip-hospitality-2023/</guid>
+      <description>If you think Los Angeles is only about Hollywood celebrities and palm trees, think again.</description>
+    </item>
+    <item>
+      <title>Secure Your AWS Environments with Terraform, Vault, and Veeam</title>
+      <link>http://localhost:1313/posts/secure-aws-environment-terraform-vault-veeam/</link>
+      <pubDate>Thu, 20 Jul 2023 09:06:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/secure-aws-environment-terraform-vault-veeam/</guid>
+      <description>I&amp;rsquo;m thrilled to present the first post in my blog series focused on optimizing cloud infrastructure management, data security, and backup automation in your AWS environment.</description>
+    </item>
+    <item>
+      <title>A Technical Deep Dive into Veeam Backup for AWS</title>
+      <link>http://localhost:1313/posts/technical-deep-dive-vba/</link>
+      <pubDate>Mon, 17 Jul 2023 10:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/technical-deep-dive-vba/</guid>
+      <description>Introduction Veeam Backup for AWS introduces advanced backup protection for Amazon Web Services (AWS) environments.</description>
+    </item>
+    <item>
+      <title>Expand Your Blog&#39;s Reach with this AWS Automation Tool</title>
+      <link>http://localhost:1313/posts/expand-blog-reach-with-aws-automation-tool/</link>
+      <pubDate>Mon, 03 Jul 2023 17:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/expand-blog-reach-with-aws-automation-tool/</guid>
+      <description>Hurrah!! If you&amp;rsquo;re reading this post on Hashnode or Dev.to it means it worked!</description>
+    </item>
+    <item>
+      <title>Build a Website with HUGO on AWS Amplify</title>
+      <link>http://localhost:1313/posts/build-website-hugo-on-aws-amplify/</link>
+      <pubDate>Wed, 15 Mar 2023 17:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/build-website-hugo-on-aws-amplify/</guid>
+      <description>A while ago I decided to start publishing post on my own blog and move away from Medium/Hashnode/Dev, so I could have more ownership over my posts.</description>
+    </item>
+  </channel>
+</rss>

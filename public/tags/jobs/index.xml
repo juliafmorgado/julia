@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jobs on Julia Furst Morgado</title><link>https://juliafmorgado.com/tags/jobs/</link><description>Recent content in Jobs on Julia Furst Morgado</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 08 Jul 2022 17:52:23 +0000</lastBuildDate><atom:link href="https://juliafmorgado.com/tags/jobs/index.xml" rel="self" type="application/rss+xml"/><item><title>Balancing a full-time job while learning to code</title><link>https://juliafmorgado.com/posts/2022-07-08_balancing-a-fulltime-job-while-learning-to-code/</link><pubDate>Fri, 08 Jul 2022 17:52:23 +0000</pubDate><guid>https://juliafmorgado.com/posts/2022-07-08_balancing-a-fulltime-job-while-learning-to-code/</guid><description>If you really want something, you’ll find a way. If you don’t you’ll find an excuse.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobs on Julia Furst Morgado</title>
+    <link>http://localhost:1313/tags/jobs/</link>
+    <description>Recent content in Jobs on Julia Furst Morgado</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Jan 2023 10:34:04 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Balancing a full-time job while learning to code</title>
+      <link>http://localhost:1313/posts/2022-07-08_balancing-a-fulltime-job-while-learning-to-code/</link>
+      <pubDate>Fri, 08 Jul 2022 17:52:23 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-07-08_balancing-a-fulltime-job-while-learning-to-code/</guid>
+      <description>If you really want something, you’ll find a way. If you don’t you’ll find an excuse.</description>
+    </item>
+  </channel>
+</rss>

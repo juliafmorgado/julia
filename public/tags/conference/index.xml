@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Conference on Julia Furst Morgado</title><link>https://juliafmorgado.com/tags/conference/</link><description>Recent content in Conference on Julia Furst Morgado</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 30 May 2023 17:46:05 +0000</lastBuildDate><atom:link href="https://juliafmorgado.com/tags/conference/index.xml" rel="self" type="application/rss+xml"/><item><title>My VeeamON 2023 Experience</title><link>https://juliafmorgado.com/posts/veeamon-2023-experience/</link><pubDate>Tue, 30 May 2023 17:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/veeamon-2023-experience/</guid><description>Reflections on My First VeeamON Attending my first VeeamON was an exhilarating experience that exceeded all my expectations.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conference on Julia Furst Morgado</title>
+    <link>http://localhost:1313/tags/conference/</link>
+    <description>Recent content in Conference on Julia Furst Morgado</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 May 2023 17:46:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My VeeamON 2023 Experience</title>
+      <link>http://localhost:1313/posts/veeamon-2023-experience/</link>
+      <pubDate>Tue, 30 May 2023 17:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/veeamon-2023-experience/</guid>
+      <description>Reflections on My First VeeamON Attending my first VeeamON was an exhilarating experience that exceeded all my expectations.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,2 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorial on Julia Furst Morgado</title><link>https://juliafmorgado.com/tags/tutorial/</link><description>Recent content in Tutorial on Julia Furst Morgado</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 26 Sep 2023 11:46:05 +0000</lastBuildDate><atom:link href="https://juliafmorgado.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Contribute to CNCF Glossary Localization - No Code!</title><link>https://juliafmorgado.com/posts/how-to-contribute-cncf-glossary-localization-no-code/</link><pubDate>Tue, 26 Sep 2023 11:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/how-to-contribute-cncf-glossary-localization-no-code/</guid><description>Introduction The Cloud Native Computing Foundation (CNCF) Glossary is a valuable resource that helps clarify the terminology and jargon used in the world of cloud-native computing.</description></item><item><title>Build a Website with HUGO on AWS Amplify</title><link>https://juliafmorgado.com/posts/build-website-hugo-on-aws-amplify/</link><pubDate>Wed, 15 Mar 2023 17:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/build-website-hugo-on-aws-amplify/</guid><description>Learn how to build a static site with Hugo and deploy it on AWS Amplify. This is a detailed tutorial to help you start from scratch!</description></item><item><title>Automatically Embed Latest Youtube Videos on your Website with JavaScript (step by step)</title><link>https://juliafmorgado.com/posts/embed-youtube-videos-with-javascript/</link><pubDate>Mon, 03 Oct 2022 17:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/embed-youtube-videos-with-javascript/</guid><description>In this tutorial, you’ll learn how to make an HTTP request to Youtube with the JavaScript fetch() method to dynamically embed new video on your website as you publish it on youtube.</description></item><item><title>The difference between encodeURI() and encodeURIComponent()</title><link>https://juliafmorgado.com/posts/2022-09-28_difference-between-encodeuri-and-encodeuricomponent/</link><pubDate>Wed, 28 Sep 2022 23:59:13 +0000</pubDate><guid>https://juliafmorgado.com/posts/2022-09-28_difference-between-encodeuri-and-encodeuricomponent/</guid><description>What is a URI and how is it different from a URL?</description></item><item><title>How To Remove The HTML Extension From a URL on Netlify</title><link>https://juliafmorgado.com/posts/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify/</link><pubDate>Wed, 14 Sep 2022 17:46:35 +0000</pubDate><guid>https://juliafmorgado.com/posts/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify/</guid><description>Recently, I was asked how to get rid of the HTML prefix from a URL on a website hosted on Netlify.</description></item><item><title>Connecting MongoDB to your app using Node.js</title><link>https://juliafmorgado.com/posts/2022-09-12_connecting-mongodb-to-your-app-using-node.js/</link><pubDate>Mon, 12 Sep 2022 17:42:30 +0000</pubDate><guid>https://juliafmorgado.com/posts/2022-09-12_connecting-mongodb-to-your-app-using-node.js/</guid><description>MongoDB is an open source NoSQL database management program. NoSQL databases are quite useful for working with large sets of distributed data.</description></item><item><title>Filter out the geese (Codewars — 8kyu)</title><link>https://juliafmorgado.com/posts/2022-07-07_filter-out-the-geese-codewars8kyu/</link><pubDate>Thu, 07 Jul 2022 17:47:55 +0000</pubDate><guid>https://juliafmorgado.com/posts/2022-07-07_filter-out-the-geese-codewars8kyu/</guid><description>Here’s a link to the Codewars Kata: codewars.com/kata/57ee4a67108d3fd9eb0000e7/..
-The goal of this exercise is to get back an array without some specific elements in it (elements that are specified in the geese array).</description></item><item><title>6 Ways to Make Sure You’re Using the Right Array Method</title><link>https://juliafmorgado.com/posts/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method/</link><pubDate>Tue, 05 Jul 2022 17:46:02 +0000</pubDate><guid>https://juliafmorgado.com/posts/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method/</guid><description>Understanding arrays is an important part of coding with JavaScript but array methods are what make JavaScript arrays so powerful.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Julia Furst Morgado</title>
+    <link>http://localhost:1313/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Julia Furst Morgado</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Sep 2023 11:46:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Contribute to CNCF Glossary Localization - No Code!</title>
+      <link>http://localhost:1313/posts/how-to-contribute-cncf-glossary-localization-no-code/</link>
+      <pubDate>Tue, 26 Sep 2023 11:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-contribute-cncf-glossary-localization-no-code/</guid>
+      <description>Introduction The Cloud Native Computing Foundation (CNCF) Glossary is a valuable resource that helps clarify the terminology and jargon used in the world of cloud-native computing.</description>
+    </item>
+    <item>
+      <title>Build a Website with HUGO on AWS Amplify</title>
+      <link>http://localhost:1313/posts/build-website-hugo-on-aws-amplify/</link>
+      <pubDate>Wed, 15 Mar 2023 17:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/build-website-hugo-on-aws-amplify/</guid>
+      <description>A while ago I decided to start publishing post on my own blog and move away from Medium/Hashnode/Dev, so I could have more ownership over my posts.</description>
+    </item>
+    <item>
+      <title>Automatically Embed Latest Youtube Videos on your Website with JavaScript (step by step)</title>
+      <link>http://localhost:1313/posts/embed-youtube-videos-with-javascript/</link>
+      <pubDate>Mon, 03 Oct 2022 17:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/embed-youtube-videos-with-javascript/</guid>
+      <description>In this tutorial, you’ll learn how to make an HTTP request to Youtube with the JavaScript fetch() method to dynamically embed new video on your website as you publish it on youtube.</description>
+    </item>
+    <item>
+      <title>The difference between encodeURI() and encodeURIComponent()</title>
+      <link>http://localhost:1313/posts/2022-09-28_difference-between-encodeuri-and-encodeuricomponent/</link>
+      <pubDate>Wed, 28 Sep 2022 23:59:13 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-09-28_difference-between-encodeuri-and-encodeuricomponent/</guid>
+      <description>What is a URI and how is it different from a URL?</description>
+    </item>
+    <item>
+      <title>How To Remove The HTML Extension From a URL on Netlify</title>
+      <link>http://localhost:1313/posts/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify/</link>
+      <pubDate>Wed, 14 Sep 2022 17:46:35 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-09-14_how-to-remove-the-html-extension-from-a-url-on-netlify/</guid>
+      <description>Recently, I was asked how to get rid of the HTML prefix from a URL on a website hosted on Netlify.</description>
+    </item>
+    <item>
+      <title>Connecting MongoDB to your app using Node.js</title>
+      <link>http://localhost:1313/posts/2022-09-12_connecting-mongodb-to-your-app-using-node.js/</link>
+      <pubDate>Mon, 12 Sep 2022 17:42:30 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-09-12_connecting-mongodb-to-your-app-using-node.js/</guid>
+      <description>MongoDB is an open source NoSQL database management program. NoSQL databases are quite useful for working with large sets of distributed data.</description>
+    </item>
+    <item>
+      <title>Filter out the geese (Codewars — 8kyu)</title>
+      <link>http://localhost:1313/posts/2022-07-07_filter-out-the-geese-codewars8kyu/</link>
+      <pubDate>Thu, 07 Jul 2022 17:47:55 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-07-07_filter-out-the-geese-codewars8kyu/</guid>
+      <description>Here’s a link to the Codewars Kata: codewars.com/kata/57ee4a67108d3fd9eb0000e7/..&#xA;The goal of this exercise is to get back an array without some specific elements in it (elements that are specified in the geese array).</description>
+    </item>
+    <item>
+      <title>6 Ways to Make Sure You’re Using the Right Array Method</title>
+      <link>http://localhost:1313/posts/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method/</link>
+      <pubDate>Tue, 05 Jul 2022 17:46:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-07-05_6-ways-to-make-sure-youre-using-the-right-array-method/</guid>
+      <description>Understanding arrays is an important part of coding with JavaScript but array methods are what make JavaScript arrays so powerful.</description>
+    </item>
+  </channel>
+</rss>

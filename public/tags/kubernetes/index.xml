@@ -1,1 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kubernetes on Julia Furst Morgado</title><link>https://juliafmorgado.com/tags/kubernetes/</link><description>Recent content in Kubernetes on Julia Furst Morgado</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 30 Mar 2024 06:46:05 +0000</lastBuildDate><atom:link href="https://juliafmorgado.com/tags/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up a Kubernetes cluster on AWS EKS with eksctl and Deploying an App</title><link>https://juliafmorgado.com/posts/setting-up-kubernetes-cluster-aws-eks-with-eksctl-and-deploying-app/</link><pubDate>Sat, 30 Mar 2024 06:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/setting-up-kubernetes-cluster-aws-eks-with-eksctl-and-deploying-app/</guid><description>It might come as a surprise, but not too long ago, configuring a Kubernetes cluster on Amazon EKS was quite challenging since you had to create all the components manually by yourself.</description></item><item><title>How to Pass the KCNA - Kubernetes And Cloud Native Associate</title><link>https://juliafmorgado.com/posts/how-to-pass-kcna-kubernetes-cloud-native-associate/</link><pubDate>Mon, 05 Feb 2024 10:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/how-to-pass-kcna-kubernetes-cloud-native-associate/</guid><description>Yesterday I took the Kubernetes and Cloud Native Associate Exam (KCNA) certification exam, and this morning I got the results that I passed, yey!</description></item><item><title>15 Options To Build A Kubernetes Playground</title><link>https://juliafmorgado.com/posts/15-options-to-build-kubernetes-playground/</link><pubDate>Thu, 25 Jan 2024 10:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/15-options-to-build-kubernetes-playground/</guid><description>Why a Kubernetes Playground As a beginner, having a playground environment is crucial for experimenting and learning about Kubernetes without the fear of breaking anything.</description></item><item><title>Kubernetes Knowledge Hub</title><link>https://juliafmorgado.com/posts/kubernetes-knowledge-hub/</link><pubDate>Tue, 15 Aug 2023 17:46:05 +0000</pubDate><guid>https://juliafmorgado.com/posts/kubernetes-knowledge-hub/</guid><description>A Master list of resources for learning Kubernetes</description></item><item><title>From KubeCon to my first keynote as a DevRel</title><link>https://juliafmorgado.com/posts/from-kubecon-to-my-first-keynote-as-a-devrel/</link><pubDate>Mon, 14 Nov 2022 13:47:21 +0000</pubDate><guid>https://juliafmorgado.com/posts/from-kubecon-to-my-first-keynote-as-a-devrel/</guid><description>Last month I went to Detroit for my first big open source conference — KubeCon.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on Julia Furst Morgado</title>
+    <link>http://localhost:1313/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on Julia Furst Morgado</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Jun 2024 07:46:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Veeam Kasten on a Kubernetes cluster running on kind</title>
+      <link>http://localhost:1313/posts/install-veeam-kasten-on-kubernetes-cluster-running-on-kind/</link>
+      <pubDate>Mon, 24 Jun 2024 07:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/install-veeam-kasten-on-kubernetes-cluster-running-on-kind/</guid>
+      <description>In this guide, we&amp;rsquo;ll walk through the process of installing Veeam Kasten on a Kubernetes cluster running on kind (Kubernetes in Docker).</description>
+    </item>
+    <item>
+      <title>Deploying WordPress and MySQL on Kubernetes with Kind: A Step-by-Step Guide</title>
+      <link>http://localhost:1313/posts/deploying-wordpress-mysql-on-kubernetes-with-kind/</link>
+      <pubDate>Mon, 24 Jun 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/deploying-wordpress-mysql-on-kubernetes-with-kind/</guid>
+      <description>This blog is inspired by an article from the Kubernetes website teaching how to deploy WordPress and MySQL on Minikube, but since I found it very confusing and wanted to use Kind, I&amp;rsquo;m writing this step-by-step guide.</description>
+    </item>
+    <item>
+      <title>Understanding Load Balancer vs. Ingress in Kubernetes</title>
+      <link>http://localhost:1313/posts/understanding-load-balancer-vs-ingress-in-kubernetes/</link>
+      <pubDate>Thu, 20 Jun 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/understanding-load-balancer-vs-ingress-in-kubernetes/</guid>
+      <description>In the world of Kubernetes, managing traffic flow and exposing applications externally is a crucial aspect of application deployment.</description>
+    </item>
+    <item>
+      <title>Setting up a Kubernetes cluster on AWS EKS with eksctl and Deploying an App</title>
+      <link>http://localhost:1313/posts/setting-up-kubernetes-cluster-aws-eks-with-eksctl-and-deploying-app/</link>
+      <pubDate>Sat, 30 Mar 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/setting-up-kubernetes-cluster-aws-eks-with-eksctl-and-deploying-app/</guid>
+      <description>It might come as a surprise, but not too long ago, configuring a Kubernetes cluster on Amazon EKS was quite challenging since you had to create all the components manually by yourself.</description>
+    </item>
+    <item>
+      <title>How to Pass the KCNA - Kubernetes And Cloud Native Associate</title>
+      <link>http://localhost:1313/posts/how-to-pass-kcna-kubernetes-cloud-native-associate/</link>
+      <pubDate>Mon, 05 Feb 2024 10:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-pass-kcna-kubernetes-cloud-native-associate/</guid>
+      <description>Yesterday I took the Kubernetes and Cloud Native Associate Exam (KCNA) certification exam, and this morning I got the results that I passed, yey!</description>
+    </item>
+    <item>
+      <title>15 Options To Build A Kubernetes Playground</title>
+      <link>http://localhost:1313/posts/15-options-to-build-kubernetes-playground/</link>
+      <pubDate>Thu, 25 Jan 2024 10:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/15-options-to-build-kubernetes-playground/</guid>
+      <description>Why a Kubernetes Playground As a beginner, having a playground environment is crucial for experimenting and learning about Kubernetes without the fear of breaking anything.</description>
+    </item>
+    <item>
+      <title>Kubernetes Knowledge Hub</title>
+      <link>http://localhost:1313/posts/kubernetes-knowledge-hub/</link>
+      <pubDate>Tue, 15 Aug 2023 17:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kubernetes-knowledge-hub/</guid>
+      <description>I&amp;rsquo;ll keep updating it every day with new resources!&#xA;Kubernetes Knowledge Hub: The Ultimate Master List to Learn Kubernetes Intro Kubernetes is considered the leading platform for managing containers worldwide.</description>
+    </item>
+    <item>
+      <title>From KubeCon to my first keynote as a DevRel</title>
+      <link>http://localhost:1313/posts/from-kubecon-to-my-first-keynote-as-a-devrel/</link>
+      <pubDate>Mon, 14 Nov 2022 13:47:21 +0000</pubDate>
+      <guid>http://localhost:1313/posts/from-kubecon-to-my-first-keynote-as-a-devrel/</guid>
+      <description>Last month I went to Detroit for my first big open source conference — KubeCon.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technologie on Julia Furst Morgado</title>
+    <link>http://localhost:1313/fr/categories/technologie/</link>
+    <description>Recent content in Technologie on Julia Furst Morgado</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 01 Mar 2024 06:46:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/categories/technologie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Déployez votre première application web sur AWS avec AWS Amplify, Lambda, DynamoDB et API Gateway</title>
+      <link>http://localhost:1313/fr/posts/deployez-premiere-web-app-sur-aws-avec-amplify-lambda-dynamodb-api-gateway/</link>
+      <pubDate>Fri, 01 Mar 2024 06:46:05 +0000</pubDate>
+      <guid>http://localhost:1313/fr/posts/deployez-premiere-web-app-sur-aws-avec-amplify-lambda-dynamodb-api-gateway/</guid>
+      <description>Salut !&#xA;Si vous avez décidé d&amp;rsquo;en apprendre davantage sur AWS, alors vous êtes au bon endroit!</description>
+    </item>
+  </channel>
+</rss>
