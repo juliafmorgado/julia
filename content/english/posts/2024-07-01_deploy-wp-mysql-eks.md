@@ -113,13 +113,13 @@ Download the following configuration files:
 
 - MySQL configuration file:  run the command
 
-`curl -LO [https://k8s.io/examples/application/wordpress/mysql-deployment.yaml](https://k8s.io/examples/application/wordpress/mysql-deployment.yaml)`
+`curl -LO https://k8s.io/examples/application/wordpress/mysql-deployment.yaml`
 
 This manifest describes a single-instance MySQL Deployment. The MySQL container mounts the PersistentVolume at /var/lib/mysql. The `MYSQL_ROOT_PASSWORD` environment variable sets the database password from the Secret.
 
 - WordPress file: run the command
 
-`curl -LO [https://k8s.io/examples/application/wordpress/wordpress-deployment.yaml](https://k8s.io/examples/application/wordpress/wordpress-deployment.yaml)`
+`curl -LO https://k8s.io/examples/application/wordpress/wordpress-deployment.yaml`
 
 This manifest describes a single-instance WordPress Deployment. The WordPress container mounts the PersistentVolume at `/var/www/html` for website data files. The `WORDPRESS_DB_HOST` environment variable sets the name of the MySQL Service defined above, and WordPress will access the database by Service. The `WORDPRESS_DB_PASSWORD` environment variable sets the database password from the Secret kustomize generated.
 
@@ -180,7 +180,7 @@ Congratulations! You’ve now deployed your stateful WordPress site to AWS on EK
 
 ![](https://blog-imgs-23.s3.amazonaws.com/eks-wp-main-dashboard.png)
 
-If you're feeling brave, head to my next tutorial to learn to how to install Kasten on this EKS cluster!
+If you're feeling brave, head to my next tutorial to learn how to [install Veeam Kasten on this EKS cluster](https://www.juliafmorgado.com/posts/install-veeam-kasten-on-an-amazon-eks-cluster/)!
 
 ## Clean up your environment
 
