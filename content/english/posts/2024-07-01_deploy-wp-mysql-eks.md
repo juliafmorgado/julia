@@ -25,7 +25,7 @@ slug: /easily-deploy-wordpress-mysql-on-amazon-eks
 
 ## Step 1. Create EKS cluster
 
-Create your Kubernetes cluster through èksctl` with the following commands:
+Create your Kubernetes cluster through `eksctl` with the following commands:
 
 ```
 eksctl create cluster \
