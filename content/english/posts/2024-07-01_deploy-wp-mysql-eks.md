@@ -48,7 +48,7 @@ To get detailed information on the instances on which the pods are running: `kub
 
 ## Step 2. Create an IAM OIDC Provider for Your Cluster
 
-First, create an [IAM OIDC provider](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_oidc.html_ for your EKS cluster to enable the use of IAM roles for Kubernetes service accounts. This feature allows Kubernetes service accounts to assume IAM roles, enabling fine-grained permissions management for pods running in your cluster.
+First, create an [IAM OIDC provider](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_oidc.html) for your EKS cluster to enable the use of IAM roles for Kubernetes service accounts. This feature allows Kubernetes service accounts to assume IAM roles, enabling fine-grained permissions management for pods running in your cluster.
 
 ```
 oidc_id=$(aws eks describe-cluster --name eks-wp --query "cluster.identity.oidc.issuer" --output text | cut -d '/' -f 5)
