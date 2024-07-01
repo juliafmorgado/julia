@@ -1,7 +1,7 @@
 ---
 title: "Install Veeam Kasten on an Amazon EKS cluster"
 author: "Julia Furst Morgado"
-date: 2024-07-01T06:46:05.964Z
+date: 2024-07-01T06:48:05.964Z
 draft: false
 cover:
     image: https://blog-imgs-23.s3.amazonaws.com/veeam-kasten-install-banner.png
