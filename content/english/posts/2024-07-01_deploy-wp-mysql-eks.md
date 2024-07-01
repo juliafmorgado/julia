@@ -11,7 +11,6 @@ slug: /easily-deploy-wordpress-mysql-on-amazon-eks
 ---
 
 
-# Deploy Wordpress and MySQL on Amazon EKS
 
 [Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/) is a managed Kubernetes service that makes it easy to run Kubernetes on AWS without needing to install and operate your own Kubernetes control plane or nodes. By leveraging EKS, you benefit from the scalability, security, and reliability of AWS, while simplifying your Kubernetes management tasks. In this guide, we'll walk through the steps to deploy a stateful WordPress site and its MySQL database on an EKS cluster, demonstrating the power and ease of using managed Kubernetes with AWS.
 
