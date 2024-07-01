@@ -83,7 +83,7 @@ Add the EBS CSI driver to your EKS cluster using the created IAM role.
 role_arn=$(aws iam list-roles --query "Roles[?RoleName=='AmazonEKS_EBS_CSI_DriverRole'].Arn" --output text)
 
 # Install the EBS CSI driver
-eksctl create addon --name aws-ebs-csi-driver --cluster 2eks-wp --service-account-role-arn $role_arn --force
+eksctl create addon --name aws-ebs-csi-driver --cluster eks-wp --service-account-role-arn $role_arn --force
 
 ```
 
