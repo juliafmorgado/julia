@@ -7,6 +7,7 @@ cover:
     image: https://blog-imgs-23.s3.amazonaws.com/x
 tags: 
     - Kubernetes
+    - Kasten
 slug: /install-veeam-kasten-on-kubernetes-cluster-running-on-kind
 ---
 
