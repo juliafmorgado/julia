@@ -14,6 +14,8 @@ Welcome to Challenge 3 in our cloud-native application development journey, wher
 
 In this [challenge 3](https://www.juliafmorgado.com/posts/challenge-3-creating-real-time-web-applications-with-docker-and-postgresql/), we're enhancing the SQL-based application from [Challenge 2](https://www.juliafmorgado.com/posts/challenge-2-application-persistence-with-fs-sql-db/) by introducing a new component called the dashboard. This dashboard will continuously poll a PostgreSQL database every 2 seconds to count the number of texts stored. Instead of the client-side requesting this information from the backend, the dashboard will push updates via websockets directly to the client-side (HTML/JS).
 
+Check the Challenge 3 [instructions](https://github.com/salaboy/cloud-native-dev/tree/main/3) from Salaboy.
+
 ## Setup
 In this setup guide, we'll configure both the main application and a dashboard application to connect to a Dockerized PostgreSQL database. The dashboard will continuously poll a PostgreSQL database every 2 seconds to count the number of texts stored. Instead of the client-side requesting this information from the backend, the dashboard will push updates via websockets directly to the client-side (HTML/JS).
 
