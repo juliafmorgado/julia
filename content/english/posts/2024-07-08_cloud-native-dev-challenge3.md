@@ -10,10 +10,13 @@ categories:
 slug: /challenge-3-creating-real-time-web-applications-with-docker-and-postgresql
 ---
 
+Welcome to [challenge 3](https://github.com/salaboy/cloud-native-dev/tree/main/3) in our cloud-native application development journey, where we integrate real-time interactions using Docker and PostgreSQL. This challenge builds upon the foundation laid in [Challenge 2](https://github.com/salaboy/cloud-native-dev/tree/main/2), emphasizing practical implementation and leveraging cloud-native technologies.
+
+
 In this [challenge 3](https://github.com/salaboy/cloud-native-dev/tree/main/3), we're enhancing the SQL-based application from [Challenge 2](https://github.com/salaboy/cloud-native-dev/tree/main/2) by introducing a new component called the dashboard. This dashboard will continuously poll a PostgreSQL database every 2 seconds to count the number of texts stored. Instead of the client-side requesting this information from the backend, the dashboard will push updates via websockets directly to the client-side (HTML/JS).
 
 ## Setup
-In this setup guide, we'll configure both the main application and the dashboard to connect to a Dockerized PostgreSQL database. This approach ensures consistency and ease of deployment across different environments.
+In this setup guide, we'll configure both the main application and a dashboard application to connect to a Dockerized PostgreSQL database. The dashboard will continuously poll a PostgreSQL database every 2 seconds to count the number of texts stored. Instead of the client-side requesting this information from the backend, the dashboard will push updates via websockets directly to the client-side (HTML/JS).
 
 ## Step 1: Set Up Your Directory Structure
 
