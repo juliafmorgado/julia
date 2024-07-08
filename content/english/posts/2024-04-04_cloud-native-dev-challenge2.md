@@ -12,7 +12,7 @@ slug: /challenge-2-application-persistence-with-fs-sql-db
 
 Ok let's continue with our Cloud Native Dev challenges. We're not beating around the bush here!
 
-## # Cloud Native Developer - Challenge 2
+## Cloud Native Developer - Challenge 2
 The second challenge can be found [here](https://github.com/salaboy/cloud-native-dev/tree/main/2) and is about adding persistence to my simple web application. My repo can be found [here](https://github.com/juliafmorgado/cloud-native-dev/tree/main/2-challenge).
 
 ## Step 1: Create new directory and copy code
