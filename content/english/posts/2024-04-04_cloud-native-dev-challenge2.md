@@ -110,10 +110,12 @@ git push origin fs
 Create a new branch named `sql` by running the command `git checkout -b sql`
 
 ### Set up PostgreSQL
-**1. Install PostgreSQL**
+**1. Install PostgreSQL on Local Machine**
 Install it with Homebrew by running `brew install postgresql@15` or follow the installation instructions provided in the [official documentation](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql-macos/).
+
 **2. Start PostgreSQL** 
 Start the PostgreSQL service using Homebrew: `brew services start postgresql@15`
+
 **3. Add PostgreSQL client tools (binaries) to PATH**
 
 To use the psql command, ensure PostgreSQL client tools are in your system's PATH. Add the following line to your shell profile file (~/.zshrc for Z shell):
@@ -134,7 +136,7 @@ From the PostgreSQL CLI, create a new database for your application by running t
 To connect to the database you just created, use the following command `\c challenge2`.
 
 **7. Create a Table**
-Once connected to challenge2, create a table named texts to store text content. Here’s an example command to create a simple table:
+Once connected to challenge2, create a table named texts to store the text content. Here’s an example command to create a simple table:
 
 ```
 CREATE TABLE texts (
@@ -222,3 +224,18 @@ You should see this on the terminal:
 3. After checking your data, you can exit the `psql` interface by typing `\q`.
 
 Remember, every time your application handles a POST request to the `/save` endpoint and successfully processes it, a new record should be inserted into your database. You can keep the `psql` interface open and run the `SELECT` command as many times as you like to see new records as they are added.
+
+## Conclusion
+### Application Connection
+- The Node.js application connected to the locally installed PostgreSQL database.
+- The application stored and retrieved data directly from the local database.
+
+### Persistence
+- Data is stored on your local machine’s file system where PostgreSQL is configured to store its data files.
+- The table exists persistently in the local database unless manually dropped or the database is deleted.
+
+Happy coding, and see you in the next challenge!
+
+***
+
+If you liked this article, follow me on [Twitter](https://twitter.com/juliafmorgado) (where I share my tech journey daily), connect with me on [LinkedIn](https://www.linkedin.com/in/juliafmorgado/), check out my [IG](https://www.instagram.com/juliafmorgado/), and make sure to subscribe to my [Youtube](https://www.youtube.com/c/JuliaFMorgado) channel for more amazing content!!
