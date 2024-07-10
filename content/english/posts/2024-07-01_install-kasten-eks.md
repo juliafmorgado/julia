@@ -3,6 +3,7 @@ title: "Install Veeam Kasten on an Amazon EKS cluster"
 author: "Julia Furst Morgado"
 date: 2024-07-01T06:48:05.964Z
 draft: false
+toc: true
 cover:
     image: https://blog-imgs-23.s3.amazonaws.com/veeam-kasten-install-banner.png
 tags: 
@@ -15,7 +16,7 @@ In this guide, we will walk through the process of installing Veeam Kasten on an
 
 View the documentation [here](https://docs.kasten.io/latest/install/aws/aws.html).
 
-### Pre-requisites
+## Pre-requisites
 
 Before getting started, ensure you have the following prerequisites:
 
@@ -27,7 +28,7 @@ Before getting started, ensure you have the following prerequisites:
 - Helm installed for Kubernetes package management: [LINK](https://formulae.brew.sh/formula/helm) or [LINK](https://helm.sh/docs/intro/install/)
 
 
-### Step 1. Create the IAM Role and Policy
+## Step 1. Create the IAM Role and Policy
 
 To interact with AWS services securely, Veeam Kasten needs an IAM role with an attached policy that grants necessary permissions.
 
@@ -57,7 +58,7 @@ aws iam create-role \
 
 ```
 
-### Step 2. Create an IAM Policy
+## Step 2. Create an IAM Policy
 
 Next, create an IAM policy `k10-policy.json` that defines the permissions required by Veeam Kasten for managing AWS resources like EC2 and S3:
 
@@ -136,7 +137,7 @@ aws iam create-policy \
 ```
 ![](https://blog-imgs-23.s3.amazonaws.com/eks-wp-k10-policy.png)
 
-### Step 3. Attach the Policy to the Role
+## Step 3. Attach the Policy to the Role
 
 Finally, attach the created IAM policy `k10-policy` to the IAM role `eks-wp-kasten-role`:
 
@@ -163,7 +164,7 @@ aws iam list-attached-role-policies --role-name eks-wp-kasten-role
 ## Configure Kubernetes
 Now that the IAM role and policy are set up, configure Kubernetes to integrate with Veeam Kasten.
 
-### Step 4. Enable IAM OIDC Provider for Your Cluster
+## Step 4. Enable IAM OIDC Provider for Your Cluster
 Ensure that IAM OIDC provider is enabled for your Amazon EKS cluster. This step is essential for Kubernetes service accounts to securely assume IAM roles.
 
 If you've deployed your EKS cluster through my [Easily Deploy WordPress and MySQL on Amazon EKS](https://www.juliafmorgado.com/posts/easily-deploy-wordpress-mysql-on-amazon-eks/) tutorial, you can skip this step.
@@ -178,11 +179,11 @@ eksctl utils associate-iam-oidc-provider --cluster eks-wp --approve
 
 ![](https://blog-imgs-23.s3.amazonaws.com/eks-wp-oidc.png)
 
-### Step 5. Install Veeam Kasten
+## Step 5. Install Veeam Kasten
 
 First, create the Kubernetes namespace `kasten-io` where Veeam Kasten will be installed: `kubectl create ns kasten-io`
 
-#### Generate service account
+### Generate service account
 Then, generate a Kubernetes service account `k10-k10` in the `kasten-io` namespace and associate it with the IAM role we created earlier:
 
 ```
@@ -195,7 +196,7 @@ eksctl create iamserviceaccount \
  --override-existing-serviceaccounts
 ```
 
-#### Install Veeam Kasten Using Helm
+### Install Veeam Kasten Using Helm
 Finally, use Helm to install Veeam Kasten (k10) in the `kasten-io` namespace, specifying the service account `k10-k10`.
 
 ```
@@ -210,17 +211,17 @@ You can see the necessary pods running on the `kasten-io` kubernetes namespace.
 
 ![](https://blog-imgs-23.s3.amazonaws.com/eks-wp-pods-n-kasten-io.png)
 
-### Access Veeam Kasten Dashboard
+## Access Veeam Kasten Dashboard
 Once installed, access the Veeam Kasten dashboard to manage backup and recovery operations.
 
-#### Port Forwarding
+### Port Forwarding
 You can use port forwarding to access the Kasten gateway service locally: `kubectl --namespace kasten-io port-forward service/gateway 8080:80`
 
 ![](https://blog-imgs-23.s3.amazonaws.com/eks-wp-port-listening-dashboard.png)
 
 ![](https://blog-imgs-23.s3.amazonaws.com/eks-wp-veeam-kasten-dashboard.png)
 
-#### Install Load Balancer (Optional)
+### Install Load Balancer (Optional)
 Alternatively, you can install a load balancer to obtain an external IP for the Kasten dashboard: 
 
 ```
