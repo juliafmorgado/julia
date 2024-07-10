@@ -3,6 +3,7 @@ title: "Easily Deploy WordPress and MySQL on Amazon EKS"
 author: "Julia Furst Morgado"
 date: 2024-07-01T06:46:05.964Z
 draft: false
+toc: true
 cover:
     image: https://blog-imgs-23.s3.amazonaws.com/deploy-wp-mysql-eks-thumbnail.png
 tags: 
