@@ -1,13 +1,14 @@
-+++
-title = "Challenge 3 - Creating Real-Time Web Applications with Docker and PostgreSQL"
-author = "Julia Furst Morgado"
-date = 2024-07-08T06:46:05.964Z
-draft = false
-image = "https://blog-imgs-23.s3.amazonaws.com/cloud-native-dev-3challenge.png"
-toc = true
-categories = ["Tech"]
-slug = "/challenge-3-creating-real-time-web-applications-with-docker-and-postgresql"
-+++
+---
+title: "Challenge 3 - Creating Real-Time Web Applications with Docker and PostgreSQL"
+author: 'Julia Furst Morgado'
+date: 2024-07-08T06:46:05.964Z
+draft: false
+image: https://blog-imgs-23.s3.amazonaws.com/cloud-native-dev-3challenge.png
+toc: true
+categories: 
+    - Tech
+slug: /challenge-3-creating-real-time-web-applications-with-docker-and-postgresql
+---
 
 
 Welcome to Challenge 3 in our cloud-native application development journey, where we integrate real-time interactions using Docker and PostgreSQL!
