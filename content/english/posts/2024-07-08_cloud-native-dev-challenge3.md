@@ -281,7 +281,7 @@ server.listen(PORT, () => {
 </html>
 ```
 
-## ### Step 9: Build and Start the Docker Containers
+## Step 9: Build and Start the Docker Containers
 
 Now you can proceed with building and running your Docker containers using Docker Compose:
     
