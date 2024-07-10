@@ -3,6 +3,7 @@ title: "Understanding Load Balancer vs. Ingress in Kubernetes"
 author: "Julia Furst Morgado"
 date: 2024-06-20T06:46:05.964Z
 draft: false
+toc: true
 cover:
     image: https://blog-imgs-23.s3.amazonaws.com/-
 tags: 
