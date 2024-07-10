@@ -4,7 +4,6 @@ author: 'Julia Furst Morgado'
 date: 2024-07-08T06:46:05.964Z
 draft: false
 image: https://blog-imgs-23.s3.amazonaws.com/cloud-native-dev-3challenge.png
-tags:
 toc = true
 categories: 
     - Tech
