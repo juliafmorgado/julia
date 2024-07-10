@@ -3,6 +3,7 @@ title: "Deploying WordPress and MySQL on Kubernetes with Kind: A Step-by-Step Gu
 author: "Julia Furst Morgado"
 date: 2024-06-24T06:46:05.964Z
 draft: false
+toc: true
 cover:
     image: https://blog-imgs-23.s3.amazonaws.com/wp-mysql-kind-banner.png
 tags: 
