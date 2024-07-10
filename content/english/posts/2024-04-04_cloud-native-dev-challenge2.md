@@ -4,7 +4,7 @@ author: 'Julia Furst Morgado'
 date: 2024-04-04T06:46:05.964Z
 draft: false
 image: https://blog-imgs-23.s3.amazonaws.com/cloud-native-dev-2challenge.png
-tags:
+toc: true
 categories: 
     - Tech
 slug: /challenge-2-application-persistence-with-fs-sql-db
