@@ -3,6 +3,7 @@ title: "Install Veeam Kasten on a Kubernetes cluster running on kind"
 author: "Julia Furst Morgado"
 date: 2024-06-24T07:46:05.964Z
 draft: false
+toc: true
 cover:
     image: https://blog-imgs-23.s3.amazonaws.com/x
 tags: 
