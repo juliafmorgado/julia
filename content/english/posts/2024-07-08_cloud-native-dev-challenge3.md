@@ -286,15 +286,15 @@ server.listen(PORT, () => {
 
 Now you can proceed with building and running your Docker containers using Docker Compose:
     
-    ```
-    docker-compose up --build
-    ```
+```
+docker-compose up --build
+```
     
-    This command will:
+This command will:
     
-    - Build the Docker images for the `app` and `dashboard` services.
-    - Start the PostgreSQL container and initialize the database with your provided SQL script.
-    - Start the `app` and `dashboard` containers, each with their respective dependencies.
+- Build the Docker images for the `app` and `dashboard` services.
+- Start the PostgreSQL container and initialize the database with your provided SQL script.
+- Start the `app` and `dashboard` containers, each with their respective dependencies.
 
 To stop any running Docker containers: `docker-compose down`
 
