@@ -287,8 +287,11 @@ server.listen(PORT, () => {
 Now you can proceed with building and running your Docker containers using Docker Compose:
     
 ```
-docker-compose up --build
+docker compose up --build
 ```
+
+> Depending on the version of Docker Compose you're using the command might be `docker-compose up --build`.
+> Read more about it [here](https://docs.docker.com/compose/migrate/).
     
 This command will:
     
@@ -296,12 +299,12 @@ This command will:
 - Start the PostgreSQL container and initialize the database with your provided SQL script.
 - Start the `app` and `dashboard` containers, each with their respective dependencies.
 
-To stop any running Docker containers: `docker-compose down`
+To stop any running Docker containers: `docker compose down`
 
 ## Conclusion
-In Challenge 3, we've successfully connected a dashboard to our main application using Docker and PostgreSQL. This setup lets both apps work together smoothly by sharing a database. It means updates happen in real-time without the client needing to ask repeatedly.
+In Challenge 3, we successfully connected a dashboard to our main application using Docker and PostgreSQL. This setup lets both apps work together smoothly by sharing a database. It means updates happen in real time without the client needing to ask repeatedly.
 
-Using Docker Compose makes deploying everything simpler. We set up the database automatically, which keeps things consistent and reliable. Websockets help the apps talk to each other quickly and efficiently.
+Using Docker Compose makes deploying everything simpler. We set up the database automatically, which keeps things consistent and reliable. WebSockets help the apps talk to each other quickly and efficiently.
 
 This challenge showed how using containers and smart setups can make apps easier to scale and manage. It also improves how fast users get updates, making for a better overall experience.
 
