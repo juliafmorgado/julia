@@ -1,5 +1,5 @@
 ---
-title: "The real job security these days is knowing you can get another job"
+title: "Future-Proofing Your Career"
 author: 'Julia Furst Morgado'
 date: 2024-04-21T06:46:05.964Z
 draft: true
@@ -7,7 +7,7 @@ image: https://blog-imgs-23.s3.amazonaws.com/x
 tags:
 categories: 
     - Tech
-slug: /real-job-security-knowing-you-can-get-another-job
+slug: /future-proofing-your-career
 ---
 
 Have you ever felt the ground of job security shift beneath your feet? You’re not alone - here’s how to build your own safety net in tech.
