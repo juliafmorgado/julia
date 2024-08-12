@@ -75,6 +75,8 @@ docker push dockerhub-username/challenge-4-dashboard:latest
 
 ![](https://blog-imgs-23.s3.amazonaws.com/ch4-docker-push.png)
 
+You can check the App Docker Image [here](https://hub.docker.com/repository/docker/juliafmorgado/challenge-4-app/general), and the Dashboard Docker Image [here](https://hub.docker.com/repository/docker/juliafmorgado/challenge-4-dashboard/general).
+
 ## Step 5: Load Docker Images into KinD
 If you have pushed your images to Docker Hub or another registry, you can pull them directly into your Kind cluster. 
 ```
